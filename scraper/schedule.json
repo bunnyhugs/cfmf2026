@@ -193,187 +193,487 @@
     "date": "Fri, Jul 24 2026",
     "gate_open_time": "",
     "schedule": {
-      "342": {
-        "showId": "342",
-        "showName": "Julian Taylor",
+      "346": {
+        "showId": "346",
+        "showName": "The East Pointers",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
         "startTime": "17:30:00",
-        "endTime": "18:20:00",
+        "endTime": "18:15:00",
         "startDateTime": "2026-07-24T17:30:00",
-        "endDateTime": "2026-07-24T18:20:00",
+        "endDateTime": "2026-07-24T18:15:00",
         "tags": [
-          "Julian Taylor"
+          "The East Pointers"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
         "slugs": {
-          "julian-taylor": {
-            "slug": "julian-taylor",
-            "name": "Julian Taylor"
+          "the-east-pointers": {
+            "slug": "the-east-pointers",
+            "name": "The East Pointers"
           }
         }
       },
-      "343": {
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
+      "347": {
+        "showId": "347",
+        "showName": "Cochemea",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "18:35:00",
-        "endTime": "19:30:00",
-        "startDateTime": "2026-07-24T18:35:00",
-        "endDateTime": "2026-07-24T19:30:00",
+        "startTime": "18:30:00",
+        "endTime": "19:25:00",
+        "startDateTime": "2026-07-24T18:30:00",
+        "endDateTime": "2026-07-24T19:25:00",
         "tags": [
-          "Tiken Jah Fakoly"
+          "Cochemea"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
         "slugs": {
+          "cochemea": {
+            "slug": "cochemea",
+            "name": "Cochemea"
+          }
+        }
+      },
+      "348": {
+        "showId": "348",
+        "showName": "SYML",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "19:40:00",
+        "endTime": "20:40:00",
+        "startDateTime": "2026-07-24T19:40:00",
+        "endDateTime": "2026-07-24T20:40:00",
+        "tags": [
+          "SYML"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "syml": {
+            "slug": "syml",
+            "name": "SYML"
+          }
+        }
+      },
+      "349": {
+        "showId": "349",
+        "showName": "Goldie Boutilier",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "20:55:00",
+        "endTime": "22:00:00",
+        "startDateTime": "2026-07-24T20:55:00",
+        "endDateTime": "2026-07-24T22:00:00",
+        "tags": [
+          "Goldie Boutilier"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "goldie-boutilier": {
+            "slug": "goldie-boutilier",
+            "name": "Goldie Boutilier"
+          }
+        }
+      },
+      "350": {
+        "showId": "350",
+        "showName": "Thundercat",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "22:15:00",
+        "endTime": "23:30:00",
+        "startDateTime": "2026-07-24T22:15:00",
+        "endDateTime": "2026-07-24T23:30:00",
+        "tags": [
+          "Thundercat"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "thundercat": {
+            "slug": "thundercat",
+            "name": "Thundercat"
+          }
+        }
+      },
+      "364": {
+        "showId": "364",
+        "showName": "Mitsune",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "18:15:00",
+        "endTime": "19:05:00",
+        "startDateTime": "2026-07-24T18:15:00",
+        "endDateTime": "2026-07-24T19:05:00",
+        "tags": [
+          "Mitsune"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "mitsune": {
+            "slug": "mitsune",
+            "name": "Mitsune"
+          }
+        }
+      },
+      "365": {
+        "showId": "365",
+        "showName": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "19:25:00",
+        "endTime": "20:35:00",
+        "startDateTime": "2026-07-24T19:25:00",
+        "endDateTime": "2026-07-24T20:35:00",
+        "tags": [
+          "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "jazz-is-dead": {
+            "slug": "jazz-is-dead",
+            "name": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+          }
+        }
+      },
+      "367": {
+        "showId": "367",
+        "showName": "Daniel Romano's Outfit",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "22:05:00",
+        "endTime": "23:10:00",
+        "startDateTime": "2026-07-24T22:05:00",
+        "endDateTime": "2026-07-24T23:10:00",
+        "tags": [
+          "Daniel Romano's Outfit"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "daniel-romano-outfit": {
+            "slug": "daniel-romano-outfit",
+            "name": "Daniel Romano's Outfit"
+          }
+        }
+      },
+      "163": {
+        "showId": "163",
+        "showName": "Tech Giants",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "tags": [
+          "The East Pointers",
+          "Killabeatmaker",
+          "Mitsune",
+          "Leaf Rapids"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-east-pointers": {
+            "slug": "the-east-pointers",
+            "name": "The East Pointers"
+          },
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          },
+          "mitsune": {
+            "slug": "mitsune",
+            "name": "Mitsune"
+          },
+          "leaf-rapids": {
+            "slug": "leaf-rapids",
+            "name": "Leaf Rapids"
+          }
+        }
+      },
+      "164": {
+        "showId": "164",
+        "showName": "Riot and Revolution",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "tags": [
+          "Cécile Doo-Kingué",
+          "Valerie June",
+          "Julian Taylor",
+          "Bia Ferreira"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "cecile-doo-kingue": {
+            "slug": "cecile-doo-kingue",
+            "name": "Cécile Doo-Kingué"
+          },
+          "valerie-june": {
+            "slug": "valerie-june",
+            "name": "Valerie June"
+          },
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          },
+          "bia-ferreira": {
+            "slug": "bia-ferreira",
+            "name": "Bia Ferreira"
+          }
+        }
+      },
+      "402": {
+        "showId": "402",
+        "showName": "Kazdoura",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "20:45:00",
+        "endTime": "21:55:00",
+        "startDateTime": "2026-07-24T20:45:00",
+        "endDateTime": "2026-07-24T21:55:00",
+        "tags": [
+          "Kazdoura"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "kazdoura": {
+            "slug": "kazdoura",
+            "name": "Kazdoura"
+          }
+        }
+      },
+      "161": {
+        "showId": "161",
+        "showName": "The Golden Girls",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "tags": [
+          "Kate Stevens",
+          "Maruja Limón",
+          "Goldie Boutilier",
+          "Jess Williamson"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "kate-stevens": {
+            "slug": "kate-stevens",
+            "name": "Kate Stevens"
+          },
+          "maruja-limon": {
+            "slug": "maruja-limon",
+            "name": "Maruja Limón"
+          },
+          "goldie-boutilier": {
+            "slug": "goldie-boutilier",
+            "name": "Goldie Boutilier"
+          },
+          "jess-williamson": {
+            "slug": "jess-williamson",
+            "name": "Jess Williamson"
+          }
+        }
+      },
+      "162": {
+        "showId": "162",
+        "showName": "A Murmur. A Sign.",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "tags": [
+          "L.T. Leif",
+          "SYML",
+          "Fish in a Birdcage",
+          "Daniel Romano's Outfit"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "l-t-leif": {
+            "slug": "l-t-leif",
+            "name": "L.T. Leif"
+          },
+          "syml": {
+            "slug": "syml",
+            "name": "SYML"
+          },
+          "fish-in-a-birdcage": {
+            "slug": "fish-in-a-birdcage",
+            "name": "Fish in a Birdcage"
+          },
+          "daniel-romano-outfit": {
+            "slug": "daniel-romano-outfit",
+            "name": "Daniel Romano's Outfit"
+          }
+        }
+      },
+      "165": {
+        "showId": "165",
+        "showName": "Peace de Resistance",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:15:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors",
+          "The Neighborhood Kids",
+          "Tiken Jah Fakoly"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          },
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          },
           "tiken-jah-fakoly": {
             "slug": "tiken-jah-fakoly",
             "name": "Tiken Jah Fakoly"
           }
         }
       },
-      "344": {
-        "showId": "344",
-        "showName": "Valerie June",
+      "372": {
+        "showId": "372",
+        "showName": "Martyn Joseph",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "19:45:00",
-        "endTime": "20:55:00",
-        "startDateTime": "2026-07-24T19:45:00",
-        "endDateTime": "2026-07-24T20:55:00",
+        "startTime": "16:30:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-24T16:30:00",
+        "endDateTime": "2026-07-24T17:30:00",
         "tags": [
-          "Valerie June"
+          "Martyn Joseph"
         ],
-        "location": "ATB Main Stage",
-        "locationId": 0,
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
         "slugs": {
-          "valerie-june": {
-            "slug": "valerie-june",
-            "name": "Valerie June"
+          "martyn-joseph": {
+            "slug": "martyn-joseph",
+            "name": "Martyn Joseph"
           }
         }
       },
-      "345": {
-        "showId": "345",
-        "showName": "Of Monsters and Men",
+      "373": {
+        "showId": "373",
+        "showName": "Catherine MacLellan",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "startDateTime": "2026-07-24T21:10:00",
-        "endDateTime": "2026-07-24T22:25:00",
+        "startTime": "15:00:00",
+        "endTime": "15:45:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T15:45:00",
         "tags": [
-          "Of Monsters and Men"
+          "Catherine MacLellan"
         ],
-        "location": "ATB Main Stage",
-        "locationId": 0,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "of-monsters-and-men": {
-            "slug": "of-monsters-and-men",
-            "name": "Of Monsters and Men"
+          "catherine-mac-lellan": {
+            "slug": "catherine-mac-lellan",
+            "name": "Catherine MacLellan"
           }
         }
       },
-      "360": {
-        "showId": "360",
-        "showName": "Mariel Buckley",
+      "374": {
+        "showId": "374",
+        "showName": "Ahmed Moneka",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
-        "startDateTime": "2026-07-24T17:45:00",
-        "endDateTime": "2026-07-24T18:35:00",
+        "startTime": "16:00:00",
+        "endTime": "16:45:00",
+        "startDateTime": "2026-07-24T16:00:00",
+        "endDateTime": "2026-07-24T16:45:00",
         "tags": [
-          "Mariel Buckley"
+          "Ahmed Moneka"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "mariel-buckley": {
-            "slug": "mariel-buckley",
-            "name": "Mariel Buckley"
+          "ahmed-moneka": {
+            "slug": "ahmed-moneka",
+            "name": "Ahmed Moneka"
           }
         }
       },
-      "361": {
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
+      "375": {
+        "showId": "375",
+        "showName": "Joshua Burnside",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
-        "startDateTime": "2026-07-24T18:55:00",
-        "endDateTime": "2026-07-24T19:45:00",
+        "startTime": "17:00:00",
+        "endTime": "17:50:00",
+        "startDateTime": "2026-07-24T17:00:00",
+        "endDateTime": "2026-07-24T17:50:00",
         "tags": [
-          "Ruby Singh and the Future Ancestors"
+          "Joshua Burnside"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "ruby-singh-and-the-future-ancestors": {
-            "slug": "ruby-singh-and-the-future-ancestors",
-            "name": "Ruby Singh and the Future Ancestors"
-          }
-        }
-      },
-      "362": {
-        "showId": "362",
-        "showName": "Killabeatmaker",
-        "showDesc": null,
-        "type": "Concert",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
-        "startDateTime": "2026-07-24T20:00:00",
-        "endDateTime": "2026-07-24T21:05:00",
-        "tags": [
-          "Killabeatmaker"
-        ],
-        "location": "National Stage 4",
-        "locationId": 4,
-        "slugs": {
-          "killabeatmaker": {
-            "slug": "killabeatmaker",
-            "name": "Killabeatmaker"
-          }
-        }
-      },
-      "363": {
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
-        "showDesc": null,
-        "type": "Concert",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
-        "startDateTime": "2026-07-24T21:25:00",
-        "endDateTime": "2026-07-24T22:30:00",
-        "tags": [
-          "The Neighborhood Kids"
-        ],
-        "location": "National Stage 4",
-        "locationId": 4,
-        "slugs": {
-          "the-neighborhood-kids": {
-            "slug": "the-neighborhood-kids",
-            "name": "The Neighborhood Kids"
+          "joshua-burnside": {
+            "slug": "joshua-burnside",
+            "name": "Joshua Burnside"
           }
         }
       }
@@ -383,9 +683,9 @@
     "date": "Sat, Jul 25 2026",
     "gate_open_time": "",
     "schedule": {
-      "342": {
-        "showId": "342",
-        "showName": "Julian Taylor",
+      "351": {
+        "showId": "351",
+        "showName": "S.G. Goodman",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
@@ -395,20 +695,20 @@
         "startDateTime": "2026-07-25T17:30:00",
         "endDateTime": "2026-07-25T18:20:00",
         "tags": [
-          "Julian Taylor"
+          "S.G. Goodman"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
         "slugs": {
-          "julian-taylor": {
-            "slug": "julian-taylor",
-            "name": "Julian Taylor"
+          "s-g-goodman": {
+            "slug": "s-g-goodman",
+            "name": "S.G. Goodman"
           }
         }
       },
-      "343": {
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
+      "352": {
+        "showId": "352",
+        "showName": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
@@ -418,152 +718,1126 @@
         "startDateTime": "2026-07-25T18:35:00",
         "endDateTime": "2026-07-25T19:30:00",
         "tags": [
-          "Tiken Jah Fakoly"
+          "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
         "slugs": {
-          "tiken-jah-fakoly": {
-            "slug": "tiken-jah-fakoly",
-            "name": "Tiken Jah Fakoly"
+          "jazz-is-dead": {
+            "slug": "jazz-is-dead",
+            "name": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
           }
         }
       },
-      "344": {
-        "showId": "344",
-        "showName": "Valerie June",
+      "353": {
+        "showId": "353",
+        "showName": "Mexican Institute of Sound & The Meridian Brothers present Ruido Tovar",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
         "startTime": "19:45:00",
-        "endTime": "20:55:00",
+        "endTime": "20:45:00",
         "startDateTime": "2026-07-25T19:45:00",
-        "endDateTime": "2026-07-25T20:55:00",
+        "endDateTime": "2026-07-25T20:45:00",
         "tags": [
-          "Valerie June"
+          "Mexican Institute of Sound & The Meridian Brothers present Ruido Tovar"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
-        "slugs": {
-          "valerie-june": {
-            "slug": "valerie-june",
-            "name": "Valerie June"
-          }
-        }
+        "slugs": {}
       },
-      "345": {
-        "showId": "345",
-        "showName": "Of Monsters and Men",
+      "354": {
+        "showId": "354",
+        "showName": "Madison Cunningham",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "startDateTime": "2026-07-25T21:10:00",
-        "endDateTime": "2026-07-25T22:25:00",
+        "startTime": "21:00:00",
+        "endTime": "22:05:00",
+        "startDateTime": "2026-07-25T21:00:00",
+        "endDateTime": "2026-07-25T22:05:00",
         "tags": [
-          "Of Monsters and Men"
+          "Madison Cunningham"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
         "slugs": {
-          "of-monsters-and-men": {
-            "slug": "of-monsters-and-men",
-            "name": "Of Monsters and Men"
+          "madison-cunningham": {
+            "slug": "madison-cunningham",
+            "name": "Madison Cunningham"
           }
         }
       },
-      "360": {
-        "showId": "360",
-        "showName": "Mariel Buckley",
+      "355": {
+        "showId": "355",
+        "showName": "Marty Stuart and His Fabulous Superlatives",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
-        "startDateTime": "2026-07-25T17:45:00",
-        "endDateTime": "2026-07-25T18:35:00",
+        "startTime": "22:20:00",
+        "endTime": "23:30:00",
+        "startDateTime": "2026-07-25T22:20:00",
+        "endDateTime": "2026-07-25T23:30:00",
         "tags": [
-          "Mariel Buckley"
+          "Marty Stuart and His Fabulous Superlatives"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "marty-stuart-and-his-fabulous-superlatives": {
+            "slug": "marty-stuart-and-his-fabulous-superlatives",
+            "name": "Marty Stuart and His Fabulous Superlatives"
+          }
+        }
+      },
+      "368": {
+        "showId": "368",
+        "showName": "YAGODY",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "18:15:00",
+        "endTime": "19:15:00",
+        "startDateTime": "2026-07-25T18:15:00",
+        "endDateTime": "2026-07-25T19:15:00",
+        "tags": [
+          "YAGODY"
         ],
         "location": "National Stage 4",
         "locationId": 4,
         "slugs": {
-          "mariel-buckley": {
-            "slug": "mariel-buckley",
-            "name": "Mariel Buckley"
+          "yagody": {
+            "slug": "yagody",
+            "name": "YAGODY"
           }
         }
       },
-      "361": {
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
+      "369": {
+        "showId": "369",
+        "showName": "Lola Kirk",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
-        "startDateTime": "2026-07-25T18:55:00",
-        "endDateTime": "2026-07-25T19:45:00",
+        "startTime": "19:30:00",
+        "endTime": "20:30:00",
+        "startDateTime": "2026-07-25T19:30:00",
+        "endDateTime": "2026-07-25T20:30:00",
         "tags": [
+          "Lola Kirk"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "lola-kirk": {
+            "slug": "lola-kirk",
+            "name": "Lola Kirk"
+          }
+        }
+      },
+      "370": {
+        "showId": "370",
+        "showName": "DUG",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "20:45:00",
+        "endTime": "21:45:00",
+        "startDateTime": "2026-07-25T20:45:00",
+        "endDateTime": "2026-07-25T21:45:00",
+        "tags": [
+          "DUG"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "dug": {
+            "slug": "dug",
+            "name": "DUG"
+          }
+        }
+      },
+      "371": {
+        "showId": "371",
+        "showName": "The Free Label",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "22:00:00",
+        "endTime": "23:00:00",
+        "startDateTime": "2026-07-25T22:00:00",
+        "endDateTime": "2026-07-25T23:00:00",
+        "tags": [
+          "The Free Label"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-free-label": {
+            "slug": "the-free-label",
+            "name": "The Free Label"
+          }
+        }
+      },
+      "175": {
+        "showId": "175",
+        "showName": "Blues Travellers",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:25:00",
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:25:00",
+        "tags": [
+          "Cécile Doo-Kingué",
+          "Jontavious Willis",
+          "Bia Ferreira",
+          "Derek Miller"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "cecile-doo-kingue": {
+            "slug": "cecile-doo-kingue",
+            "name": "Cécile Doo-Kingué"
+          },
+          "jontavious-willis": {
+            "slug": "jontavious-willis",
+            "name": "Jontavious Willis"
+          },
+          "bia-ferreira": {
+            "slug": "bia-ferreira",
+            "name": "Bia Ferreira"
+          },
+          "derek-miller": {
+            "slug": "derek-miller",
+            "name": "Derek Miller"
+          }
+        }
+      },
+      "384": {
+        "showId": "384",
+        "showName": "Caamaño & Ameixeiras",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "tags": [
+          "Caamaño & Ameixeiras"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "caamano-and-ameixeiras": {
+            "slug": "caamano-and-ameixeiras",
+            "name": "Caamaño & Ameixeiras"
+          }
+        }
+      },
+      "176": {
+        "showId": "176",
+        "showName": "Canadian Tuxedo",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "tags": [
+          "Ora Cogan",
+          "Fish in a Birdcage",
+          "Daniel Romano's Outfit",
+          "Ribbon Skirt"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ora-cogan": {
+            "slug": "ora-cogan",
+            "name": "Ora Cogan"
+          },
+          "fish-in-a-birdcage": {
+            "slug": "fish-in-a-birdcage",
+            "name": "Fish in a Birdcage"
+          },
+          "daniel-romano-outfit": {
+            "slug": "daniel-romano-outfit",
+            "name": "Daniel Romano's Outfit"
+          },
+          "ribbon-skirt": {
+            "slug": "ribbon-skirt",
+            "name": "Ribbon Skirt"
+          }
+        }
+      },
+      "385": {
+        "showId": "385",
+        "showName": "Bia Ferreira",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "tags": [
+          "Bia Ferreira"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "bia-ferreira": {
+            "slug": "bia-ferreira",
+            "name": "Bia Ferreira"
+          }
+        }
+      },
+      "177": {
+        "showId": "177",
+        "showName": "In a Deep Funk",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "The Free Label",
+          "The Neighborhood Kids",
           "Ruby Singh and the Future Ancestors"
         ],
         "location": "National Stage 4",
         "locationId": 4,
         "slugs": {
+          "the-free-label": {
+            "slug": "the-free-label",
+            "name": "The Free Label"
+          },
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          },
           "ruby-singh-and-the-future-ancestors": {
             "slug": "ruby-singh-and-the-future-ancestors",
             "name": "Ruby Singh and the Future Ancestors"
           }
         }
       },
-      "362": {
-        "showId": "362",
-        "showName": "Killabeatmaker",
+      "166": {
+        "showId": "166",
+        "showName": "Witch is it?",
         "showDesc": null,
-        "type": "Concert",
+        "type": "Session",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
-        "startDateTime": "2026-07-25T20:00:00",
-        "endDateTime": "2026-07-25T21:05:00",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
         "tags": [
-          "Killabeatmaker"
+          "Hermitess",
+          "Allison de Groot + Tatiana Hargreaves",
+          "Catherine MacLellan"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
         "slugs": {
-          "killabeatmaker": {
-            "slug": "killabeatmaker",
-            "name": "Killabeatmaker"
+          "hermitess": {
+            "slug": "hermitess",
+            "name": "Hermitess"
+          },
+          "allison-de-groot-tatiana-hargreaves": {
+            "slug": "allison-de-groot-tatiana-hargreaves",
+            "name": "Allison de Groot + Tatiana Hargreaves"
+          },
+          "catherine-mac-lellan": {
+            "slug": "catherine-mac-lellan",
+            "name": "Catherine MacLellan"
           }
         }
       },
-      "363": {
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
+      "376": {
+        "showId": "376",
+        "showName": "Hermitess",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
-        "startDateTime": "2026-07-25T21:25:00",
-        "endDateTime": "2026-07-25T22:30:00",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "startDateTime": "2026-07-25T11:55:00",
+        "endDateTime": "2026-07-25T12:40:00",
         "tags": [
-          "The Neighborhood Kids"
+          "Hermitess"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "hermitess": {
+            "slug": "hermitess",
+            "name": "Hermitess"
+          }
+        }
+      },
+      "167": {
+        "showId": "167",
+        "showName": "Controlled Burn",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "tags": [
+          "Lancelot Knight",
+          "Polo Sho"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "lancelot-knight": {
+            "slug": "lancelot-knight",
+            "name": "Lancelot Knight"
+          },
+          "polo-sho": {
+            "slug": "polo-sho",
+            "name": "Polo Sho"
+          }
+        }
+      },
+      "377": {
+        "showId": "377",
+        "showName": "Raleigh",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "startDateTime": "2026-07-25T14:20:00",
+        "endDateTime": "2026-07-25T15:05:00",
+        "tags": [
+          "Raleigh"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "raleigh": {
+            "slug": "raleigh",
+            "name": "Raleigh"
+          }
+        }
+      },
+      "168": {
+        "showId": "168",
+        "showName": "Fountain of Truth",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "tags": [
+          "Joe Nolan",
+          "Catherine MacLellan",
+          "Diyet & The Love Soldiers",
+          "Mitsune"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "joe-nolan": {
+            "slug": "joe-nolan",
+            "name": "Joe Nolan"
+          },
+          "catherine-mac-lellan": {
+            "slug": "catherine-mac-lellan",
+            "name": "Catherine MacLellan"
+          },
+          "diyet-and-the-love-soldiers": {
+            "slug": "diyet-and-the-love-soldiers",
+            "name": "Diyet & The Love Soldiers"
+          },
+          "mitsune": {
+            "slug": "mitsune",
+            "name": "Mitsune"
+          }
+        }
+      },
+      "378": {
+        "showId": "378",
+        "showName": "Joe Nolan",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:45:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "Joe Nolan"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "joe-nolan": {
+            "slug": "joe-nolan",
+            "name": "Joe Nolan"
+          }
+        }
+      },
+      "169": {
+        "showId": "169",
+        "showName": "Team Canada",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "tags": [
+          "The Pairs",
+          "Kate Stevens",
+          "Kazdoura"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "the-pairs": {
+            "slug": "the-pairs",
+            "name": "The Pairs"
+          },
+          "kate-stevens": {
+            "slug": "kate-stevens",
+            "name": "Kate Stevens"
+          },
+          "kazdoura": {
+            "slug": "kazdoura",
+            "name": "Kazdoura"
+          }
+        }
+      },
+      "379": {
+        "showId": "379",
+        "showName": "Kate Stevens",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "tags": [
+          "Kate Stevens"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "kate-stevens": {
+            "slug": "kate-stevens",
+            "name": "Kate Stevens"
+          }
+        }
+      },
+      "170": {
+        "showId": "170",
+        "showName": "World's in a Tangle",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "tags": [
+          "Derek Miller",
+          "The Mbira Renaissance Band",
+          "Jontavious Willis"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "derek-miller": {
+            "slug": "derek-miller",
+            "name": "Derek Miller"
+          },
+          "the-mbira-renaissance-band": {
+            "slug": "the-mbira-renaissance-band",
+            "name": "The Mbira Renaissance Band"
+          },
+          "jontavious-willis": {
+            "slug": "jontavious-willis",
+            "name": "Jontavious Willis"
+          }
+        }
+      },
+      "380": {
+        "showId": "380",
+        "showName": "Derek Miller",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "tags": [
+          "Derek Miller"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "derek-miller": {
+            "slug": "derek-miller",
+            "name": "Derek Miller"
+          }
+        }
+      },
+      "171": {
+        "showId": "171",
+        "showName": "Common Wealth",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "Mary Gauthier",
+          "Sam Amidon",
+          "Joshua Burnside",
+          "DUG"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "mary-gauthier": {
+            "slug": "mary-gauthier",
+            "name": "Mary Gauthier"
+          },
+          "sam-amidon": {
+            "slug": "sam-amidon",
+            "name": "Sam Amidon"
+          },
+          "joshua-burnside": {
+            "slug": "joshua-burnside",
+            "name": "Joshua Burnside"
+          },
+          "dug": {
+            "slug": "dug",
+            "name": "DUG"
+          }
+        }
+      },
+      "172": {
+        "showId": "172",
+        "showName": "Riddim and Hard Times",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "tags": [
+          "The Neighborhood Kids",
+          "Madalitso Band",
+          "Lancelot Knight",
+          "Polo Sho"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
         "slugs": {
           "the-neighborhood-kids": {
             "slug": "the-neighborhood-kids",
             "name": "The Neighborhood Kids"
+          },
+          "madalitso-band": {
+            "slug": "madalitso-band",
+            "name": "Madalitso Band"
+          },
+          "lancelot-knight": {
+            "slug": "lancelot-knight",
+            "name": "Lancelot Knight"
+          },
+          "polo-sho": {
+            "slug": "polo-sho",
+            "name": "Polo Sho"
+          }
+        }
+      },
+      "381": {
+        "showId": "381",
+        "showName": "Leaf Rapids",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "startDateTime": "2026-07-25T11:55:00",
+        "endDateTime": "2026-07-25T12:40:00",
+        "tags": [
+          "Leaf Rapids"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "leaf-rapids": {
+            "slug": "leaf-rapids",
+            "name": "Leaf Rapids"
+          }
+        }
+      },
+      "173": {
+        "showId": "173",
+        "showName": "Indigenations",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "tags": [
+          "Julian Taylor",
+          "Cochemea",
+          "Sahra Halgan"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          },
+          "cochemea": {
+            "slug": "cochemea",
+            "name": "Cochemea"
+          },
+          "sahra-halgan": {
+            "slug": "sahra-halgan",
+            "name": "Sahra Halgan"
+          }
+        }
+      },
+      "382": {
+        "showId": "382",
+        "showName": "Madalitso Band",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "startDateTime": "2026-07-25T14:20:00",
+        "endDateTime": "2026-07-25T15:05:00",
+        "tags": [
+          "Madalitso Band"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "madalitso-band": {
+            "slug": "madalitso-band",
+            "name": "Madalitso Band"
+          }
+        }
+      },
+      "174": {
+        "showId": "174",
+        "showName": "Double Trouble",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "tags": [
+          "The East Pointers",
+          "Madalitso Band",
+          "Caamaño & Ameixeiras",
+          "Allison de Groot + Tatiana Hargreaves"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "the-east-pointers": {
+            "slug": "the-east-pointers",
+            "name": "The East Pointers"
+          },
+          "madalitso-band": {
+            "slug": "madalitso-band",
+            "name": "Madalitso Band"
+          },
+          "caamano-and-ameixeiras": {
+            "slug": "caamano-and-ameixeiras",
+            "name": "Caamaño & Ameixeiras"
+          },
+          "allison-de-groot-tatiana-hargreaves": {
+            "slug": "allison-de-groot-tatiana-hargreaves",
+            "name": "Allison de Groot + Tatiana Hargreaves"
+          }
+        }
+      },
+      "383": {
+        "showId": "383",
+        "showName": "Cécile Doo-Kingué",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:45:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "Cécile Doo-Kingué"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "cecile-doo-kingue": {
+            "slug": "cecile-doo-kingue",
+            "name": "Cécile Doo-Kingué"
+          }
+        }
+      },
+      "178": {
+        "showId": "178",
+        "showName": "Art Official Intelligence",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:45:00",
+        "endTime": "12:00:00",
+        "startDateTime": "2026-07-25T10:45:00",
+        "endDateTime": "2026-07-25T12:00:00",
+        "tags": [
+          "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
+          "Ahmed Moneka",
+          "Cochemea"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "jazz-is-dead": {
+            "slug": "jazz-is-dead",
+            "name": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+          },
+          "ahmed-moneka": {
+            "slug": "ahmed-moneka",
+            "name": "Ahmed Moneka"
+          },
+          "cochemea": {
+            "slug": "cochemea",
+            "name": "Cochemea"
+          }
+        }
+      },
+      "386": {
+        "showId": "386",
+        "showName": "Diyet & The Love Soldiers",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:15:00",
+        "endTime": "13:05:00",
+        "startDateTime": "2026-07-25T12:15:00",
+        "endDateTime": "2026-07-25T13:05:00",
+        "tags": [
+          "Diyet & The Love Soldiers"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "diyet-and-the-love-soldiers": {
+            "slug": "diyet-and-the-love-soldiers",
+            "name": "Diyet & The Love Soldiers"
+          }
+        }
+      },
+      "179": {
+        "showId": "179",
+        "showName": "Heated Rivalry",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:25:00",
+        "endTime": "14:40:00",
+        "startDateTime": "2026-07-25T13:25:00",
+        "endDateTime": "2026-07-25T14:40:00",
+        "tags": [
+          "Mitsune",
+          "The East Pointers",
+          "DUG"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "mitsune": {
+            "slug": "mitsune",
+            "name": "Mitsune"
+          },
+          "the-east-pointers": {
+            "slug": "the-east-pointers",
+            "name": "The East Pointers"
+          },
+          "dug": {
+            "slug": "dug",
+            "name": "DUG"
+          }
+        }
+      },
+      "180": {
+        "showId": "180",
+        "showName": "Ms Americana",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "startDateTime": "2026-07-25T15:00:00",
+        "endDateTime": "2026-07-25T16:15:00",
+        "tags": [
+          "Madison Cunningham",
+          "Jess Williamson",
+          "Lola Kirk",
+          "Ken Pomeroy"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "madison-cunningham": {
+            "slug": "madison-cunningham",
+            "name": "Madison Cunningham"
+          },
+          "jess-williamson": {
+            "slug": "jess-williamson",
+            "name": "Jess Williamson"
+          },
+          "lola-kirk": {
+            "slug": "lola-kirk",
+            "name": "Lola Kirk"
+          },
+          "ken-pomeroy": {
+            "slug": "ken-pomeroy",
+            "name": "Ken Pomeroy"
+          }
+        }
+      },
+      "387": {
+        "showId": "387",
+        "showName": "Jess Williamson",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:30:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:30:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "Jess Williamson"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "jess-williamson": {
+            "slug": "jess-williamson",
+            "name": "Jess Williamson"
+          }
+        }
+      },
+      "181": {
+        "showId": "181",
+        "showName": "Songs Sung True",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "tags": [
+          "Mike Stack",
+          "Martyn Joseph",
+          "Lacey Hill",
+          "Ribbon Skirt"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "mike-stack": {
+            "slug": "mike-stack",
+            "name": "Mike Stack"
+          },
+          "martyn-joseph": {
+            "slug": "martyn-joseph",
+            "name": "Martyn Joseph"
+          },
+          "lacey-hill": {
+            "slug": "lacey-hill",
+            "name": "Lacey Hill"
+          },
+          "ribbon-skirt": {
+            "slug": "ribbon-skirt",
+            "name": "Ribbon Skirt"
+          }
+        }
+      },
+      "388": {
+        "showId": "388",
+        "showName": "Lacey Hill",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "tags": [
+          "Lacey Hill"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "lacey-hill": {
+            "slug": "lacey-hill",
+            "name": "Lacey Hill"
+          }
+        }
+      },
+      "182": {
+        "showId": "182",
+        "showName": "Mars Bars",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "tags": [
+          "Mariel Buckley",
+          "Martyn Joseph",
+          "Mary Gauthier",
+          "Maruja Limón"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          },
+          "martyn-joseph": {
+            "slug": "martyn-joseph",
+            "name": "Martyn Joseph"
+          },
+          "mary-gauthier": {
+            "slug": "mary-gauthier",
+            "name": "Mary Gauthier"
+          },
+          "maruja-limon": {
+            "slug": "maruja-limon",
+            "name": "Maruja Limón"
+          }
+        }
+      },
+      "389": {
+        "showId": "389",
+        "showName": "Maruja Limón",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "tags": [
+          "Maruja Limón"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "maruja-limon": {
+            "slug": "maruja-limon",
+            "name": "Maruja Limón"
+          }
+        }
+      },
+      "183": {
+        "showId": "183",
+        "showName": "Cradles of Civilization",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "tags": [
+          "Kazdoura",
+          "Ahmed Moneka",
+          "Sahra Halgan"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "kazdoura": {
+            "slug": "kazdoura",
+            "name": "Kazdoura"
+          },
+          "ahmed-moneka": {
+            "slug": "ahmed-moneka",
+            "name": "Ahmed Moneka"
+          },
+          "sahra-halgan": {
+            "slug": "sahra-halgan",
+            "name": "Sahra Halgan"
           }
         }
       }
@@ -573,111 +1847,883 @@
     "date": "Sun, Jul 26 2026",
     "gate_open_time": "",
     "schedule": {
-      "342": {
-        "showId": "342",
-        "showName": "Julian Taylor",
+      "356": {
+        "showId": "356",
+        "showName": "Foxwarren",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
         "startTime": "17:30:00",
-        "endTime": "18:20:00",
+        "endTime": "18:15:00",
         "startDateTime": "2026-07-26T17:30:00",
-        "endDateTime": "2026-07-26T18:20:00",
+        "endDateTime": "2026-07-26T18:15:00",
         "tags": [
-          "Julian Taylor"
+          "Foxwarren"
         ],
         "location": "ATB Main Stage",
         "locationId": 0,
+        "slugs": {
+          "foxwarren": {
+            "slug": "foxwarren",
+            "name": "Foxwarren"
+          }
+        }
+      },
+      "357": {
+        "showId": "357",
+        "showName": "Adrian Quesada Trio Asesino",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "18:30:00",
+        "endTime": "19:20:00",
+        "startDateTime": "2026-07-26T18:30:00",
+        "endDateTime": "2026-07-26T19:20:00",
+        "tags": [
+          "Adrian Quesada Trio Asesino"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "adrian-quesada": {
+            "slug": "adrian-quesada",
+            "name": "Adrian Quesada Trio Asesino"
+          }
+        }
+      },
+      "358": {
+        "showId": "358",
+        "showName": "Killer Mike & the Mighty Midnight Revival",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "19:35:00",
+        "endTime": "20:50:00",
+        "startDateTime": "2026-07-26T19:35:00",
+        "endDateTime": "2026-07-26T20:50:00",
+        "tags": [
+          "Killer Mike & the Mighty Midnight Revival"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "killer-mike": {
+            "slug": "killer-mike",
+            "name": "Killer Mike & the Mighty Midnight Revival"
+          }
+        }
+      },
+      "359": {
+        "showId": "359",
+        "showName": "Corb Lund",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "21:05:00",
+        "endTime": "22:15:00",
+        "startDateTime": "2026-07-26T21:05:00",
+        "endDateTime": "2026-07-26T22:15:00",
+        "tags": [
+          "Corb Lund"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "corb-lund": {
+            "slug": "corb-lund",
+            "name": "Corb Lund"
+          }
+        }
+      },
+      "366": {
+        "showId": "366",
+        "showName": "Sahra Halgan",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "tags": [
+          "Sahra Halgan"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "sahra-halgan": {
+            "slug": "sahra-halgan",
+            "name": "Sahra Halgan"
+          }
+        }
+      },
+      "196": {
+        "showId": "196",
+        "showName": "6th Heaven",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors",
+          "The Mbira Renaissance Band",
+          "Polo Sho"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          },
+          "the-mbira-renaissance-band": {
+            "slug": "the-mbira-renaissance-band",
+            "name": "The Mbira Renaissance Band"
+          },
+          "polo-sho": {
+            "slug": "polo-sho",
+            "name": "Polo Sho"
+          }
+        }
+      },
+      "400": {
+        "showId": "400",
+        "showName": "The Mbira Renaissance Band",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "startDateTime": "2026-07-26T11:55:00",
+        "endDateTime": "2026-07-26T12:40:00",
+        "tags": [
+          "The Mbira Renaissance Band"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "the-mbira-renaissance-band": {
+            "slug": "the-mbira-renaissance-band",
+            "name": "The Mbira Renaissance Band"
+          }
+        }
+      },
+      "197": {
+        "showId": "197",
+        "showName": "Seven Deadly Spins",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
+        "tags": [
+          "The Free Label",
+          "Killabeatmaker",
+          "Kazdoura"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "the-free-label": {
+            "slug": "the-free-label",
+            "name": "The Free Label"
+          },
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          },
+          "kazdoura": {
+            "slug": "kazdoura",
+            "name": "Kazdoura"
+          }
+        }
+      },
+      "401": {
+        "showId": "401",
+        "showName": "The Pairs",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "startDateTime": "2026-07-26T14:20:00",
+        "endDateTime": "2026-07-26T15:05:00",
+        "tags": [
+          "The Pairs"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "the-pairs": {
+            "slug": "the-pairs",
+            "name": "The Pairs"
+          }
+        }
+      },
+      "198": {
+        "showId": "198",
+        "showName": "She-it!",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "tags": [
+          "Allison de Groot + Tatiana Hargreaves",
+          "Maruja Limón",
+          "YAGODY",
+          "Caamaño & Ameixeiras"
+        ],
+        "location": "Community Natural Foods Stage 5",
+        "locationId": 5,
+        "slugs": {
+          "allison-de-groot-tatiana-hargreaves": {
+            "slug": "allison-de-groot-tatiana-hargreaves",
+            "name": "Allison de Groot + Tatiana Hargreaves"
+          },
+          "maruja-limon": {
+            "slug": "maruja-limon",
+            "name": "Maruja Limón"
+          },
+          "yagody": {
+            "slug": "yagody",
+            "name": "YAGODY"
+          },
+          "caamano-and-ameixeiras": {
+            "slug": "caamano-and-ameixeiras",
+            "name": "Caamaño & Ameixeiras"
+          }
+        }
+      },
+      "184": {
+        "showId": "184",
+        "showName": "The Eh Team",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:45:00",
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:45:00",
+        "tags": [
+          "Kate Stevens",
+          "L.T. Leif",
+          "Diyet & The Love Soldiers"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "kate-stevens": {
+            "slug": "kate-stevens",
+            "name": "Kate Stevens"
+          },
+          "l-t-leif": {
+            "slug": "l-t-leif",
+            "name": "L.T. Leif"
+          },
+          "diyet-and-the-love-soldiers": {
+            "slug": "diyet-and-the-love-soldiers",
+            "name": "Diyet & The Love Soldiers"
+          }
+        }
+      },
+      "390": {
+        "showId": "390",
+        "showName": "L.T. Leif",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:00:00",
+        "endTime": "12:45:00",
+        "startDateTime": "2026-07-26T12:00:00",
+        "endDateTime": "2026-07-26T12:45:00",
+        "tags": [
+          "L.T. Leif"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "l-t-leif": {
+            "slug": "l-t-leif",
+            "name": "L.T. Leif"
+          }
+        }
+      },
+      "185": {
+        "showId": "185",
+        "showName": "Damn Straight!",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:00:00",
+        "endTime": "14:10:00",
+        "startDateTime": "2026-07-26T13:00:00",
+        "endDateTime": "2026-07-26T14:10:00",
+        "tags": [
+          "Mike Stack",
+          "Martyn Joseph",
+          "Caamaño & Ameixeiras",
+          "Joshua Burnside"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "mike-stack": {
+            "slug": "mike-stack",
+            "name": "Mike Stack"
+          },
+          "martyn-joseph": {
+            "slug": "martyn-joseph",
+            "name": "Martyn Joseph"
+          },
+          "caamano-and-ameixeiras": {
+            "slug": "caamano-and-ameixeiras",
+            "name": "Caamaño & Ameixeiras"
+          },
+          "joshua-burnside": {
+            "slug": "joshua-burnside",
+            "name": "Joshua Burnside"
+          }
+        }
+      },
+      "391": {
+        "showId": "391",
+        "showName": "Mike Stack",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "14:25:00",
+        "endTime": "15:00:00",
+        "startDateTime": "2026-07-26T14:25:00",
+        "endDateTime": "2026-07-26T15:00:00",
+        "tags": [
+          "Mike Stack"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "mike-stack": {
+            "slug": "mike-stack",
+            "name": "Mike Stack"
+          }
+        }
+      },
+      "186": {
+        "showId": "186",
+        "showName": "Nation to Nation",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "tags": [
+          "Diyet & The Love Soldiers",
+          "Lancelot Knight",
+          "Cécile Doo-Kingué"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "diyet-and-the-love-soldiers": {
+            "slug": "diyet-and-the-love-soldiers",
+            "name": "Diyet & The Love Soldiers"
+          },
+          "lancelot-knight": {
+            "slug": "lancelot-knight",
+            "name": "Lancelot Knight"
+          },
+          "cecile-doo-kingue": {
+            "slug": "cecile-doo-kingue",
+            "name": "Cécile Doo-Kingué"
+          }
+        }
+      },
+      "392": {
+        "showId": "392",
+        "showName": "Polo Sho",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "tags": [
+          "Polo Sho"
+        ],
+        "location": "Horizon Heating Stage",
+        "locationId": 0,
+        "slugs": {
+          "polo-sho": {
+            "slug": "polo-sho",
+            "name": "Polo Sho"
+          }
+        }
+      },
+      "187": {
+        "showId": "187",
+        "showName": "Space and Rhyme",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "tags": [
+          "Mary Gauthier",
+          "YAGODY",
+          "S.G. Goodman"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "mary-gauthier": {
+            "slug": "mary-gauthier",
+            "name": "Mary Gauthier"
+          },
+          "yagody": {
+            "slug": "yagody",
+            "name": "YAGODY"
+          },
+          "s-g-goodman": {
+            "slug": "s-g-goodman",
+            "name": "S.G. Goodman"
+          }
+        }
+      },
+      "393": {
+        "showId": "393",
+        "showName": "Lancelot Knight",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
+        "tags": [
+          "Lancelot Knight"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "lancelot-knight": {
+            "slug": "lancelot-knight",
+            "name": "Lancelot Knight"
+          }
+        }
+      },
+      "188": {
+        "showId": "188",
+        "showName": "Back to the Real Nitty Gritty",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "tags": [
+          "Derek Miller",
+          "Lacey Hill",
+          "Ahmed Moneka",
+          "Sahra Halgan"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "derek-miller": {
+            "slug": "derek-miller",
+            "name": "Derek Miller"
+          },
+          "lacey-hill": {
+            "slug": "lacey-hill",
+            "name": "Lacey Hill"
+          },
+          "ahmed-moneka": {
+            "slug": "ahmed-moneka",
+            "name": "Ahmed Moneka"
+          },
+          "sahra-halgan": {
+            "slug": "sahra-halgan",
+            "name": "Sahra Halgan"
+          }
+        }
+      },
+      "394": {
+        "showId": "394",
+        "showName": "Mary Gauthier",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
+        "tags": [
+          "Mary Gauthier"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
+        "slugs": {
+          "mary-gauthier": {
+            "slug": "mary-gauthier",
+            "name": "Mary Gauthier"
+          }
+        }
+      },
+      "189": {
+        "showId": "189",
+        "showName": "Borderless Ballads",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "tags": [
+          "Julian Taylor",
+          "Joshua Burnside",
+          "Jontavious Willis",
+          "Madalitso Band"
+        ],
+        "location": "CKUA Stage 2",
+        "locationId": 2,
         "slugs": {
           "julian-taylor": {
             "slug": "julian-taylor",
             "name": "Julian Taylor"
+          },
+          "joshua-burnside": {
+            "slug": "joshua-burnside",
+            "name": "Joshua Burnside"
+          },
+          "jontavious-willis": {
+            "slug": "jontavious-willis",
+            "name": "Jontavious Willis"
+          },
+          "madalitso-band": {
+            "slug": "madalitso-band",
+            "name": "Madalitso Band"
           }
         }
       },
-      "343": {
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
+      "190": {
+        "showId": "190",
+        "showName": "Little Talks",
         "showDesc": null,
-        "type": "Concert",
+        "type": "Session",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "18:35:00",
-        "endTime": "19:30:00",
-        "startDateTime": "2026-07-26T18:35:00",
-        "endDateTime": "2026-07-26T19:30:00",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
         "tags": [
-          "Tiken Jah Fakoly"
+          "Lacey Hill",
+          "Ken Pomeroy",
+          "Mariel Buckley",
+          "Ora Cogan"
         ],
-        "location": "ATB Main Stage",
-        "locationId": 0,
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
         "slugs": {
-          "tiken-jah-fakoly": {
-            "slug": "tiken-jah-fakoly",
-            "name": "Tiken Jah Fakoly"
+          "lacey-hill": {
+            "slug": "lacey-hill",
+            "name": "Lacey Hill"
+          },
+          "ken-pomeroy": {
+            "slug": "ken-pomeroy",
+            "name": "Ken Pomeroy"
+          },
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          },
+          "ora-cogan": {
+            "slug": "ora-cogan",
+            "name": "Ora Cogan"
           }
         }
       },
-      "344": {
-        "showId": "344",
-        "showName": "Valerie June",
+      "395": {
+        "showId": "395",
+        "showName": "Fish in a Birdcage",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "19:45:00",
-        "endTime": "20:55:00",
-        "startDateTime": "2026-07-26T19:45:00",
-        "endDateTime": "2026-07-26T20:55:00",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "startDateTime": "2026-07-26T11:55:00",
+        "endDateTime": "2026-07-26T12:40:00",
         "tags": [
-          "Valerie June"
+          "Fish in a Birdcage"
         ],
-        "location": "ATB Main Stage",
-        "locationId": 0,
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
         "slugs": {
-          "valerie-june": {
-            "slug": "valerie-june",
-            "name": "Valerie June"
+          "fish-in-a-birdcage": {
+            "slug": "fish-in-a-birdcage",
+            "name": "Fish in a Birdcage"
           }
         }
       },
-      "345": {
-        "showId": "345",
-        "showName": "Of Monsters and Men",
+      "191": {
+        "showId": "191",
+        "showName": "Ritmos Babilonia",
         "showDesc": null,
-        "type": "Concert",
+        "type": "Session",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "startDateTime": "2026-07-26T21:10:00",
-        "endDateTime": "2026-07-26T22:25:00",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
         "tags": [
-          "Of Monsters and Men"
+          "Mexican Institute of Sound & The Meridian Brothers present Ruido Tovar",
+          "Adrian Quesada Trio Asesino"
         ],
-        "location": "ATB Main Stage",
-        "locationId": 0,
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
         "slugs": {
-          "of-monsters-and-men": {
-            "slug": "of-monsters-and-men",
-            "name": "Of Monsters and Men"
+          "adrian-quesada": {
+            "slug": "adrian-quesada",
+            "name": "Adrian Quesada Trio Asesino"
           }
         }
       },
-      "360": {
-        "showId": "360",
-        "showName": "Mariel Buckley",
+      "396": {
+        "showId": "396",
+        "showName": "Jontavious Willis",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
-        "startDateTime": "2026-07-26T17:45:00",
-        "endDateTime": "2026-07-26T18:35:00",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "startDateTime": "2026-07-26T14:20:00",
+        "endDateTime": "2026-07-26T15:05:00",
         "tags": [
-          "Mariel Buckley"
+          "Jontavious Willis"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "jontavious-willis": {
+            "slug": "jontavious-willis",
+            "name": "Jontavious Willis"
+          }
+        }
+      },
+      "192": {
+        "showId": "192",
+        "showName": "Sacred and Profane",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "tags": [
+          "Mexican Institute of Sound & The Meridian Brothers present Ruido Tovar",
+          "Bia Ferreira",
+          "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "bia-ferreira": {
+            "slug": "bia-ferreira",
+            "name": "Bia Ferreira"
+          },
+          "jazz-is-dead": {
+            "slug": "jazz-is-dead",
+            "name": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+          }
+        }
+      },
+      "397": {
+        "showId": "397",
+        "showName": "Sam Amidon",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "tags": [
+          "Sam Amidon"
+        ],
+        "location": "Friends of the Festival Stage 3",
+        "locationId": 3,
+        "slugs": {
+          "sam-amidon": {
+            "slug": "sam-amidon",
+            "name": "Sam Amidon"
+          }
+        }
+      },
+      "193": {
+        "showId": "193",
+        "showName": "Canciones Asesinas",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "tags": [
+          "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
+          "Adrian Quesada Trio Asesino",
+          "Mexican Institute of Sound & The Meridian Brothers present Ruido Tovar"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "jazz-is-dead": {
+            "slug": "jazz-is-dead",
+            "name": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni"
+          },
+          "adrian-quesada": {
+            "slug": "adrian-quesada",
+            "name": "Adrian Quesada Trio Asesino"
+          }
+        }
+      },
+      "398": {
+        "showId": "398",
+        "showName": "Ora Cogan",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
+        "tags": [
+          "Ora Cogan"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ora-cogan": {
+            "slug": "ora-cogan",
+            "name": "Ora Cogan"
+          }
+        }
+      },
+      "194": {
+        "showId": "194",
+        "showName": "Can*ck as F*ck",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "tags": [
+          "Raleigh",
+          "Foxwarren",
+          "Fish in a Birdcage"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "raleigh": {
+            "slug": "raleigh",
+            "name": "Raleigh"
+          },
+          "foxwarren": {
+            "slug": "foxwarren",
+            "name": "Foxwarren"
+          },
+          "fish-in-a-birdcage": {
+            "slug": "fish-in-a-birdcage",
+            "name": "Fish in a Birdcage"
+          }
+        }
+      },
+      "399": {
+        "showId": "399",
+        "showName": "Ken Pomeroy",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
+        "tags": [
+          "Ken Pomeroy"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ken-pomeroy": {
+            "slug": "ken-pomeroy",
+            "name": "Ken Pomeroy"
+          }
+        }
+      },
+      "195": {
+        "showId": "195",
+        "showName": "Denim Dreams",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "tags": [
+          "Mariel Buckley",
+          "Corb Lund",
+          "Lola Kirk",
+          "S.G. Goodman"
         ],
         "location": "National Stage 4",
         "locationId": 4,
@@ -685,75 +2731,178 @@
           "mariel-buckley": {
             "slug": "mariel-buckley",
             "name": "Mariel Buckley"
+          },
+          "corb-lund": {
+            "slug": "corb-lund",
+            "name": "Corb Lund"
+          },
+          "lola-kirk": {
+            "slug": "lola-kirk",
+            "name": "Lola Kirk"
+          },
+          "s-g-goodman": {
+            "slug": "s-g-goodman",
+            "name": "S.G. Goodman"
           }
         }
       },
-      "361": {
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
+      "199": {
+        "showId": "199",
+        "showName": "United we Stand",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "tags": [
+          "Leaf Rapids",
+          "Raleigh",
+          "The Pairs",
+          "Ribbon Skirt"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "leaf-rapids": {
+            "slug": "leaf-rapids",
+            "name": "Leaf Rapids"
+          },
+          "raleigh": {
+            "slug": "raleigh",
+            "name": "Raleigh"
+          },
+          "the-pairs": {
+            "slug": "the-pairs",
+            "name": "The Pairs"
+          },
+          "ribbon-skirt": {
+            "slug": "ribbon-skirt",
+            "name": "Ribbon Skirt"
+          }
+        }
+      },
+      "403": {
+        "showId": "403",
+        "showName": "Allison de Groot + Tatiana Hargreaves",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
-        "startDateTime": "2026-07-26T18:55:00",
-        "endDateTime": "2026-07-26T19:45:00",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
         "tags": [
-          "Ruby Singh and the Future Ancestors"
+          "Allison de Groot + Tatiana Hargreaves"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "ruby-singh-and-the-future-ancestors": {
-            "slug": "ruby-singh-and-the-future-ancestors",
-            "name": "Ruby Singh and the Future Ancestors"
+          "allison-de-groot-tatiana-hargreaves": {
+            "slug": "allison-de-groot-tatiana-hargreaves",
+            "name": "Allison de Groot + Tatiana Hargreaves"
           }
         }
       },
-      "362": {
-        "showId": "362",
-        "showName": "Killabeatmaker",
+      "200": {
+        "showId": "200",
+        "showName": "The Harmony of Difference",
+        "showDesc": null,
+        "type": "Session",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "tags": [
+          "Leaf Rapids",
+          "Sam Amidon",
+          "Joe Nolan",
+          "Hermitess"
+        ],
+        "location": "BT's Stage 6",
+        "locationId": 6,
+        "slugs": {
+          "leaf-rapids": {
+            "slug": "leaf-rapids",
+            "name": "Leaf Rapids"
+          },
+          "sam-amidon": {
+            "slug": "sam-amidon",
+            "name": "Sam Amidon"
+          },
+          "joe-nolan": {
+            "slug": "joe-nolan",
+            "name": "Joe Nolan"
+          },
+          "hermitess": {
+            "slug": "hermitess",
+            "name": "Hermitess"
+          }
+        }
+      },
+      "404": {
+        "showId": "404",
+        "showName": "Ribbon Skirt",
         "showDesc": null,
         "type": "Concert",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
-        "startDateTime": "2026-07-26T20:00:00",
-        "endDateTime": "2026-07-26T21:05:00",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
         "tags": [
-          "Killabeatmaker"
+          "Ribbon Skirt"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "killabeatmaker": {
-            "slug": "killabeatmaker",
-            "name": "Killabeatmaker"
+          "ribbon-skirt": {
+            "slug": "ribbon-skirt",
+            "name": "Ribbon Skirt"
           }
         }
       },
-      "363": {
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
+      "201": {
+        "showId": "201",
+        "showName": "Beyond the Consonant C",
         "showDesc": null,
-        "type": "Concert",
+        "type": "Session",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
-        "startDateTime": "2026-07-26T21:25:00",
-        "endDateTime": "2026-07-26T22:30:00",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
         "tags": [
-          "The Neighborhood Kids"
+          "Hermitess",
+          "The Pairs",
+          "L.T. Leif",
+          "Raleigh"
         ],
-        "location": "National Stage 4",
-        "locationId": 4,
+        "location": "BT's Stage 6",
+        "locationId": 6,
         "slugs": {
-          "the-neighborhood-kids": {
-            "slug": "the-neighborhood-kids",
-            "name": "The Neighborhood Kids"
+          "hermitess": {
+            "slug": "hermitess",
+            "name": "Hermitess"
+          },
+          "the-pairs": {
+            "slug": "the-pairs",
+            "name": "The Pairs"
+          },
+          "l-t-leif": {
+            "slug": "l-t-leif",
+            "name": "L.T. Leif"
+          },
+          "raleigh": {
+            "slug": "raleigh",
+            "name": "Raleigh"
           }
         }
       }

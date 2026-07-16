@@ -315,7 +315,11 @@ function fillArtistSection(artistsData) {
 			*/
 			
 		} else {
-			if (artist.name.toUpperCase() !== artist.name) console.log(`${artist.name} (${artistId}) found, but no event attached.`);
+			if (artist.name) {
+				if (artist.name.toUpperCase() !== artist.name) console.log(`${artist.name} (${artistId}) found, but no event attached.`);
+			} else {
+				console.log(`${artist} has no name.`);
+			}
 		}
     }
 }
@@ -673,10 +677,14 @@ function buildEvent(startDate, event) {
 		const artist = artistsData[Object.keys(event.slugs)[0]];
 			// console.log(artist.name);
 		slotItemHTML += '<div class="name">';
-		slotItemHTML += `<a title="${artist.name}" href="#${artist.slug}" class="artistLink" data-tip=" " data-artistId="${artist.slug}">${artist.name}</a>`;
-		slotItemHTML += '</div>';
+		if (artist) {
+			slotItemHTML += `<a title="${artist.name}" href="#${artist.slug}" class="artistLink" data-tip=" " data-artistId="${artist.slug}">${artist.name}</a>`;
+			slotItemHTML += '</div>';
+		}
 		slotItemHTML += `<div class="location">${event.location}</div>`;
-		slotItemHTML += '<div class="artistImage"><img src="' + artist.image + '" alt="' + artist.name + '"></div>';
+		if (artist) {
+			slotItemHTML += '<div class="artistImage"><img src="' + artist.image + '" alt="' + artist.name + '"></div>';
+		}
 	}
 	slotItemHTML += '<div class="type">' + utils.capitalizeFirstLetter(event.type) + '</div>';
 	slotItem.innerHTML = slotItemHTML;

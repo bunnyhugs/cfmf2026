@@ -21,7 +21,47 @@
       "youtube": "https://www.youtube.com/channel/UCavvdflgEJO7qqaNo6aWwSQ"
     },
     "bio": "<div class=\"wysiwyg\"><p>You might know Texas-born Adrian Quesada from any of his 150+ music producer credits or as co-founder and guitarist for the high-energy funk rock group, Grupo Fantasma, who were 2011’s Best Latin Rock or Alternative Album Grammy winners. Or perhaps as the 2025 Oscar winner for Best Original Song for co-writing and singing “Like a Bird” for the prison drama <em>Sing Sing</em>. Maybe as guitarist/producer and one half of psychedelic-retro-funk powerhouse Black Pumas. Then there are his collaborations with Prince and los Lobos. No biggie. YES BIGGIE, PEOPLE! </p><p>Adrian Quesada is an American treasure who's been making music since he picked up a guitar at 13, ten minutes across the border from his grandmother’s house in Mexico. Flamenco and classical etudes were replaced with rock, funk and soul once he got to high school, preparing Adrian for his decades-long, storied musical journey. Quesada brings to Calgary his newest project, Trio Asesino: soulful, phantasmagorical forays into 1960s and ‘70s Latin sounds that echo heartache and longing, passion and flare, the occasional wah-wah pedal, cavernous reverb and flourishes of Hammond B3 organ. Groovy, dreamy, fall-asleep-in-the-desert fare. </p><p>- Chantal Vitalis</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-26T18:30:00",
+        "endDateTime": "2026-07-26T19:20:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "18:30:00",
+        "endTime": "19:20:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "357",
+        "showName": "Adrian Quesada Trio Asesino",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "191",
+        "showName": "Ritmos Babilonia",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "193",
+        "showName": "Canciones Asesinas",
+        "locationId": 4
+      }
+    ]
   },
   "jazz-is-dead": {
     "artistId": 1,
@@ -45,7 +85,73 @@
       "youtube": "https://www.youtube.com/channel/UC_-cDVj6Vu7yav8Nk40T3KQ"
     },
     "bio": "<div class=\"wysiwyg\"><p>Digital perfection has its place in music production, but it’s not for Adrian Younge. The self-taught producer and composer is enthralled with all things analog, preferring the controlled chaos of live musicians and vintage equipment to the fine-tuned, frictionless sheen of a modern studio. Whether making music for himself, creating tracks for hip hop royalty from the Wu-Tang Clan to Jay-Z to Kendrick Lamar, or scoring series like Marvel’s Luke Cage, his production is instantly recognizable: rich, raw, and deeply soulful.</p><p>Inspired by crate-digging culture, Younge sought to take things a step further with the Jazz Is Dead series, finding the sources of the samples that laid the foundations for hip hop and putting them back in the spotlight. Co-founded with musical kindred spirit Ali Shaheed Muhammad (A Tribe Called Quest), JID is a record label, a live music project, and an ironic statement of purpose for a project that’s all about living history: celebrating musical heroes by drawing out the finest performances of their careers.</p><p>Already 25 albums deep since its founding in 2020, JID’s artist roster is, frankly, absurd. The touring lineup is just a taste: Saxophonist Ronnie Laws, whose inventive, non-traditional fusion had him work with Jazz Crusaders and Hugh Masakela plus a stint in soul group Earth, Wind and Fire; Carlos Dafe, Brazil’s “Prince of Soul” whose 1977 debut helped define Black Brazilian music; and adventurous London-based vocalist Ala.ni. Any one of them would be worthy of taking centre stage at the festival. Together with Younge, more than a performance: it’s a musical celebration of life.</p><p>- Peter Hemminger</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T19:25:00",
+        "endDateTime": "2026-07-24T20:35:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "19:25:00",
+        "endTime": "20:35:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "365",
+        "showName": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T18:35:00",
+        "endDateTime": "2026-07-25T19:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "18:35:00",
+        "endTime": "19:30:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "352",
+        "showName": "Adrian Younge presents Jazz Is Dead featuring Ronnie Laws, Carlos Dafé, + Ala.Ni",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T10:45:00",
+        "endDateTime": "2026-07-25T12:00:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:45:00",
+        "endTime": "12:00:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "178",
+        "showName": "Art Official Intelligence",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "192",
+        "showName": "Sacred and Profane",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "193",
+        "showName": "Canciones Asesinas",
+        "locationId": 4
+      }
+    ]
   },
   "ahmed-moneka": {
     "artistId": 2,
@@ -69,7 +175,60 @@
       "youtube": "https://www.youtube.com/@ahmedmoneka4918"
     },
     "bio": "<div class=\"wysiwyg\"><p>Multitalented doesn’t begin to describe Ahmed Moneka’s artistic reach. He’s a Renaissance man of the arts world. Moneka arrived in Toronto as a refugee from Iraq after appearing in a film about gay rights. He’s established himself in the Canadian theater community as an actor and writer, including helping to write the 2026 musical production <em>It’s a Good Life If You Don’t Weaken</em> with members of the Tragically Hip. Meanwhile, his interest in music is far more than a hobby as his sophomore album Kanzafula earned a Juno nod last year. </p><p>Moneka grew up in Baghdad and his music draws on his Afro Sufi heritage providing a dizzying array of influences including jazz, funk and soul infused with African grooves and Arabic folk melodies. He leads an all-star global ensemble that has performed across North and South America as well as tours in Africa and Asia. </p><p>Given his theatrical pedigree, it’s not surprising that his songs come with cinematic imagery to go with his simple but evocative melodies. Moneka offers a joyful and transcendent sound that will surely bring festival audiences to their feet, smiling almost as much as he does as they embrace the grooves.</p><p>- Sean Myers</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:00:00",
+        "endDateTime": "2026-07-24T16:45:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:00:00",
+        "endTime": "16:45:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "374",
+        "showName": "Ahmed Moneka",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T10:45:00",
+        "endDateTime": "2026-07-25T12:00:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:45:00",
+        "endTime": "12:00:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "178",
+        "showName": "Art Official Intelligence",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "183",
+        "showName": "Cradles of Civilization",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "188",
+        "showName": "Back to the Real Nitty Gritty",
+        "locationId": 2
+      }
+    ]
   },
   "allison-de-groot-tatiana-hargreaves": {
     "artistId": 3,
@@ -93,7 +252,60 @@
       "youtube": "https://www.youtube.com/results?search_query=allison%20de%20groot%20%26%20tatiana%20hargreaves"
     },
     "bio": "<div class=\"wysiwyg\"><p>In the 19th century, banjo and fiddle duos were the equivalent of today’s two turntables and a microphone – when pickers appeared, a party inevitably broke out. Back then, Allison De Groot and Tatiana Hargreaves would have fit right in, and they fit in right now as sustainers of the old-time string band tradition while adding their own modern spin. Their musical chops are widely documented. Winnipeg’s de Groot has been hailed as one of the best clawhammer style banjo players around joining an elite group of innovative pickers as evidenced by her winning the prestigious Steve Martin Banjo Prize. On the fiddle side, when Tatiana Hargreaves isn’t teaching bluegrass at the University of North Carolina, she takes the stage with Dave Rawlings and Gillian Welch and a host of other Americana greats. These two mighty players are equally comfortable in a variety of genres – bluegrass, old-time, folk, Celtic jigs and new improvised jamgrass rave ups. Their decision to join forces has resulted in two albums that have garnered folk, bluegrass and Americana award nominations and wins on both sides of the Canada/U.S. border. The acoustic music intelligentsia has embraced them as keepers of the flame of old-time music and as a musical force adding new spark. Ten strings and two voices, playing new and old music that’s bursting with goosebump-raising banjo and fiddle energy.    </p><p> </p><p>Eric Rosenbaum</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "166",
+        "showName": "Witch is it?",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "174",
+        "showName": "Double Trouble",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "198",
+        "showName": "She-it!",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "403",
+        "showName": "Allison de Groot + Tatiana Hargreaves",
+        "locationId": 6
+      }
+    ]
   },
   "bia-ferreira": {
     "artistId": 4,
@@ -117,7 +329,60 @@
       "youtube": "https://www.youtube.com/@BiaFerreiraOficial"
     },
     "bio": "<div class=\"wysiwyg\"><p>You might not understand the words unless you speak Portuguese, but you will embrace the music; whether it features acute rat-a-tat rap, or channels an underground lounge where luscious ballads caress folks pondering love and politics, Bia Ferreira’s music jolts and delights.</p><p>The songs highlight Ferreira’s profound musical knowledge earned in piano lessons at age 3, singing in the choir at her parents’ missionary church, and studying at the Brazilian Music Conservatory where she learned dozens of instruments. They are equally informed by the songwriter’s life journey as a Black woman whose first song (written when she was 12) asked God to not make her a lesbian, and who hitchhiked as a young adult, busking and learning to play guitar one-handed to attract more onlookers.</p><p>As a teenager in 2011, she composed future hit “Cota Não É Esmola” (quotas are not alms) regarding racial allotments in university entrance exams; the song later became mandatory study material for some university entrance exams. Her first release was a 2018 live album; 2019’s <em>Igreja Lesbiteriana, Um Chamado,</em> celebrated the “Lesbyterian Church,” a place where rainbow citizens are embraced.</p><p>While she claims her music is made to create discomfort with the status quo, recent songs highlight tenderness as a revolutionary tool. Beware, for these clandestine melodies wrapped around not so secretive messages have also been known to create euphoria.</p><p>Mary-Lynn Wardle</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "164",
+        "showName": "Riot and Revolution",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:25:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:25:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "175",
+        "showName": "Blues Travellers",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "385",
+        "showName": "Bia Ferreira",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "192",
+        "showName": "Sacred and Profane",
+        "locationId": 3
+      }
+    ]
   },
   "caamano-and-ameixeiras": {
     "artistId": 5,
@@ -141,7 +406,60 @@
       "youtube": "https://www.youtube.com/channel/UCjT_g83-RlJkYYyJkwOpbSA"
     },
     "bio": "<div class=\"wysiwyg\"><p>The inspiration for Caamaño &amp; Amexerias’ music is inextricably linked to the culture of their home Galicia, a lush rainy mountainous area of northern Spain which stands apart as a crossroads of Celtic, Balkan, Basque and Spanish traditions, including the Galician language – more like Portuguese than Spanish. Caamaño &amp; Ameixeiras have been around as an accordion and fiddle duo since 2018 but their devotion to Galician music as individuals began when they were children. Sabela Caamaño picked up the accordion at seven. Antía Ameixeiras took up the violin at five. Their young lives were steeped in music, assimilating Galician traditions through their academic studies and a series of collaborations with the crème de la crème of fellow Galician virtuosos. </p><p>Eventually they found each other and fused their talents as a duo, releasing their first ground-breaking and award-winning album <em>Aire!</em> in 2021 and a second in 2023 – <em>Quitar o aire. </em></p><p>Both comprised instrumental pyrotechnics with occasional energetic and sometimes ethereal vocal harmonies. Indeed, the music of Caamaño &amp; Ameixeiras reflects the signature Galician mish mash of traditions while shaking things up with a Basque spin on a Bulgarian tune. They even inject a western pop theme or two because, well, why not? Caamaño &amp; Amexerias manifest a vibrant musical universe where the old ways are also the new ways.   </p><p> </p><p>Eric Rosenbaum</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "384",
+        "showName": "Caamaño & Ameixeiras",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "174",
+        "showName": "Double Trouble",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "198",
+        "showName": "She-it!",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T13:00:00",
+        "endDateTime": "2026-07-26T14:10:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:00:00",
+        "endTime": "14:10:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "185",
+        "showName": "Damn Straight!",
+        "locationId": 0
+      }
+    ]
   },
   "catherine-mac-lellan": {
     "artistId": 6,
@@ -165,7 +483,47 @@
       "youtube": "https://www.youtube.com/user/waterintheground"
     },
     "bio": "<div class=\"wysiwyg\"><p>Like so many Canadian folk musicians, MacLellan’s songcraft is heavily rooted in place. And when home is Prince Edward Island, you’re sure to have a few hallmarks: gently picked acoustic guitar, intricate songs that drift from love to hurt to love again, and a sweet voice with that strong bit of saltiness carried over by the wind.</p><p>MacLellan has been at it for more than two decades, picking up a Roots category Juno statuette in 2015 and a handful of East Coast Music Awards along the way. She’s also dedicated herself to shining a light on her folk-legend father Gene MacLellan’s legacy by creating a documentary and stage show about his music and mental health struggles that stole Gene from the world in her teens. In addition, she regularly performs that substitute Canadian anthem he penned, “Snowbird.” </p><p>After going six years without recording new music – since 2019’s haunting, windswept Coyote – she marked International Day for the Elimination of Violence Against Women with a new single “Mary Ann,” the true story of an Islander murdered by a rapist who’d attacked one of her 11 children. “Set his sights on your eldest girl / He wouldn’t take no, then he took your whole world.” Whether she’s recreating one of her dad’s compositions on piano or strumming out her own lyrical poetry, Catherine MacLellan’s voice will always find a way to leave the stage  – sometimes wafting, sometimes flowing – straight into your mainland heart.</p><p>- Jason Markusoff</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T15:45:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "15:45:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "373",
+        "showName": "Catherine MacLellan",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "166",
+        "showName": "Witch is it?",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "168",
+        "showName": "Fountain of Truth",
+        "locationId": 0
+      }
+    ]
   },
   "cecile-doo-kingue": {
     "artistId": 7,
@@ -189,7 +547,60 @@
       "youtube": "https://www.youtube.com/cdkmusik"
     },
     "bio": "<div class=\"wysiwyg\"><p>Cameroonian descendant Cécile Doo‑Kingué was born and raised in New York City and has for decades been an adopted Montrealer. Shaped by her peripatetic and richly diverse background, she weaves blues, soul, chanson and African rhythms into a mélange that bonds her deep reverence for roots and blues traditions with a current, fearless perspective on the world.</p><p>Considered one of Canada’s most electrifying and versatile guitarists, Doo‑Kingué is also a singer‑songwriter and composer whose deep, expressive voice draws audiences in with songs that balance emotional honesty, groove and lyrical depth.</p><p>“It’s important to put a good, strong message out there,” she says. “All the big movements towards social justice, towards equality, have been aided by art and artists, because we have people’s ears and eyes and souls in a way that politicians don’t have. And when you see how low the bar of human decency has been dropped, now, more than ever, they need us to be part of the mobilization to bring some dignity back to our species.”</p><p>On stage, she is a magnetic presence; an irresistible combination of warmth and emotional charge, inviting audiences into a musical journey that is raw, deep and unforgettable.</p><p>- Shereen Samuels</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "164",
+        "showName": "Riot and Revolution",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:25:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:25:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "175",
+        "showName": "Blues Travellers",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T16:45:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "383",
+        "showName": "Cécile Doo-Kingué",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "186",
+        "showName": "Nation to Nation",
+        "locationId": 0
+      }
+    ]
   },
   "cochemea": {
     "artistId": 8,
@@ -213,7 +624,47 @@
       "youtube": "https://www.youtube.com/@cochemea"
     },
     "bio": "<div class=\"wysiwyg\"><p>In a career spanning nearly three decades, Cochemea Gastelum has worked with an enviable list of legends. His saxophonic skills have contributed to recordings and live performances with Sharon Jones, The Roots, David Byrne, Run the Jewels, Quincy Jones and Amy Winehouse, to name a scant few — safe to say, if you have even a passing interest in all things soulful, you’ve heard his handiwork.</p><p>As widely as his contributions have ranged, it wasn’t until the release of 2019’s <em>All My Relations</em> that Cochemea truly found his voice. Still steeped in the funk that formed the foundations of his career as a collaborator, <em>Relations</em> aimed for something deeper, digging into his Yaqui/Yoeme Indigenous heritage for inspiration. Incorporating spiritual jazz and ancient rhythms into its intricate compositions, the album announced Cochemea as not just an ace session man, but a musical force to be reckoned with.</p><p>The story that began with Relations has since expanded into a trilogy, with 2021’s <em>Vol. II:</em> <em>Baca Sewa</em> and last year’s <em>Vol. III: Ancestros Futuros</em> seeking new connections between cultural heritage, modern composition and danceable grooves. At times finding transcendence by way of polyrhythm, at others tracing the border between melancholy and defiance, Cochemea’s music is a way of grappling with a history that’s too complex to contain in words — and having a good time while doing it.</p><p>- Peter Hemminger</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T18:30:00",
+        "endDateTime": "2026-07-24T19:25:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "18:30:00",
+        "endTime": "19:25:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "347",
+        "showName": "Cochemea",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "173",
+        "showName": "Indigenations",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T10:45:00",
+        "endDateTime": "2026-07-25T12:00:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:45:00",
+        "endTime": "12:00:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "178",
+        "showName": "Art Official Intelligence",
+        "locationId": 5
+      }
+    ]
   },
   "corb-lund": {
     "artistId": 9,
@@ -237,7 +688,34 @@
       "youtube": "https://www.youtube.com/channel/UCsv9x5qGWcjjK1ogRDZ-O6w"
     },
     "bio": "<div class=\"wysiwyg\"><p>For all his upbeat drinkin’ and rodeoin’ songs that invite folks to dismiss their woes and sing along, Alberta memory keeper Corb Lund’s music is most extraordinary when it embraces tensions. Range-raised Lund, who has earned 11 Canadian Country Music Awards and a Juno during his 30-year solo career (overlapping his time in punk-metal-country cult band the smalls), thrives on dichotomy.</p><p>His audience is an unlikely mix of hip city dwellers and ranchers and roughnecks smooshed together on dance floors. His beliefs don’t really fit into left or right, thus bringing together disparate listeners who might have been spatting on social media moments before the first notes ring out. Lund’s lyrics capture the dire foreplay of industrial sprawl and its hunger for exquisite prairie and mountain Edens as well as a wistfulness for the simplicity of the frontier even while celebrating modern existence by wooing the gothest girl around. He compacts a whole life inside a tautly penned tear-drop ballad, then has every rump rockin’ with the next song.</p><p>A tuneful, erudite teller of Technicolor tales, Lund builds a wide, nuanced loop to capture intimate moments, the mundane repetition of daily ranch life, and the agony of soldiers who are sold to war like a product. From the big picture to minutia, Lund’s wisdom in seldom picking sides – the heartbreaker and heartbroken are equally honoured – and his gift for melody ensures you soak it all up.</p><p>- Mary-Lynn Wardle</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-26T21:05:00",
+        "endDateTime": "2026-07-26T22:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "21:05:00",
+        "endTime": "22:15:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "359",
+        "showName": "Corb Lund",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "195",
+        "showName": "Denim Dreams",
+        "locationId": 4
+      }
+    ]
   },
   "daniel-romano-outfit": {
     "artistId": 10,
@@ -261,7 +739,47 @@
       "youtube": "https://www.youtube.com/channel/UCtrky4g8diSxB5_cV3AdgJQ"
     },
     "bio": "<div class=\"wysiwyg\"><p>If blistering, melt-your-face rock and roll is your thing, please meet Daniel Romano and the Outfit. As anyone who attended The Outfit’s performance at Block Heater ’24 knows, Daniel and crew unleashed a glorious 55 minute set with no breaks. Catchy, manic, loud, and punchy, it sucked your breath away filling the vacuum with joyful bliss.</p><p>Romano, a Canadian musician/poet/visual artist treats genre boundaries like annoyances to be ignored. He spent his early years as a folk and country traditionalist. Thereafter, came a bewildering array of the various forms of rock via his 24 (give or take) solo releases, with a band and other collaborators. His collection of songs feels lived-in, like a coat from a thrift store that still smells faintly of cigarette smoke and perfume.</p><p>The Outfit operates with an exquisite energy transforming pencil sketches into brightly- coloured art. Carson McHone sings and furiously smacks a tambourine like she’s trying to mine gold from between the wood fibers. Tommy Major and Daniel’s brother Ian lay down a backbeat a mile wide. Whether tearing through a psychedelic garage-rock anthem or jagged, ’70s power-pop, The Outfit swerves fluidly through the detours. In a world of too much culture-branding, the Outfit doesn’t explain their aesthetic, they just commit to the noise.</p><p>- Jay Nelson</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T22:05:00",
+        "endDateTime": "2026-07-24T23:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "22:05:00",
+        "endTime": "23:10:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "367",
+        "showName": "Daniel Romano's Outfit",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "162",
+        "showName": "A Murmur. A Sign.",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "176",
+        "showName": "Canadian Tuxedo",
+        "locationId": 4
+      }
+    ]
   },
   "derek-miller": {
     "artistId": 11,
@@ -285,7 +803,60 @@
       "youtube": "https://www.youtube.com/@silverheelsrecords3920"
     },
     "bio": "<div class=\"wysiwyg\"><p>If there have been some low times along Six Nations Kanienʼkehá:ka (Mohawk) singer-songwriter Derek Miller’s trail, they only make the high points – his virtuoso performance atop a towering pillar at the Vancouver Olympic closing ceremonies being a literal one – headier. Bagging a Juno with his first album in 2002 was anything but beginner’s luck as proven by a repeat with another Juno on his 2008 follow up. </p><p>But the lows were there too, including a skirmish with substance dependency. Miller began his music career early, playing bars at 13, drawing attention from MuchMusic. That early start created momentum as Miller eventually recorded with Daniel Lanois, dueted with Willie Nelson while making an album with Stevie Ray Vaughn’s band Double Trouble, and earned raves from punk baron Iggy Pop who ranted, “Who rocks like that anymore?” Miller does. His musical style serves up slices of Pete Townshend’s power chords, his free-range vocals heated up like an Axl rolling down the highway, then offering a ballad that draws on the sounds of his heritage. </p><p>Like his music that ranges easily between and within genres, so does his truth. Last year, a well-traveled Miller said, “Music is the main salve, medicine in my pouch.” Catch a set and it will be in your pouch, too.</p><p>- Mary-Lynn Wardle</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:25:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:25:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "175",
+        "showName": "Blues Travellers",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "170",
+        "showName": "World's in a Tangle",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Concert",
+        "showId": "380",
+        "showName": "Derek Miller",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "188",
+        "showName": "Back to the Real Nitty Gritty",
+        "locationId": 2
+      }
+    ]
   },
   "diyet-and-the-love-soldiers": {
     "artistId": 12,
@@ -309,7 +880,60 @@
       "youtube": "https://www.youtube.com/@diyetmusic"
     },
     "bio": "<div class=\"wysiwyg\"><p>Kluane, a region of the southwest Yukon is a national park, a wildlife preserve, and critically, the home of the self-governing Kluane First Nation. It is also singularly beautiful and where Diyet once performed to an audience consisting of an ocean of ice and moraine on the grand piano she helicoptered in.</p><p> Diyet is the region’s poet laureate and generational voice. But to truly understand a home you also have to leave it, and after moving to the city to pursue a music degree and a more traditional career, Diyet received her marching orders. Though the image of the piano being flown into a glacial forefield as part of her work on the Kluane Compositions, a visual and musical portrait of the region, her usual musical brigade is a tad less grandiose, but hardly less evocative. Her mission is simple: she is, and commands, The Love Soldiers. The music is gentle and loving Americana, vivid portraits of the peaks and people of her Yukon home. </p><p>Diyet performs in her native language of Tuchone as well as English, writing and recording in her music in the Yukon. Her latest, the ruminative Seeds of Dreaming, was recorded during a cold, dark week in January. </p><p>To be a Love Soldier is to be drafted into kindness and reverence for family, friends, and the complex category of home. When Diyet performs, you would be remiss not to heed her orders.</p><p>Liam Prost</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "168",
+        "showName": "Fountain of Truth",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T12:15:00",
+        "endDateTime": "2026-07-25T13:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:15:00",
+        "endTime": "13:05:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "386",
+        "showName": "Diyet & The Love Soldiers",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:45:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:45:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "184",
+        "showName": "The Eh Team",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "186",
+        "showName": "Nation to Nation",
+        "locationId": 0
+      }
+    ]
   },
   "dug": {
     "artistId": 13,
@@ -333,7 +957,47 @@
       "youtube": "https://www.youtube.com/channel/UCTDwW7aiQ6kYR71bMl-MgeQ"
     },
     "bio": "<div class=\"wysiwyg\"><p>DUG can seem like a band in search of a musical home. In Ireland, where they’re based, their style is considered old time American roots music, not Irish. But when they travel to the US, audiences tend to respond to the Irish Celtic heritage underlying their sound so strongly that Jonny Pickett, who’s from California, says he once had someone tell him to never lose his Irish accent. “We seem to be foreign everywhere now,” mused Pickett, one half of the Dublin-based duo with Conor O’Reilly.</p><p>Whatever label one wishes to ascribe to their sound, there’s no denying its appeal. The duo started as buskers on the legendary Grafton Street in Dublin singing along with a resonator guitar and banjo. By early 2024 they were selling out club shows and the release of their debut <em>Have At It!</em> in 2025 launched them even further into their own rootsy stratosphere. They offer an intoxicating brew of bluegrass, country, folk and celtic influences that depending on the listener might have you pining for a pint of thick Irish stout or a shot of corn whiskey before rushing the dance floor. Their live shows are so popular that following festival performances last year their merchandise emblazoned with the logo, I DIG DUG, sold out so quickly they resorted to selling hand painted rocks to eager crowds. </p><p>- Sean Myers</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T20:45:00",
+        "endDateTime": "2026-07-25T21:45:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "20:45:00",
+        "endTime": "21:45:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "370",
+        "showName": "DUG",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "171",
+        "showName": "Common Wealth",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-25T13:25:00",
+        "endDateTime": "2026-07-25T14:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:25:00",
+        "endTime": "14:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "179",
+        "showName": "Heated Rivalry",
+        "locationId": 5
+      }
+    ]
   },
   "the-east-pointers": {
     "artistId": 14,
@@ -357,7 +1021,60 @@
       "youtube": "https://www.youtube.com/channel/UCgmweY4XKtvfpFLPukMP8Mw"
     },
     "bio": "<div class=\"wysiwyg\"><p>Hailing from Canada’s smallest province, Prince Edward Island, is a huge musical force known as The East Pointers. Tim Chaisson and Jake Charron’s exuberant, modern folk has a way of flooding your heart with optimism and hope. It’s what makes their live shows such joyous, beautiful affirmations of life. Even songs about lonely oaks, seeing ghosts or falling off the wagon again will have you tapping your feet while you’re dabbing tears from your eyes. Their music is a hybrid of deep Celtic roots and folky, americana leaves, but focused through the lens of an islander, where humour and melancholy pour into the same tumbler. When the pandemic put touring and live concerts on hold, The East Pointers hosted the online series #Annedemic, where they and their friends read weekly chapters from PEI’s biggest export, <em>Anne of Green Gables</em>. A cheerful, resilient lighthouse, patiently blinking in the midst of a vast unknown. Islanders take very little for granted: you never know when a loved one’s sudden departure will be forced upon you, perhaps lost to a temporary job or a permanent something else. Each September on the Island, The East Pointers host Goolaholla, a festival that celebrates music, community and East Coast hospitality. The East Pointers make the most out of every moment and joyfully invite you to do the same.</p><p> - Chantal Vitalis</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T17:30:00",
+        "endDateTime": "2026-07-24T18:15:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "17:30:00",
+        "endTime": "18:15:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "346",
+        "showName": "The East Pointers",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "163",
+        "showName": "Tech Giants",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "174",
+        "showName": "Double Trouble",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T13:25:00",
+        "endDateTime": "2026-07-25T14:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:25:00",
+        "endTime": "14:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "179",
+        "showName": "Heated Rivalry",
+        "locationId": 5
+      }
+    ]
   },
   "fish-in-a-birdcage": {
     "artistId": 15,
@@ -381,7 +1098,60 @@
       "youtube": "https://www.youtube.com/channel/UCACs-eglr51RTuOHFtzLXfw"
     },
     "bio": "<div class=\"wysiwyg\"><p>It’s pretty hard to fly under the radar in a local scene as tight as Calgary’s, but Devan Townsend, the maestro behind the orchestral folk of Fish In A Birdcage, has spent his time wisely over the course of four full length albums since 2016 choosing practice and production as his path to make a mark on the local community. It’s paid off well as Fish In A Birdcage’s albums have been streamed millions of times and have resulted in tours throughout the US and overseas.</p><p>Townsend moves through a full array of folk styles with elements of electronic music added to enhance his sound. Known to haul around a cello, guitar, banjo, accordion, washboard, a full belt of harmonicas, and a shoebourine wherever he goes would be a tall order for any singer-songwriter, yet it’s been critical for Townsend to develop his repertoire. Townsend used to spend his nights climbing atop buildings throughout Calgary to write music, a process he credits with helping find his voice even if it also landed him in the back of a few local cop cars.</p><p>From anthemic alt-rock to his signature orchestral weaving of folk styles incorporating multiple traditional European styles, his is a clever mix of disparate elements that showcase an ability to escape the creative cages that artists can often find themselves locked in.</p><p>- Mike Dunn</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "162",
+        "showName": "A Murmur. A Sign.",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "176",
+        "showName": "Canadian Tuxedo",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T11:55:00",
+        "endDateTime": "2026-07-26T12:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "395",
+        "showName": "Fish in a Birdcage",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "194",
+        "showName": "Can*ck as F*ck",
+        "locationId": 4
+      }
+    ]
   },
   "foxwarren": {
     "artistId": 16,
@@ -405,7 +1175,34 @@
       "youtube": "ttps://www.youtube.com/channel/UCYLYqt9WdJNC4GZDHrocMzg"
     },
     "bio": "<div class=\"wysiwyg\"><p>Slotted between <em>The Party</em>, Regina songwriter Andy Shauf’s Polaris Prize-shortlisted, multiple-Juno-nominated 2016 album, and his 2020 follow-up <em>The Neon Skyline</em>, Foxwarren could have been mistaken for a one-off side project. Featuring Shauf’s intriguingly mumbly vocals and distinctive melodies, Foxwarren shifted his musical palette from meticulous indie-pop to laid-back folk rock. But the 2018 self-titled album’s easy chemistry was no accident as Foxwarren’s origins actually extend nearly 10 years before the band’s “official” debut.</p><p>Formed in 2009 by Shauf and high school friend Dallas Bryson, along with brothers Avery and Darryl Kissick, Foxwarren released its debut in 2011, with a follow-up intended for soon after. But with Shauf’s star rising, those plans were put on hold. By the time the project finally re-emerged, their little-heard first record felt so distant that the delayed followup was treated as a fresh start.</p><p>Titling their 2025 album 2 removed any questions around the band’s continuity, but with another seven-year span between albums and an equally dramatic leap in sound, it still feels like re-introduction. Recorded across multiple provinces, 2 sees Shauf sampling and remixing his bandmates’ contributions into offbeat pop confections. It’s more muscular and more danceable than its predecessor, but as the title implies it still has the same spirit — four friends making the music that excites them 20 years into their collaboration.</p><p>- Peter Hemminger</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-26T17:30:00",
+        "endDateTime": "2026-07-26T18:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "17:30:00",
+        "endTime": "18:15:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "356",
+        "showName": "Foxwarren",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "194",
+        "showName": "Can*ck as F*ck",
+        "locationId": 4
+      }
+    ]
   },
   "the-free-label": {
     "artistId": 17,
@@ -429,7 +1226,47 @@
       "youtube": "https://www.youtube.com/channel/UCayjyFHwsWptPTcEK1SXJlA"
     },
     "bio": "<div class=\"wysiwyg\"><p>We’d like to welcome you to the groove portion of your festival weekend. If this sextet from Toronto happens to be gracing the stage you’re at, then you, my friends, have arrived at the party.</p><p>Since 2017, The Free Label have gotten even the most reluctant booties up and shakin’ from coast to coast to other continents’ coasts, with their fusion of disco, R&amp;B and funk. Cowbell? That’s been played out. With apologies to that certain legendary Saturday Night Live skit, it’s like when you’ve got a fever — and the only cure is more keytar.</p><p>That handheld synthesizer vibes along with throbbing bass, tight jazzy drums, good-god-y’all guitar, a second keyboardist and lead vocalist John Tkakas taking control of the soul. The lineup has been mostly intact since they met in college last decade, and when they stare in awe at a colleague’s solo or they unify in one throbbing, pulsating, virtuosic rhythm, it reminds you of what should be a funk-music truism: your band won’t sound this tight unless they’re genuinely tight-knit. They may throw in a Stevie Wonder cover, or even Alice in Chains, but there’s only one certainty during a Free Label set: You. Will. Dance.</p><p>- Jason Markusoff</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T22:00:00",
+        "endDateTime": "2026-07-25T23:00:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "22:00:00",
+        "endTime": "23:00:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "371",
+        "showName": "The Free Label",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "177",
+        "showName": "In a Deep Funk",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "197",
+        "showName": "Seven Deadly Spins",
+        "locationId": 5
+      }
+    ]
   },
   "goldie-boutilier": {
     "artistId": 18,
@@ -453,7 +1290,34 @@
       "youtube": "https://www.youtube.com/@GoldieBoutilier"
     },
     "bio": "<div class=\"wysiwyg\"><p>Having traversed a long and winding path to her present-day level of acclaim, Goldie Boutilier weaves vivid, unflinching narratives of the sordid daybreak aftermath that follows the surface level glamour of high society nightlife. Set to an electrifying current, the result is danceable pop songs with sugary hooks with gravitas and depth of feeling.</p><p>Reinvention comes naturally to Boutilier, who eventually began working under her own name during a period of reflection at home on Cape Breton Island after years spent in LA and Europe. She navigated the pop world while abroad, releasing <em>My Name Is Kay</em> on Interscope in 2011, before working and recording as a club DJ under the name Goldilox.</p><p>Her work since her 2020 transformation into Goldie has found Boutilier showing a wide range as a songwriter. Her 2022 EP <em>Cowboy Gangster Politician</em> leaned into forward thinking country rock, with ’60s pop elements scattered throughout, while hinting at a future sonic direction.</p><p>On her latest, <em>Goldie Boutilier Presents Goldie Montana</em>, Boutilier's fearless lyrics and sultry, danceable grooves lend theatricality and anthemic drama to tender moments of intense vulnerability. They represent another reinvention in Goldie Boutilier's career; both an ingenue and femme fatale, bridging the gulf between starlet and troubadour.</p><p>- Mike Dunn</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T20:55:00",
+        "endDateTime": "2026-07-24T22:00:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "20:55:00",
+        "endTime": "22:00:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "349",
+        "showName": "Goldie Boutilier",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "161",
+        "showName": "The Golden Girls",
+        "locationId": 3
+      }
+    ]
   },
   "hermitess": {
     "artistId": 19,
@@ -477,7 +1341,60 @@
       "youtube": "https://www.youtube.com/@hermitess1466"
     },
     "bio": "<div class=\"wysiwyg\"><p>Jennifer Crighton was first inspired to learn the harp after a Loreena McKennitt concert when she was young. A costume designer for film by day, it’s unsurprising that she would come to experiment well beyond gauzy, dreamlike traditional melodies. As Hermitess, there’s sonic exploration, layered orchestral textures, harmonic voices, hurdy gurdy and pedal-infused electric guitar. She’ll sing a Walt Whitman-inspired ballad, then a psychedelic folk dirge, then a song or two borrowed from one of Shakespeare’s winged spirits.</p><p>Crighton has assembled a quartet for live Hermitess performances and acknowledges an expanded community of “sometimes” musical collaborators. She describes Hermitess as the “project of an aging and slightly reclusive witch, dreaming simultaneously in music and images.” With music this intricate, this engrossing and visual, you’ll be grateful Crighton still brings her harp and curiosity out to play.</p><p>- Jason Markusoff</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "166",
+        "showName": "Witch is it?",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T11:55:00",
+        "endDateTime": "2026-07-25T12:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "376",
+        "showName": "Hermitess",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "200",
+        "showName": "The Harmony of Difference",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "201",
+        "showName": "Beyond the Consonant C",
+        "locationId": 6
+      }
+    ]
   },
   "human-interest-with-col-cseke": {
     "artistId": 20,
@@ -525,7 +1442,47 @@
       "youtube": "https://www.youtube.com/channel/UC2Q_xdFSw4zTxnxRRbChGgw"
     },
     "bio": "<div class=\"wysiwyg\"><p>Texas-born, LA-based singer-songwriter Jess Williamson’s 2023 album <em>Time Ain’t Accidental</em> is a modern vision for what country music can represent. There’s drum machines, Raymond Carver and sexual references, and that’s just track 1. Hers is a mode of songwriting that is distinctly contemporary, sophisticated and adventurous. </p><p>Country has always been a musical modality for the underclass, the daydreamers and the day labourers. Twang or twain, town or country, souped-up pickup or hail-damaged Kia Sportage, what matters is honest expression and a graceful lack of pretense, a distinction to which Williamson has few equals.</p><p>Her versatility and lyrical realism have classic country roots, but her creative community skews indie, working with Hand Habits to build out the texture of the songs. The craft is markedly more experimental, incorporating a contemporary instrumental sensibility providing a counterpoint to her recognizably country vocal styling.</p><p>Her most definitive collaboration is that with fellow indie-Americana artist Katie Crutchfield of Waxahatchee on the brilliant full-length <em>I Walked With You a Ways</em> released under the moniker: Plains. It’s a lighter and prettier offering than some of Williamson’s edgier songwriting inclinations, but just as brilliant. </p><p>Catch a glimpse of her process and her media diet on her Substack ‘Cosmic Wink,’ or just catch her many wonderful songs from her country catalogue.</p><p>- Liam Prost</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "161",
+        "showName": "The Golden Girls",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T15:00:00",
+        "endDateTime": "2026-07-25T16:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "180",
+        "showName": "Ms Americana",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-25T16:30:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:30:00",
+        "endTime": "17:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "387",
+        "showName": "Jess Williamson",
+        "locationId": 5
+      }
+    ]
   },
   "joe-nolan": {
     "artistId": 22,
@@ -549,7 +1506,47 @@
       "youtube": "https://www.youtube.com/channel/UCF4yiDXUVu_OOhK5Ysn9JSw"
     },
     "bio": "<div class=\"wysiwyg\"><p>A troubadour in every sense of the word, Edmonton’s Joe Nolan has been making a living writing and performing his songs since he was a teenager. 20 years later, Nolan’s style has evolved over time, but the core of his gift is as it’s ever been: gently fingerpicked guitar, deeply personal lyrics and that trembling vibrato with the power to move straight into a Delta blues howl.</p><p>Nolan’s latest LP, 2025’s Luv In The New World is a lush and expansive record that adds symphonic strings to Nolan’s songs. While Nolan previously ruminated on loves lost and gone, Luv In The New World finds Nolan focused on being present in the smaller moments that come to define love, his elegant poetry and plain-spoken barroom musings set to sympathetic strings and rising keys. </p><p>A lot of artists decide one day they’re going to make music the deepest purpose of their life, but the rises and falls of that life take a toll on people. Joe Nolan has weathered much on the path, but has remained as dedicated as any songwriter in Alberta. Nolan’s is the path of a travelling minstrel finding love in the old world and the new.</p><p> - Mike Dunn</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "168",
+        "showName": "Fountain of Truth",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T16:45:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "378",
+        "showName": "Joe Nolan",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "200",
+        "showName": "The Harmony of Difference",
+        "locationId": 6
+      }
+    ]
   },
   "jontavious-willis": {
     "artistId": 23,
@@ -573,7 +1570,60 @@
       "youtube": "https://www.youtube.com/@jontaviouswillis"
     },
     "bio": "<div class=\"wysiwyg\"><p>Jontavious Willis was 14 when he first heard a song by Muddy Waters. Now barely in his 30s, his dynamic vocals, masterful fingerpicking and infectious Southern charm blends a reverence for the past with a fresh, contemporary energy. Growing up steeped in the gospel church culture of rural Georgia, and drawing from the Delta, Piedmont, Texas and gospel blues traditions, his passion and skill has motivated legends Taj Mahal and Keb’ Mo to mentor the young (by blues standards) prodigy. Mahal has said of Willis, \"That's my wonderboy, the wunderkind. Jontavious is a great new voice of the 21st century in acoustic blues.”</p><p>As a young Black man in the 21st century, Willis connects with the music of his great-great grandfather’s era by recognizing that the purpose of the blues is storytelling and the problems of the Jim Crow era still persist today.</p><p>True to the alchemic ability of the blues to turn sorrow into humour and joy, Willis is both electrifying and intimate live, moving effortlessly between driving, dance‑worthy rhythms and quieter, emotionally resonant moments. “Back in the day,” he says “there were thousands of popular blues dances that went with the music. I want to see that come back.” </p><p>- Shereen Samuels</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:25:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:25:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "175",
+        "showName": "Blues Travellers",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "170",
+        "showName": "World's in a Tangle",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "189",
+        "showName": "Borderless Ballads",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T14:20:00",
+        "endDateTime": "2026-07-26T15:05:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "396",
+        "showName": "Jontavious Willis",
+        "locationId": 3
+      }
+    ]
   },
   "joshua-burnside": {
     "artistId": 24,
@@ -597,7 +1647,60 @@
       "youtube": "https://www.youtube.com/c/JoshuaBurnside"
     },
     "bio": "<div class=\"wysiwyg\"><p>Belfast‑based singer‑songwriter Burnside’s music blurs the boundaries between traditional folk and modern experimentation. Drawing on Irish and Scottish folk, Americana and subtle electronic textures, his songs are rich with atmosphere, poetic detail and emotional depth. He  weaves banjo, guitar, found sounds and looping textures into music that captures ancient and strikingly contemporary vibes.</p><p>Burnside’s 2026 album <em>It’s Not Going to be Okay</em> represents an evolution in his style, as he grapples with loss and grief triggered by a friend’s untimely death in 2024. He underpins that heartfelt, vulnerable exploration with more spare and minimalist production. He says of the stripped-down sound; “Grief has always been a big part of my music; it’s the reason I started writing songs when I was 13. I didn’t want to rely on weird sounds or quirky production – I wanted the songs to stand on their own two feet, and the lyrics to be the focus.”</p><p>Live, his performances move fluidly between hushed intimacy and expansive, layered soundscapes, with a quiet intensity that pulls listeners in. This is folk music that feels handmade, restless and deeply alive, delivered with a presence that is as magnetic as it is understated.</p><p>- Shereen Samuels</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T17:00:00",
+        "endDateTime": "2026-07-24T17:50:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "17:00:00",
+        "endTime": "17:50:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "375",
+        "showName": "Joshua Burnside",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "171",
+        "showName": "Common Wealth",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T13:00:00",
+        "endDateTime": "2026-07-26T14:10:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:00:00",
+        "endTime": "14:10:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "185",
+        "showName": "Damn Straight!",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "189",
+        "showName": "Borderless Ballads",
+        "locationId": 2
+      }
+    ]
   },
   "julian-taylor": {
     "artistId": 25,
@@ -636,43 +1739,43 @@
         "locationId": 0
       },
       {
-        "startDateTime": "2026-07-24T17:30:00",
-        "endDateTime": "2026-07-24T18:20:00",
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "17:30:00",
-        "endTime": "18:20:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "342",
-        "showName": "Julian Taylor",
-        "locationId": 0
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "164",
+        "showName": "Riot and Revolution",
+        "locationId": 4
       },
       {
-        "startDateTime": "2026-07-25T17:30:00",
-        "endDateTime": "2026-07-25T18:20:00",
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "17:30:00",
-        "endTime": "18:20:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "342",
-        "showName": "Julian Taylor",
-        "locationId": 0
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "173",
+        "showName": "Indigenations",
+        "locationId": 3
       },
       {
-        "startDateTime": "2026-07-26T17:30:00",
-        "endDateTime": "2026-07-26T18:20:00",
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "17:30:00",
-        "endTime": "18:20:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "342",
-        "showName": "Julian Taylor",
-        "locationId": 0
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "189",
+        "showName": "Borderless Ballads",
+        "locationId": 2
       }
     ]
   },
@@ -698,7 +1801,60 @@
       "youtube": "https://www.youtube.com/channel/UCY6pduj8W-q1hAaLQLOYAIw"
     },
     "bio": "<div class=\"wysiwyg\"><p>She played her first song onstage at fabled Calgary venue The Ship &amp; Anchor at age 11. The pre-teenaged Kate Stevens was not only breezing down the path of her own career – she was lifting other rising stars as a Music Mile youth ambassador, all before she was old enough to perform in bars. Barely in her twenties, she won YYC Music awards for solo artist and R&amp;B artist of the year, later winning five more, and continued to champion Alberta artists on her former CKUA show Magnetic North, and now CKUA's The Upload.</p><p>She might seem like any other young woman playing an ordinary happy hour, until she opens her mouth and reveals songs of the universe, of ubiquitous heartbreak, heartmend, hopefulness and despair, bagging 50 years of living in a precise middle eight. Her voice was not made for jazz and soul – they were made for her voice, a voice sparkling like a jewel fallen from a pawned wedding ring, lying in a pebbled laneway, reflecting back the pageant of life in all its grit and glory.</p><p>- Mary-Lynn Wardle</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "161",
+        "showName": "The Golden Girls",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "169",
+        "showName": "Team Canada",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Concert",
+        "showId": "379",
+        "showName": "Kate Stevens",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:45:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:45:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "184",
+        "showName": "The Eh Team",
+        "locationId": 0
+      }
+    ]
   },
   "kazdoura": {
     "artistId": 27,
@@ -722,7 +1878,60 @@
       "youtube": "https://www.youtube.com/@kazdouramusic"
     },
     "bio": "<div class=\"wysiwyg\"><p>In Levantine Arabic, the word “kazdoura” means “to stroll.” Play a track by the duo of Leen Hama and John Abou Chacra and you’re likely to find your shoulders moving, hips shaking and toes tapping as you take a physical and spiritual stroll through tunes laden with a deep sense of rhythm and groove. Of Syrian and Lebanese heritage respectively, Hama and Chacra draw from their Middle Eastern roots to create a thoroughly modern Arab-Canadian sound.</p><p>2026 Juno Global Roots winners Kazdoura’s songs centre around Hama's soaring vocals, which drift through Chacra’s deft and danceable instrumentation. Together they create a spell of hypnotic psychedelic funkiness, pulling in saxophone, guitar, and plenty of beats with their band. There’s a looseness to the music that feels untethered to any one genre or tradition: while undeniably Arab in terms of language and culture, Kazdoura weaves in elements of funk, jazz, disco and electro-pop in a true act of musical fusion.</p><p>The combination has earned the duo accolades across the Arab diaspora and, of all places, on TikTok, proving Kazdoura’s infectious appeal is universal as they channel a rare chemistry that bridges continents and generations. Every Kazdoura song is an invitation to get up and move (or “stroll” as the case may be) through Hama and Chacra’s intoxicating world.</p><p>- Elizabeth Chorney-Booth</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T20:45:00",
+        "endDateTime": "2026-07-24T21:55:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "20:45:00",
+        "endTime": "21:55:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "402",
+        "showName": "Kazdoura",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "169",
+        "showName": "Team Canada",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "183",
+        "showName": "Cradles of Civilization",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "197",
+        "showName": "Seven Deadly Spins",
+        "locationId": 5
+      }
+    ]
   },
   "ken-pomeroy": {
     "artistId": 28,
@@ -746,7 +1955,47 @@
       "youtube": "https://www.youtube.com/@kenpomeroymusic"
     },
     "bio": "<div class=\"wysiwyg\"><p>“I guess a <em>Cruel Joke</em> is all we can afford” punctuates the first track of Ken Pomeroy’s 2025 release. It is but one example of a songwriter fluent in plain language breeding profound observation. Born a citizen of the Cherokee nation, she has emerged from Oklahoma with a smoky-soft voice that sounds like a soul trying to find its way in the fog. It is music for people who find “the midwest” to be more a feeling, less a destination.</p><p>Quiet. Intimate. Ken exhales wisdom that echoes someone who’s seen the end of the line but kept moving. Her songs can glance like a feather, but bruise like an iron fist. Sparse as sagebrush blowing across the plains, the music is a simmering stew of americana and indie-folk. The creative twists, like major-minor chord substitutions and sneaky instrumental flourishes, are inventive and captivating. Savour her arrival.</p><p>- Jay Nelson</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T15:00:00",
+        "endDateTime": "2026-07-25T16:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "180",
+        "showName": "Ms Americana",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "190",
+        "showName": "Little Talks",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "399",
+        "showName": "Ken Pomeroy",
+        "locationId": 4
+      }
+    ]
   },
   "killabeatmaker": {
     "artistId": 29,
@@ -785,43 +2034,30 @@
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-24T20:00:00",
-        "endDateTime": "2026-07-24T21:05:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
         "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "362",
-        "showName": "Killabeatmaker",
+        "type": "Session",
+        "showId": "163",
+        "showName": "Tech Giants",
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-25T20:00:00",
-        "endDateTime": "2026-07-25T21:05:00",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "362",
-        "showName": "Killabeatmaker",
-        "locationId": 4
-      },
-      {
-        "startDateTime": "2026-07-26T20:00:00",
-        "endDateTime": "2026-07-26T21:05:00",
+        "startDateTime": "2026-07-26T12:55:00",
+        "endDateTime": "2026-07-26T14:05:00",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "20:00:00",
-        "endTime": "21:05:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "362",
-        "showName": "Killabeatmaker",
-        "locationId": 4
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "197",
+        "showName": "Seven Deadly Spins",
+        "locationId": 5
       }
     ]
   },
@@ -847,7 +2083,21 @@
       "youtube": "https://www.youtube.com/channel/UC1wmIvzCvixVcJ1fooNM2xA"
     },
     "bio": "<div class=\"wysiwyg\"><p>Atlanta's favourite son Killer Mike is a distinct hip hop voice, advocate for political and social causes, an entrepreneur and occasional Bernie Sanders whisperer. He emerged in the aughts as a fiery maelstrom and polemicist comfortable with both dope-boy fantasies and bruising Black politics before becoming one-half of Run the Jewels alongside El-P in the early 2010s where he amplified his potent sociopolitical consciousness in a playful-but-confrontational manner. His first solo record since 2012’s R.A.P. Music, the Grammy-winning 2023 album <em>Michael</em>, closes the gap between Killer Mike the rapper and Michael Render the family man as an origin story that dignifies the average working-class Black man’s story in a complex portrait of Black southern masculinity. It highlights his incisive and compelling lyrics and maximalist impulses, enveloping his deep baritone with a cascade of gospel cries, florid old-soul samples and churchy organs from celebrity guests. A complex artist who revels in experimentation, in addition to his solo work and with Run the Jewels, he’s collaborated with Outkast, Jay-Z, Big Boi, T.I., Black Thought and more, acted in films Baby Driver, Idlewild and ATL, done TV cameos and voiceovers plus hosts series Love &amp; Respect with Killer Mike, Roll'N with Killer Mike, and Trigger Warning.</p><p>- Kerry Clarke</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-26T19:35:00",
+        "endDateTime": "2026-07-26T20:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "19:35:00",
+        "endTime": "20:50:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "358",
+        "showName": "Killer Mike & the Mighty Midnight Revival",
+        "locationId": 0
+      }
+    ]
   },
   "l-t-leif": {
     "artistId": 31,
@@ -871,7 +2121,60 @@
       "youtube": "https://www.youtube.com/watch?v=79Oj1Ut3r_A"
     },
     "bio": "<div class=\"wysiwyg\"><p>Originally from Calgary, musician, artist and community builder L.T. Leif has spent more than a decade living in far-flung lands: first Fin-, then Ice-, before eventually settling in Scot-. An open-hearted musical collaborator whose projects include beloved Calgary bands the Consonant C (with members of Hermitess and Raleigh, also appearing at this year’s festival), OK Jazz, Embassylights and Hex Ray to name a few, Leif has continued to collect co-conspirators in each of their new locales. More importantly though, the farther they’ve roamed the more room they’ve found to discover themself.</p><p>Ever inquisitive, Leif’s earlier songs described household pets, inanimate objects and cult TV shows with a profound mix of playfulness and empathy. Since leaving Calgary they’ve turned that eye inward, asking difficult questions and refusing to settle for simple answers. Their music has grown equally singular: rooted in folk, often built around hypnotic melodies played on their trusty ukulele, but fractured by strange textures and bursts of noise. Leif has always favoured the rough-hewn and handmade, and their music is the same: inviting, imaginative, but always wild at heart.</p><p>Whether performing alone or joined on stage by friends old and new, Leif’s Calgary homecoming will inevitably be another collaboration – with their fellow musicians, with an audience invited to look at themselves with the same unflinching honesty, and with the selves past and present that have brought them to this point.</p><p>- Peter Hemminger</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "162",
+        "showName": "A Murmur. A Sign.",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:45:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:45:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "184",
+        "showName": "The Eh Team",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T12:00:00",
+        "endDateTime": "2026-07-26T12:45:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:00:00",
+        "endTime": "12:45:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "390",
+        "showName": "L.T. Leif",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "201",
+        "showName": "Beyond the Consonant C",
+        "locationId": 6
+      }
+    ]
   },
   "lacey-hill": {
     "artistId": 32,
@@ -895,7 +2198,60 @@
       "youtube": "https://www.youtube.com/channel/UC-boGrYMnSspHEfjhc3gvwA"
     },
     "bio": "<div class=\"wysiwyg\"><p>Six Nations–born Oneida/Mohawk singer‑songwriter Hill’s music blends soul, folk, blues and R&amp;B into a sound she describes as Indigenous soul. Rooted in experience and guided by deep emotional honesty, her songs are reflective, warm, and spiritually resonant, carried by a powerful, expressive voice.</p><p>Hill paid her dues singing backup for local Six Nations bands, eventually evolving into writing her own songs centering connection, healing and storytelling, drawing listeners into an intimate and purposeful musical space. Hill is a multi-talented artist with fingers in a variety of pies – she played the lead in the NDNs on the Airwaves comedy web series in 2022, as a performer and contributor for the Truth and Illusion theatre project at Young Peoples Theatre that same year. She was also a keynote speaker on the topic of <em>Honouring Your Bundle</em>.</p><p>Hill offers a soulful experience driven by heartfelt vocals, rhythm-heavy arrangements and moments of quiet intensity that invite reflection as much as movement. LIve, she’s grounded and generous, creating a shared energy, connection and openness that leaves audiences feeling uplifted and deeply engaged.</p><p>- Shereen Samuels</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "181",
+        "showName": "Songs Sung True",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T12:30:00",
+        "endDateTime": "2026-07-25T13:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "388",
+        "showName": "Lacey Hill",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "188",
+        "showName": "Back to the Real Nitty Gritty",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "190",
+        "showName": "Little Talks",
+        "locationId": 3
+      }
+    ]
   },
   "lancelot-knight": {
     "artistId": 33,
@@ -919,7 +2275,60 @@
       "youtube": "https://www.youtube.com/@LancelotiKnight"
     },
     "bio": "<div class=\"wysiwyg\"><p>If you were to map Lancelot Knight onto a cultural grid, he’d exist at the edges. Artists spend careers trying to find their niche, while Knight seems more interested in the search. The son of Juno-winning singer-songwriter Chester Knight, Lancelot spent his youth ignoring the family business by way of a basketball court (he is 6’7”). Eventually, fate (or, more specifically, a debilitating hip condition) engineered a trade of athletic dreams for the life of a troubadour.</p><p>Whether fronting a rock band or performing solo, there is a theme of restlessness in his music. The sound is a collision of ’90s rock, folk, and the isolation of the Prairies. It is music that feels physically grounded yet spiritually uneven. His voice is burnished with a grit that sounds earned, not affected. Knight echoes the Saskatchewan landscape — harsh, beautiful, complex. He is part of modern Indigenous music that may eschew tradition, yet retains the power of the story. And, as it turns out, the guitar is a more effective tool for trying to comprehend this weird world than a basketball ever was.</p><p>- Jay Nelson</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "167",
+        "showName": "Controlled Burn",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "172",
+        "showName": "Riddim and Hard Times",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "186",
+        "showName": "Nation to Nation",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Concert",
+        "showId": "393",
+        "showName": "Lancelot Knight",
+        "locationId": 2
+      }
+    ]
   },
   "leaf-rapids": {
     "artistId": 34,
@@ -943,7 +2352,60 @@
       "youtube": "https://www.youtube.com/channel/UCFRvUD5lEh4mVZ1MNMrN8hg"
     },
     "bio": "<div class=\"wysiwyg\"><p>Leaf Rapids is both a small isolated town in Northern Manitoba where Aurora Borealis graffitis the winter skies and the borrowed moniker of this Winnipeg band featuring sweet and smoky harmonies, luscious guitar licks, the eerie sound of the theremin, and a bassline that walks the talk.</p><p>The collective are realists and dreamers: chemistry professors, dry-wallers, child rearers and custodians of the night. The matrimonial harmonies of Juno-winning lead songwriter Keri Latimer and her husband, bassist Devin Latimer, float lightly on the breeze, ably backed by veteran Winnipeg players drummer Joanna Miller drums and guitarist Chris Dunn. The music is built on Latimer's lilting vocals, dreamy harmonies and her lyrical balance of introspective-yet-quirky, slice-of-life perspective as a keen seer and interpreter of environments and people. Over a lush palette of roots music—ethereal folk, country saloon swagger, and spacey spaghetti western, their songs underscore a hopeful lyrical and melodic tone that's carefully balanced with the weary realities of our world. Latimer and her compadres croon about love as it applies to vultures, tales of Japanese mail-order bride barbershop revenge, satellites, birthday presents wrapped in obituaries, the natural world and bonds of love, insomniacs, velvet paintings and other not-so-tall tales.</p><p>- Mike Dunn/Kerry Clarke</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "163",
+        "showName": "Tech Giants",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T11:55:00",
+        "endDateTime": "2026-07-25T12:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "381",
+        "showName": "Leaf Rapids",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "199",
+        "showName": "United we Stand",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "200",
+        "showName": "The Harmony of Difference",
+        "locationId": 6
+      }
+    ]
   },
   "lola-kirk": {
     "artistId": 35,
@@ -967,7 +2429,47 @@
       "youtube": "https://www.youtube.com/@Ilovelolakirke"
     },
     "bio": "<div class=\"wysiwyg\"><p>If Lola Kirke’s face is familiar, it’s likely not just for her whimsical album covers and promo photos. Part of an artistic group of sisters that includes actor Jemima and singer Domino Kirke, she has appeared as an actor in a glut of TV shows and movies, including <em>Mozart in the Jungle</em> and <em>Sinners</em> (yes, that was her as the evil folk-singing vampire).</p><p>Despite Kirke’s on-screen success, her music does not fall into the Hollywood vanity project category — not by a long shot. Her first EP came out a decade ago, and since then she has been steadily gravitating towards country music. Despite being raised in the heart of New York City (she’s since moved to Nashville), torch and twang is a natural fit. The songs on her latest album <em>Trailblazer</em>, are remarkably vulnerable, delivered with soul and a honey sweet voice. The album was released around the same time as Kirke’s raw memoir <em>Wild West Village</em>, and the singer-songwriter/author was clearly in the mood to keep things real.</p><p>As heartfelt as Kirke’s songs are, they’re also a lot of fun and Kirke meets every heartbreaker with a sassy wink and a hook. Built on storytelling, swagger and equal parts dive bar confession and indie-rock catharsis, Kirke’s music gives a glimpse of an artist having a heck of a time exploring every facet of self-expression at her disposal.</p><p>- Elizabeth Chorney-Booth</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T19:30:00",
+        "endDateTime": "2026-07-25T20:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "19:30:00",
+        "endTime": "20:30:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "369",
+        "showName": "Lola Kirk",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T15:00:00",
+        "endDateTime": "2026-07-25T16:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "180",
+        "showName": "Ms Americana",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "195",
+        "showName": "Denim Dreams",
+        "locationId": 4
+      }
+    ]
   },
   "madalitso-band": {
     "artistId": 36,
@@ -991,7 +2493,60 @@
       "youtube": "https://www.youtube.com/watch?v=W4DVIpuIzIU&list=RDW4DVIpuIzIU&start_radio=1"
     },
     "bio": "<div class=\"wysiwyg\"><p>Back in 2002, 18 year-olds Yobu Maligwa and Yosefe Kalekeni met on the street in Malawi’s capital city Lilongwe. Yosefe was strumming a four-string homemade banjo (which many places call an acoustic guitar). They decided then and there to become a band. Kalekeni now plays an updated model of his homemade banjo, built around the body of a used acoustic guitar he was given and augmented, but its strings, as is Malawi tradition, are unraveled motorcycle brake cables. He sits on a drum he beats with his feet while strumming. Maligwa plays his homemade traditional one-stringed babatone, which serves as a bass guitar. Their songs are based on a mash-up of their two tribes' traditional music and delivered on home made instruments, are about love, praising god and everyday life advice-delivering fables. For a decade they paid their dues with relentless busking before being seen by a manager with a keen eye for talent that transcended street corners. With just a one-string bass, four-string guitar and a foot drum, they moved from that street corner to the Glastonbury Festival and fawning BBC coverage. And with music that is as uplifting, engaging and energetic as what Madalitso Band brings to the stage, their ascension is entirely deserved.</p><p>- Derek McEwen/Kerry Clarke</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "172",
+        "showName": "Riddim and Hard Times",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T14:20:00",
+        "endDateTime": "2026-07-25T15:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "382",
+        "showName": "Madalitso Band",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "174",
+        "showName": "Double Trouble",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "189",
+        "showName": "Borderless Ballads",
+        "locationId": 2
+      }
+    ]
   },
   "madison-cunningham": {
     "artistId": 37,
@@ -1015,7 +2570,34 @@
       "youtube": "https://www.youtube.com/madisoncunningham"
     },
     "bio": "<div class=\"wysiwyg\"><p>Absolute genius. Provocative? Maybe. Overstated? Unlikely. Madison Cunningham is such an obviously brilliant musical artist that it is difficult to think of peers who have similarly scaled the height of their talent at such a young age. Imagine frequently collaborating with Chris Thile and Andrew Bird and more than holding your own. Imagine releasing five records fawned over by the most jaded critics. Imagine doing this two years shy of 30!</p><p>Madison Cunningham is a force bridging the gap between technical virtuosity and sincere storytelling. She is an antidote to the theory that music must be dumbed down to find an audience. Her songwriting assumes listeners have an attention span, a daring choice in the age of click bait. While her approach is cerebral, it is also soulful. She is genuinely, undeniably herself — complicated, messy, beautiful, and entirely enchanting.</p><p>A Grammy winner (and frequent nominee), she has carved a lane where indie rock, folk, jazz and chamber pop collide. If you are looking for an artist who pushes the boundaries of “singer-songwriter” while keeping the music centre stage, do not miss her performance.</p><p>- Jay Nelson</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T21:00:00",
+        "endDateTime": "2026-07-25T22:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "21:00:00",
+        "endTime": "22:05:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "354",
+        "showName": "Madison Cunningham",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T15:00:00",
+        "endDateTime": "2026-07-25T16:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "180",
+        "showName": "Ms Americana",
+        "locationId": 5
+      }
+    ]
   },
   "mariel-buckley": {
     "artistId": 38,
@@ -1054,42 +2636,42 @@
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-24T17:45:00",
-        "endDateTime": "2026-07-24T18:35:00",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "360",
-        "showName": "Mariel Buckley",
-        "locationId": 4
-      },
-      {
-        "startDateTime": "2026-07-25T17:45:00",
-        "endDateTime": "2026-07-25T18:35:00",
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "360",
-        "showName": "Mariel Buckley",
-        "locationId": 4
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "182",
+        "showName": "Mars Bars",
+        "locationId": 6
       },
       {
-        "startDateTime": "2026-07-26T17:45:00",
-        "endDateTime": "2026-07-26T18:35:00",
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "17:45:00",
-        "endTime": "18:35:00",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "190",
+        "showName": "Little Talks",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
         "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "360",
-        "showName": "Mariel Buckley",
+        "type": "Session",
+        "showId": "195",
+        "showName": "Denim Dreams",
         "locationId": 4
       }
     ]
@@ -1116,7 +2698,21 @@
       "youtube": "https://www.youtube.com/martystuartofficial"
     },
     "bio": "<div class=\"wysiwyg\"><p>Seeing and hearing Marty Stuart is akin to visiting the Country Music Hall of Fame. From the fact that he owns (and tours with) some of the most iconic instruments of all time – Clarence White’s 1954 B-Bender Telecaster, Johnny Cash’s 1939 Martin D-45, a 1972 Gibson F5 mandolin mischievously etched with “JC” by Mr. Cash – to his absolute reverence for the sounds of the past, Stuart preaches the gospel of bluegrass and Bakersfield. A unique figure in today’s country music world, this rebel traditionalist pushes the envelope, but never loses sight of the rich cultural mix that surrounded him as an instrumental prodigy growing up in the South.</p><p>His band, The Fabulous Superlatives, are both fabulous and worthy of a scattershot round of the best superlatives. On guitar, “Cousin” Kenny Vaughan has recorded and toured with many of the best country (“alt” and otherwise) music artists of the last 40 years. “Handsome” Harry Stinson has laid down the backbeat and the tenor background vocals on Nashville hit after hit from the 1980s on (as well as being an early member of Steve Earle and The Dukes). Chris Scruggs is, well, a Scruggs (Grandpa is Earl) with enviable credits of his own. Sharp looks. Sharp licks. Sharp patter. Sharp as a tack!</p><p>Together, these fellows who have seen everything and can do anything so magically rip through rockabilly and surf-rock rave ups, swing country classics and lay down righteous gospel.</p><p>- Jay Nelson</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T22:20:00",
+        "endDateTime": "2026-07-25T23:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "22:20:00",
+        "endTime": "23:30:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "355",
+        "showName": "Marty Stuart and His Fabulous Superlatives",
+        "locationId": 0
+      }
+    ]
   },
   "martyn-joseph": {
     "artistId": 40,
@@ -1140,7 +2736,60 @@
       "youtube": "https://www.youtube.com/channel/UCCN62TmzsWjuMAI8qpPrbDw"
     },
     "bio": "<div class=\"wysiwyg\"><p>Martyn Joseph is equal parts socially conscious composer and up-close-and-personal singer-songwriter with more than 28 studio albums and 40 years as a travelling bard under his belt.  With such a long career, you wouldn’t blame Joseph if he left the road for some leisurely golfing (as a lad, he was a trophy winning talent on the links). But when you experience one of his mesmerizing shows you understand why he tossed aside his putter decades ago for a guitar and the songwriter’s life. </p><p>He has a never-ending passion and commitment to poetry and music with songs that strike the mood of the times, including his newest recording Troubled Horses, a stripped-down guitar and harmonica affair. Joseph laments the current state of America – “there’s no country to ‘want back’ if we’ve all come from elsewhere” – and his plea for the U.S. to come home “before everything gives way.” </p><p>On a more personal note, he philosophizes about life in his ’60s “it’s not so bad / I’ve got a heart full of gratitude / for all I have.” Joseph’s performances continue to be energetic, compelling and passionate and he packs them in during his frequent tours of North America, the U.K. and everywhere else. It’s a musical road he’s been travelling for most of his life, and as he tells his audience, “You keep turning up and so will I.“</p><p>- Eric Rosenbaum</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T16:30:00",
+        "endDateTime": "2026-07-24T17:30:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:30:00",
+        "endTime": "17:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "372",
+        "showName": "Martyn Joseph",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "181",
+        "showName": "Songs Sung True",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "182",
+        "showName": "Mars Bars",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T13:00:00",
+        "endDateTime": "2026-07-26T14:10:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:00:00",
+        "endTime": "14:10:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "185",
+        "showName": "Damn Straight!",
+        "locationId": 0
+      }
+    ]
   },
   "maruja-limon": {
     "artistId": 41,
@@ -1164,7 +2813,60 @@
       "youtube": "https://www.youtube.com/@MarujaLim%C3%B3n-l7i"
     },
     "bio": "<div class=\"wysiwyg\"><p>At the heart of this Barcelona‑based all‑female sextet’s music is a next-gen version of <em>rumba catalana</em>, an addictive flamenco, Afro-Cuban, traditional music and rock fusion born post WW2 in Romani communities and introduced to global audiences in the 1990s by The Gipsy Kings.</p><p>Maruja Limón honours a rich tradition while bringing the genre into the 21st century, pairing joyful rhythms and virtuosic musicianship with often sly, humorous lyrical observations that swing between emotion and irony, celebration and statement.</p><p>While the band has resisted telling audiences what the name means, “Maruja” is translated as an affectionate diminutive of Maria. So “Maruja Limón” can be understood as something like “zesty little Maria.” Zesty is probably an understatement. Six musicians, blazing vocals, driving percussion, trumpet and bass with flamenco guitar playfully thread it all together create irresistible grooves.</p><p>- Shereen Samuels</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "161",
+        "showName": "The Golden Girls",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "182",
+        "showName": "Mars Bars",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-25T15:05:00",
+        "endDateTime": "2026-07-25T15:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "389",
+        "showName": "Maruja Limón",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "198",
+        "showName": "She-it!",
+        "locationId": 5
+      }
+    ]
   },
   "mary-gauthier": {
     "artistId": 42,
@@ -1188,7 +2890,60 @@
       "youtube": "https://www.youtube.com/officialmarygauthier"
     },
     "bio": "<div class=\"wysiwyg\"><p>Mary Gauthier has earned widespread acclaim as one of North America’s most admired and influential singer-songwriters after picking up the torch passed to her by legendary friends and musical heroes. Gauthier’s early songs drew on experiences of adoption, addiction and recovery plus the challenge of growing up gay in Louisiana. She puts her empathy to good use as she embraces the stories of many marginalized people, evidenced by her Grammy-nominated 2018 album <em>Rifles and Rosary Beads</em>, a collection of songs Gauthier co-wrote with wounded Iraq war veterans. She chronicled her unorthodox career transition from the culinary arts to music in her 2021 book Saved by a Song where she describes the leap she made from chef to tunesmith, overcoming crippling stage fright superseded by her passion for songwriting. </p><p>Gauthier’s powerful songs such as <em>A Little Mercy Now </em>and <em>I Drink</em> attracted attention throughout the folk and Americana communities resulting in covers by artists Dolly Parton, Jimmy Buffett, Bettye Lavette and dozens more. Eleven albums later, Gauthier’s intense, heartfelt commitment to her vocation remains unabated. She explains, “Writing songs helps me sort out confusion, untangle powerful emotions, and ward off desperation. It helps me navigate the powerful emotional weather systems of life.”</p><p>- Eric Rosenbaum</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "171",
+        "showName": "Common Wealth",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "182",
+        "showName": "Mars Bars",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "187",
+        "showName": "Space and Rhyme",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Concert",
+        "showId": "394",
+        "showName": "Mary Gauthier",
+        "locationId": 2
+      }
+    ]
   },
   "the-mbira-renaissance-band": {
     "artistId": 43,
@@ -1212,7 +2967,47 @@
       "youtube": "https://www.youtube.com/@MbiraRenaissance "
     },
     "bio": "<div class=\"wysiwyg\"><p>The 1300-year-old mbira, or thumb piano – an ancient instrument of Zimbabwe origin – is at the heart of this enticing Albertan renaissance. Its sound, likely familiar to world music fans’ ears, is reborn through the band’s infectious polyrhythmic grooves, built from their diverse global roots. Leaders Chaka and Chiedza Zinyemba were born in Zimbabwe. Bassist James Stuart spent years travelling in Japan. Greek-decendant guitarist George Koufogiannakis and Tony Flanagan bring jazz chops.  Original member of famed Zimbabwean band Mokoomba, Donald Moyo, tinkles the keys. Rumbi Zinyemba and Holly Sangster add vocals and saxophone. The Zinyemba’s colourful, passionate dancing completes their magical world.</p><p>Together their upbeat, joyful multi-culti creations weave rootsy Southern African influences, jazz, reggae and Afro-pop. The lyrics (sung predominantly in the local Shona language) tell stories of love, migration, African–Canadian connections and a deep appreciation of culture and tradition. It’s a life-affirming celebration of cross-cultural mash-ups through a modest, ancient instrument’s powerful history. Zimbabwean greats Thomas Mapfumo, the Bhundu Boys, Andy Brown and Chiwoniso Maraire who inspired them would be proud.</p><p>- Kerry Clarke</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "170",
+        "showName": "World's in a Tangle",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "196",
+        "showName": "6th Heaven",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T11:55:00",
+        "endDateTime": "2026-07-26T12:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:55:00",
+        "endTime": "12:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "400",
+        "showName": "The Mbira Renaissance Band",
+        "locationId": 5
+      }
+    ]
   },
   "mexican-institute-of-sound-and-the-meridian-brothers-present-ruido-tovar": {
     "artistId": 44,
@@ -1260,7 +3055,47 @@
       "youtube": "https://www.youtube.com/@MikeStackMusic"
     },
     "bio": "<div class=\"wysiwyg\"><p>With the 2025 release of his third album, <em>Lucky Man</em>, singer-songwriter Mike Stack is back. The album’s title echoes how he feels about life and his return to music after a 17-year hiatus, before which Stack was a treasured musical staple around Alberta. His 2001 album <em>I Need Wheels</em> was in heavy rotation on CKUA and across North America, Japan and Europe, dominating critics’ yearly Top 10 lists while he performed folk fests, folk clubs and singer/songwriter sessions with local treasures.</p><p>Then fate struck in the form of surprise parenthood and family loss, which focused Stack’s energy elsewhere. Still, heartache feeds music, and songs piled up. He recorded in Nashville with long-time friend, producer Steve Dawson at the dials while John Prine’s bassist and Sheryl Crow’s keyboardist played along. The gratitude expressed by the album’s title is earned, born of the gift of his relationship with his now teenage daughter and his ability to land sunny-side up after the dark times in life. Both inform his music, which travels like the man himself, busted headlight or not, roving through stripped down tales, cajun dust, and the vagabond sunshine conjured by rockin’ and reelin’ fiddle and pedal steel. Yes, indeed, Stack is back.</p><p> -Mary-Lynn Wardle</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "181",
+        "showName": "Songs Sung True",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T13:00:00",
+        "endDateTime": "2026-07-26T14:10:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:00:00",
+        "endTime": "14:10:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "185",
+        "showName": "Damn Straight!",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T14:25:00",
+        "endDateTime": "2026-07-26T15:00:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "14:25:00",
+        "endTime": "15:00:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "391",
+        "showName": "Mike Stack",
+        "locationId": 0
+      }
+    ]
   },
   "mitsune": {
     "artistId": 46,
@@ -1284,7 +3119,60 @@
       "youtube": "https://www.youtube.com/Mitsune"
     },
     "bio": "<div class=\"wysiwyg\"><p>In the wrong hands, musical history can be a burden, weighing artists down with strict rules and lifeless restrictions. In the hands of Japanese folk fusion band (with members hailing from Japan, Australia, and Greece) Mitsune, those same traditions are a wellspring, refreshing the creative soil with a bubbling current of vitality.</p><p>Mitsune’s music is rooted in Tsugaru shamisen — the name of both a genre originally performed by blind wanderers and the three-stringed lute at its heart — and though they draw deep from the sounds of 19th century Japan, they never get drunk on tradition. Not to say they play things straight; you might wonder if your own drink has been spiked as they infuse psychedelia, jazz and global fusion over their more ancient sounds with gleeful abandon. Their stage show only adds to the intoxication, and with their flowing robes, face paint and neon colours Mitsune might look like they’ve emerged from another world, not just another time.</p><p>Whether updating century-old shamisen compositions or cutting loose with their own genre-fluid originals, there’s no doubt that Mitsune is bringing new life to old sounds. Equal parts folk revival, avant garde art, and punk-rock spectacle, their respectful irreverence makes them difficult to pin down— and even harder to resist.</p><p>- Peter Hemminger</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T18:15:00",
+        "endDateTime": "2026-07-24T19:05:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "18:15:00",
+        "endTime": "19:05:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "364",
+        "showName": "Mitsune",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:10:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "15:00:00",
+        "endTime": "16:10:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "163",
+        "showName": "Tech Giants",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T15:20:00",
+        "endDateTime": "2026-07-25T16:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "168",
+        "showName": "Fountain of Truth",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T13:25:00",
+        "endDateTime": "2026-07-25T14:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:25:00",
+        "endTime": "14:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "179",
+        "showName": "Heated Rivalry",
+        "locationId": 5
+      }
+    ]
   },
   "the-neighborhood-kids": {
     "artistId": 47,
@@ -1323,43 +3211,43 @@
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-24T21:25:00",
-        "endDateTime": "2026-07-24T22:30:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:15:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
-        "locationId": 4
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "165",
+        "showName": "Peace de Resistance",
+        "locationId": 5
       },
       {
-        "startDateTime": "2026-07-25T21:25:00",
-        "endDateTime": "2026-07-25T22:30:00",
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
         "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
+        "type": "Session",
+        "showId": "177",
+        "showName": "In a Deep Funk",
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-26T21:25:00",
-        "endDateTime": "2026-07-26T22:30:00",
-        "startDate": "2026-07-26",
-        "endDate": "2026-07-26",
-        "startTime": "21:25:00",
-        "endTime": "22:30:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "363",
-        "showName": "The Neighborhood Kids",
-        "locationId": 4
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "172",
+        "showName": "Riddim and Hard Times",
+        "locationId": 3
       }
     ]
   },
@@ -1398,45 +3286,6 @@
         "showId": "345",
         "showName": "Of Monsters and Men",
         "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-24T21:10:00",
-        "endDateTime": "2026-07-24T22:25:00",
-        "startDate": "2026-07-24",
-        "endDate": "2026-07-24",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "345",
-        "showName": "Of Monsters and Men",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-25T21:10:00",
-        "endDateTime": "2026-07-25T22:25:00",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "345",
-        "showName": "Of Monsters and Men",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-26T21:10:00",
-        "endDateTime": "2026-07-26T22:25:00",
-        "startDate": "2026-07-26",
-        "endDate": "2026-07-26",
-        "startTime": "21:10:00",
-        "endTime": "22:25:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "345",
-        "showName": "Of Monsters and Men",
-        "locationId": 0
       }
     ]
   },
@@ -1462,7 +3311,47 @@
       "youtube": "https://www.youtube.com/oracogan"
     },
     "bio": "<div class=\"wysiwyg\"><p>It’s fitting that Ora Cogan’s newest album, <em>Hard Hearted Woman</em>, would come out on Friday the 13th. Nanaimo-based, Gulf Islands born Cogan has always been attuned to BC’s “super natural” side. Her gothic-tinged approach to roots is drawn from landscapes of mist and mysticism, places where beauty and wildness are one and the same.</p><p>From the beginning, music has been as natural a part of Cogan’s surroundings as the waters around the islands. Her father a photojournalist and her mother a musician, Cogan’s childhood home doubled as a recording studio for the island’s artists and eccentrics. She began writing her own songs in her teens, and released her first album in 2007. But it was 2010’s <em>The Quarry</em> that set her on her current musical path, tapping into the darker, more psychedelic strains she’s explored ever since.</p><p><em>Hard Hearted Woman</em> is a refinement and culmination of that sound — but hard-hearted it is not. It is resilient and confident, but also tender and open, an ecosystem of old-growth emotions in a world at risk of clear-cutting. And Cogan’s voice is the wind in the woods, an invitation to remember a world where the forest and fairy tale coexist.</p><p>- Peter Hemminger</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "176",
+        "showName": "Canadian Tuxedo",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "190",
+        "showName": "Little Talks",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T12:30:00",
+        "endDateTime": "2026-07-26T13:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "12:30:00",
+        "endTime": "13:15:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "398",
+        "showName": "Ora Cogan",
+        "locationId": 4
+      }
+    ]
   },
   "the-pairs": {
     "artistId": 50,
@@ -1486,7 +3375,60 @@
       "youtube": "https://www.youtube.com/@ThePairsMusic"
     },
     "bio": "<div class=\"wysiwyg\"><p>While their name might suggest that The Pairs are made up of a couple of couples, the group is actually a trio. More accurately, a trio made up of a pair of twins and a pair of friendships. If that math doesn’t add up, all audiences need to know is that when these three voices join together, they sound like a single, perfectly attuned entity.</p><p>The Pairs are Renee and Noelle Frances Coughlin and their lifelong friend Hillary Watson, whom the twins grew up treating like a sister thanks to their respective parents’ close friendship. The bond between the three singers is uncanny: while each is a classically trained vocalist, the tightness of their three-part harmonies is something that only comes with an innate trust of each other. There’s a gentleness to The Pairs’ tender folk songs, buoyed by the collective power of their voices.</p><p>The harmonies on The Pairs’ fourth album, last year’s <em>Together on a Rock</em>, are like liquid honey, smooth and rich without even the hint of a bitter note. Their voices are so compelling and buttery it’s difficult to hear anything else, though at least one of them is typically playing acoustic guitar, strummed softly to keep those mellifluous voices at centre stage.</p><p> - Elizabeth Chorney-Booth</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "169",
+        "showName": "Team Canada",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T14:20:00",
+        "endDateTime": "2026-07-26T15:05:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "401",
+        "showName": "The Pairs",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "199",
+        "showName": "United we Stand",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "201",
+        "showName": "Beyond the Consonant C",
+        "locationId": 6
+      }
+    ]
   },
   "par-de-dos": {
     "artistId": 51,
@@ -1534,7 +3476,60 @@
       "youtube": "https://www.youtube.com/@liftedonerecords6840"
     },
     "bio": "<div class=\"wysiwyg\"><p>The Calgary hip-hop scene is often overlooked when the city’s musical landscape is talked about. Polo Sho is an example of an artist looking to break through that misguided vision. A performer who has been a staple in the scene, he’s gone from a regular at straight-up hip-hop nights to poetry slams and multi-genre showcases, to an engineer and producer with 3rd Verse, helping shape the sound of Calgary hip-hop into something specific. </p><p>A Nigerian-Canadian, his work with 3rd Verse is centrally diasporic, and their JollofNJam party is one of Calgary’s most slept-on regular music events. Ever the community-builder, Polo Sho is also the founder of LiftedOnes, a harder-edged collective of MCs infusing ’90s chopper and boom bap styles with darker and more mysterious beats.</p><p>As Polo Sho his performances are prettier, jazzier, and presented with a full band of some of Calgary’s stankiest groovers. His confidence is obvious in his production and delivery and is fuelled both by the chip on the collective YYC scene and the community he has built around him. A “local” artist right now, Polo Sho is looking at much bigger horizons.</p><p>- Liam Prost</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Horizon Heating Stage",
+        "type": "Session",
+        "showId": "167",
+        "showName": "Controlled Burn",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-25T10:30:00",
+        "endDateTime": "2026-07-25T11:40:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "172",
+        "showName": "Riddim and Hard Times",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "196",
+        "showName": "6th Heaven",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "392",
+        "showName": "Polo Sho",
+        "locationId": 0
+      }
+    ]
   },
   "raleigh": {
     "artistId": 53,
@@ -1558,7 +3553,60 @@
       "youtube": "https://www.youtube.com/watch?v=bJpn9YZrLl0"
     },
     "bio": "<div class=\"wysiwyg\"><p>Ever since Clea Anäis and Brock Geiger joined songwriting forces in 2010 to form Raleigh, they’ve been rewriting archetypes. Their latest album <em>Fate is Criminal </em>(2025) continues Raleigh’s propensity for breaking their own, and everyone else’s moulds. Splinters of alien transmissions reach out to deep sea creatures while a gentle guitar quietly acts as a tether for stream-of-consciousness images. The pendulum swings between icy, cold wave beats and ethereals that rise like helium through the fog of borrowed time. The whole album is sprinkled with beautiful, unexpected contradictions. With their decades of experience and abilities on full display, <em>Fate is Criminal</em> is a testament to Raleigh’s artistry and musicianship. Lithe voices absentmindedly and hauntingly sing of blood, fake love, fake news and dead air. A pounding sense of urgency is ever-so-finely balanced against the delicate “deep haze of the dream [that] brought your visage to me.” With collaborators Will Angus Maclellan and Nyles Spencer, Raleigh reached deep into the murk of their collective mind’s well to manifest a uniquely creative sonic treasure hunt that bears repeated listening. At times it's also groovy, melodic and soulful. It's as fun as it is dark, as warm and welcoming as the final stages of hypothermia: a perfect backdrop for the end of days. </p><p>- Chantal Vitalis</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T14:20:00",
+        "endDateTime": "2026-07-25T15:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "14:20:00",
+        "endTime": "15:05:00",
+        "location": "Horizon Heating Stage",
+        "type": "Concert",
+        "showId": "377",
+        "showName": "Raleigh",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "194",
+        "showName": "Can*ck as F*ck",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "199",
+        "showName": "United we Stand",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "201",
+        "showName": "Beyond the Consonant C",
+        "locationId": 6
+      }
+    ]
   },
   "ribbon-skirt": {
     "artistId": 54,
@@ -1582,7 +3630,60 @@
       "youtube": "https://www.youtube.com/channel/UCbCKpSRAQ3A-eHxK_rtfCzA"
     },
     "bio": "<div class=\"wysiwyg\"><p>A colourful, handmade ribbon skirt is a perfect cipher for the postcolonial condition of the urban Indigenous, as it’s an expression of strength, womanhood, resilience and remembrance. In the colonial era, European fabrics and designs began to be integrated, and now the ribbon skirt is a central cultural symbol of Indigenous and Metis people across Turtle Island, history and future.</p><p>You might remember their performance at Sled Island in 2022 as Love Language. Then a jangly indie garage outfit, the band formed as a quartet in Montreal during the pandemic. Now reformed as a duo of frontperson Tashiina Buswa and multi-instrumentalist Billy Riley, Ribbon Skirt has a more focused vision, and the music has become more solemn and intentional. Angling towards post-punk and progressive rock rhythmic and tonal choices, the shift in name echoes a narrowed seriousness in the music and the carried responsibility of signalling Indigenous cultural identity in the music and the responsibility that implies. Like the ribbon skirt itself, the music is a perfect expression of the balance between the past and present, between honouring and maintaining inherently valuable cultural tradition, and transgressing and evolving art and media. </p><p>Their 2025 Polaris Music Prize shortlisted album <em>Bite Down</em> was produced by Calgary’s Scott “Monty” Munro and Marlaena Moore and released on Vancouver’s tastemaker label Mint Records. </p><p>- Liam Prost</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T13:35:00",
+        "endDateTime": "2026-07-25T14:50:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "176",
+        "showName": "Canadian Tuxedo",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-25T11:00:00",
+        "endDateTime": "2026-07-25T12:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "181",
+        "showName": "Songs Sung True",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "199",
+        "showName": "United we Stand",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T15:05:00",
+        "endDateTime": "2026-07-26T15:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:05:00",
+        "endTime": "15:50:00",
+        "location": "BT's Stage 6",
+        "type": "Concert",
+        "showId": "404",
+        "showName": "Ribbon Skirt",
+        "locationId": 6
+      }
+    ]
   },
   "ruby-singh-and-the-future-ancestors": {
     "artistId": 55,
@@ -1621,43 +3722,43 @@
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-24T18:55:00",
-        "endDateTime": "2026-07-24T19:45:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:15:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
-        "locationId": 4
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "165",
+        "showName": "Peace de Resistance",
+        "locationId": 5
       },
       {
-        "startDateTime": "2026-07-25T18:55:00",
-        "endDateTime": "2026-07-25T19:45:00",
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
         "startDate": "2026-07-25",
         "endDate": "2026-07-25",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
         "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
+        "type": "Session",
+        "showId": "177",
+        "showName": "In a Deep Funk",
         "locationId": 4
       },
       {
-        "startDateTime": "2026-07-26T18:55:00",
-        "endDateTime": "2026-07-26T19:45:00",
+        "startDateTime": "2026-07-26T10:30:00",
+        "endDateTime": "2026-07-26T11:40:00",
         "startDate": "2026-07-26",
         "endDate": "2026-07-26",
-        "startTime": "18:55:00",
-        "endTime": "19:45:00",
-        "location": "National Stage 4",
-        "type": "Concert",
-        "showId": "361",
-        "showName": "Ruby Singh and the Future Ancestors",
-        "locationId": 4
+        "startTime": "10:30:00",
+        "endTime": "11:40:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "196",
+        "showName": "6th Heaven",
+        "locationId": 5
       }
     ]
   },
@@ -1683,7 +3784,47 @@
       "youtube": "https://www.youtube.com/@S.G.Goodman"
     },
     "bio": "<div class=\"wysiwyg\"><p>A voice and accent can help imbue authenticity to an artist who has some country in their vibe. While S.G. Goodman’s Kentucky cadence is clear as a bell throughout her three full-length releases, simply referring to what Goodman does as country would be selling her short. The hallmarks are all there — great songwriting, high and lonesome instrumentation — but Goodman’s voice is an interstellar, poetic instrument.</p><p> We were first introduced to that powerful voice with the subtle, indie folk, rural-rooted Jim James-produced 2020 debut LP, Old Time Feeling. Her sophomore record Teeth Marks reached further into the esoteric, with a wide sonic palette painting outside the lines of Goodman’s lived in tapestries of hard times lived through by good people. On her latest, 2025’s Planting By The Signs, Goodman pushes the beat forward with propellant rhythms before settling back into the depths of tribulation — of life and hope and love and death — until tying all of life’s messes together with a slow burning epic grandeur.</p><p> S.G. Goodman doesn’t just have the voice and the accent, she has the songwriting chops and the good taste to deliver the future of country music before everyone else finds out it’s arrived.</p><p> - Mike Dunn</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T17:30:00",
+        "endDateTime": "2026-07-25T18:20:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "17:30:00",
+        "endTime": "18:20:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "351",
+        "showName": "S.G. Goodman",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "187",
+        "showName": "Space and Rhyme",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T16:10:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "195",
+        "showName": "Denim Dreams",
+        "locationId": 4
+      }
+    ]
   },
   "sahra-halgan": {
     "artistId": 57,
@@ -1707,7 +3848,60 @@
       "youtube": "https://www.youtube.com/@SAHRA-HALGAN/featured"
     },
     "bio": "<div class=\"wysiwyg\"><p>Sahra Halgan is a Somaliland singer‑songwriter and cultural activist whose music fuses traditional Somali songs with the raw energy of rock, blues, and desert rhythms. Born in Hargeisa, she first sang publicly during the civil war in Somalia while working as a nurse, using music as a form of resilience and resistance. After the war ended in 1991, she moved to France, taking work as a cleaner while raising five children. It was while learning French in Lyon that a social worker recognized the symptoms of PTSD. Through workshops to deal with this condition, Halgan came in contact with musicians and began singing again leading to her 2009 debut, <em>Somaliland</em>, named for her home country which is still largely unrecognized by the international community since declaring independence at the end of the war. </p><p>Now an internationally acclaimed artist, Halgan’s work is rooted in Somali poetry and melody, delivered through a powerful voice marked by deep vibrato and emotional intensity. Her songs speak to themes of dignity, identity, love, and political struggle, reflecting both personal history and collective memory. Live, Halgan is commanding and electrifying. Backed by a tight band, her performances blend driving garage‑rock grooves with hypnotic East African rhythms. Expect a set that is defiant and celebratory – music that invites movement while carrying profound emotional weight.</p><p>- Shereen Samuels</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T12:55:00",
+        "endDateTime": "2026-07-25T14:05:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "12:55:00",
+        "endTime": "14:05:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "173",
+        "showName": "Indigenations",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "183",
+        "showName": "Cradles of Civilization",
+        "locationId": 6
+      },
+      {
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Concert",
+        "showId": "366",
+        "showName": "Sahra Halgan",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "188",
+        "showName": "Back to the Real Nitty Gritty",
+        "locationId": 2
+      }
+    ]
   },
   "sam-amidon": {
     "artistId": 58,
@@ -1731,7 +3925,47 @@
       "youtube": "https://www.youtube.com/channel/UCIT3HewSrAOSaas8cmyksUg"
     },
     "bio": "<div class=\"wysiwyg\"><p>Sam Amidon is contemporary folk music’s most knowing interpreter. Assembling field recordings, ancient poetry, oral and instrumental tradition and hymns, his music spans an entire ethos of folk tradition. He grew up in Brattleboro, VT performing traditional Irish music in a family band on his first instrument, the fiddle. He then set his sights on indie rock in the early 2000s, performing and recording in the improvisational free jazz band Stars Like Fleas and supporting singer-songwriter Thomas Bartlett (The Gloaming) on his solo project Doveman. After releasing the defiantly traditional <em>Solo Fiddle</em> (2001), he recorded the immaculately titled <em>But This Chicken Proved Falsehood</em> (2007), Amidon’s first of many full-length collections of folk reworks adorned by his singularly disaffected voice. In a career-spanning collaboration with composer and arranger Nico Muhly, his works have gone from the sparest of arrangements to hall-filling orchestral motifs, but they are often best experienced live and solo, or with a soft percussion.</p><p>Amidon’s songs are beautiful, enigmatic, sometimes repetitive, sometimes archetypal, and occasionally esoteric. His interpretations have such gravitas that he has occasionally been asked to interpret his peers, including folk experimentalist Bon Iver. His recordings also sometimes contain reworkings of more newer works, including Yoko Ono and Lou Reed on his latest <em>Salt River</em>. </p><p>Amidon is careful not to make his devout reverence for the history of folk and traditional music into a gimmick. Rather, his is a stone in the river of a rich tradition that arrived far earlier, and will continue far after, but is ever so slightly moved and carried forward.</p><p>- Liam Prost</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T16:10:00",
+        "endDateTime": "2026-07-25T17:30:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "16:10:00",
+        "endTime": "17:30:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "171",
+        "showName": "Common Wealth",
+        "locationId": 2
+      },
+      {
+        "startDateTime": "2026-07-26T16:45:00",
+        "endDateTime": "2026-07-26T17:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "16:45:00",
+        "endTime": "17:30:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Concert",
+        "showId": "397",
+        "showName": "Sam Amidon",
+        "locationId": 3
+      },
+      {
+        "startDateTime": "2026-07-26T13:35:00",
+        "endDateTime": "2026-07-26T14:50:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "13:35:00",
+        "endTime": "14:50:00",
+        "location": "BT's Stage 6",
+        "type": "Session",
+        "showId": "200",
+        "showName": "The Harmony of Difference",
+        "locationId": 6
+      }
+    ]
   },
   "shellie-morris-and-kutcha-edwards": {
     "artistId": 59,
@@ -1803,7 +4037,34 @@
       "youtube": "https://www.youtube.com/channel/UC1Qq0TRax_pgbnunNdQ_BpQ"
     },
     "bio": "<div class=\"wysiwyg\"><p>Fundamentally, SYML is a singer-songwriter project from Seattle’s Brian Leseney Fennell, a piano and a toque that doesn’t quite cover his ears. His career began as a frontman for an emotive indie-rock band named after the city of love, Barcelona, and performing low-tempo songs about loving and leaving. Going solo, the effect is similar, but focused, softening the rhythms and clearing out the high frequencies for warm instrumental beds to centre the clear expressions of complex emotions.</p><p> SYML means ‘simple’ in Welsh, an ode to his biological parentage and also a near-perfect descriptor for his sensibility – clean, evocative and easy to understand – without feeling entirely familiar. With softly strummed guitars, warm wavering synths, distant percussion and Fennell’s handsome voice, often dipping into a confident falsetto, SYML is for finer feelings with fewer frills. In soft arpeggios into scintillating swells, he brings clarity and texture into emotions you didn’t know were so familiar.</p><p> A classically-trained pianist, his piano compositions are perhaps nearly as ubiquitous as his yearning pop songs. The wistful “I Wanted to Leave,” in particular, becomes the central musical motif behind the sultry voice of Lana Del Ray on her “Paris, Texas.”</p><p> A soloist at the core, SYML is a consummate collaborator and his songs stay alive through iteration in an entirely contemporary way. Perhaps his most ubiquitous song is “Where’s My Love,” a mysterious and beautiful plea to an absent lover, made only more magical with the vocal consummation of Carla Morrison.</p><p> Make way for warm waves of fleeting feelings, a perfect catharsis for a Fest well folked.</p><p> - Liam Prost</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T19:40:00",
+        "endDateTime": "2026-07-24T20:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "19:40:00",
+        "endTime": "20:40:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "348",
+        "showName": "SYML",
+        "locationId": 0
+      },
+      {
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "Friends of the Festival Stage 3",
+        "type": "Session",
+        "showId": "162",
+        "showName": "A Murmur. A Sign.",
+        "locationId": 3
+      }
+    ]
   },
   "thundercat": {
     "artistId": 62,
@@ -1827,7 +4088,21 @@
       "youtube": "https://www.youtube.com/channel/UCQB4-ZjPDfiG1-k0KZlbPug"
     },
     "bio": "<div class=\"wysiwyg\"><p>Easily one of the 21st century’s most acclaimed musicians, Los Angeles bass virtuoso Thundercat (Steven Bruner) has blazed an iconoclastic musical path through his Grammy-winning albums and collaborations. Raised in a musical household by his father, drummer Ronald Bruner Sr. (The Temptations, The Supremes, Gladys Knight), and his mother Pam Bruner, a flautist and percussionist, Thundercat  joined LA skate-thrash legends Suicidal Tendencies at 16, and later found live work with Erykah Badu, Raphael Saadiq and Snoop Dogg.</p><p>During this time, Thundercat began collaborating with Flying Lotus, which led him to begin singing and making his own records. He released his debut, <em>The Golden Age of Apocalypse</em> in 2011, and quickly followed up that effort with 2013’s <em>Apocalypse</em>. Thundercat won a Grammy for his collaboration with Kendrick Lamar on “These Walls” and another for his fourth LP <em>It Is What It Is</em>. His latest, <em>Distracted,</em> features collaborations with Tame Impala, Lil Yachty, A$AP Rocky, and a posthumous production with his longtime collaborator and dear friend Mac Miller.</p><p>If it were just about production, collaboration and accolades, Thundercat would stand as one of the greatest musicians of our era, but that would be understating his stylistic adventurism through an esoteric meld of jazz, funk, hip hop, soul and electronic music delivered with prodigious wizardry and the booty busting bottom end that’s established Thundercat as a living legend in our time.</p><p> - Mike Dunn</p><br/></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-24T22:15:00",
+        "endDateTime": "2026-07-24T23:30:00",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "22:15:00",
+        "endTime": "23:30:00",
+        "location": "ATB Main Stage",
+        "type": "Concert",
+        "showId": "350",
+        "showName": "Thundercat",
+        "locationId": 0
+      }
+    ]
   },
   "tiken-jah-fakoly": {
     "artistId": 63,
@@ -1866,43 +4141,17 @@
         "locationId": 0
       },
       {
-        "startDateTime": "2026-07-24T18:35:00",
-        "endDateTime": "2026-07-24T19:30:00",
+        "startDateTime": "2026-07-24T15:00:00",
+        "endDateTime": "2026-07-24T16:15:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "18:35:00",
-        "endTime": "19:30:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-25T18:35:00",
-        "endDateTime": "2026-07-25T19:30:00",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "startTime": "18:35:00",
-        "endTime": "19:30:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-26T18:35:00",
-        "endDateTime": "2026-07-26T19:30:00",
-        "startDate": "2026-07-26",
-        "endDate": "2026-07-26",
-        "startTime": "18:35:00",
-        "endTime": "19:30:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "343",
-        "showName": "Tiken Jah Fakoly",
-        "locationId": 0
+        "startTime": "15:00:00",
+        "endTime": "16:15:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "165",
+        "showName": "Peace de Resistance",
+        "locationId": 5
       }
     ]
   },
@@ -1967,43 +4216,17 @@
         "locationId": 0
       },
       {
-        "startDateTime": "2026-07-24T19:45:00",
-        "endDateTime": "2026-07-24T20:55:00",
+        "startDateTime": "2026-07-24T16:25:00",
+        "endDateTime": "2026-07-24T17:40:00",
         "startDate": "2026-07-24",
         "endDate": "2026-07-24",
-        "startTime": "19:45:00",
-        "endTime": "20:55:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "344",
-        "showName": "Valerie June",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-25T19:45:00",
-        "endDateTime": "2026-07-25T20:55:00",
-        "startDate": "2026-07-25",
-        "endDate": "2026-07-25",
-        "startTime": "19:45:00",
-        "endTime": "20:55:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "344",
-        "showName": "Valerie June",
-        "locationId": 0
-      },
-      {
-        "startDateTime": "2026-07-26T19:45:00",
-        "endDateTime": "2026-07-26T20:55:00",
-        "startDate": "2026-07-26",
-        "endDate": "2026-07-26",
-        "startTime": "19:45:00",
-        "endTime": "20:55:00",
-        "location": "ATB Main Stage",
-        "type": "Concert",
-        "showId": "344",
-        "showName": "Valerie June",
-        "locationId": 0
+        "startTime": "16:25:00",
+        "endTime": "17:40:00",
+        "location": "National Stage 4",
+        "type": "Session",
+        "showId": "164",
+        "showName": "Riot and Revolution",
+        "locationId": 4
       }
     ]
   },
@@ -2029,6 +4252,46 @@
       "youtube": "https://www.youtube.com/@yagodyofficial"
     },
     "bio": "<div class=\"wysiwyg\"><p>If there’s a dramatic intensity to the folk music that Yagody performs, part of that is owing to the fact Zoriana Dybovska launched this female vocal quartet’s members with colleagues from a theatre school in Lviv, in western Ukraine. But the rest of that dramatic heft they give their music stems from the hard reality that’s befallen their country during four years of Russian war and brutality. It’s not only vital to revive, celebrate and share Ukrainian traditional song, but also wield its very existence as a way to resist the invaders’ attempts to deny and blot out that cultural identity.</p><p>Accordion, drums, guitar and<em> tsymbaly </em>(dulcimer) drive this ensemble’s music, but the four vocalists lift it skyward. While they mostly explore traditional music – “the songs of wild tribes, the voice of your ancestors,” they like to say — their song “Tsunamia” was their beleaguered nation’s powerful entry to the 2024 Eurovision song contest. Like much of what they do, it was a crashing wave that hit hard, urgent and proud. There are few more powerful and beautiful ways to proclaim Slava Ukraini! than theirs. </p><p>- Jason Markusoff</p></div>",
-    "shows": []
+    "shows": [
+      {
+        "startDateTime": "2026-07-25T18:15:00",
+        "endDateTime": "2026-07-25T19:15:00",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "18:15:00",
+        "endTime": "19:15:00",
+        "location": "National Stage 4",
+        "type": "Concert",
+        "showId": "368",
+        "showName": "YAGODY",
+        "locationId": 4
+      },
+      {
+        "startDateTime": "2026-07-26T15:20:00",
+        "endDateTime": "2026-07-26T16:30:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "15:20:00",
+        "endTime": "16:30:00",
+        "location": "Community Natural Foods Stage 5",
+        "type": "Session",
+        "showId": "198",
+        "showName": "She-it!",
+        "locationId": 5
+      },
+      {
+        "startDateTime": "2026-07-26T11:00:00",
+        "endDateTime": "2026-07-26T12:15:00",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "11:00:00",
+        "endTime": "12:15:00",
+        "location": "CKUA Stage 2",
+        "type": "Session",
+        "showId": "187",
+        "showName": "Space and Rhyme",
+        "locationId": 2
+      }
+    ]
   }
 }
