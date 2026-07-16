@@ -1,0 +1,50 @@
+{
+    "0": {
+        "locationId": 0,
+        "name": "ATB Main Stage",
+        "altName": "",
+        "shortDesc": ""
+    },
+    "1": {
+        "locationId": 1,
+        "name": "Horizon Heating Stage 1",
+        "altName": "",
+        "shortDesc": "Free. Outside the festival gates by the bike lockup"
+    },
+    "2": {
+        "locationId": 2,
+        "name": "CKUA Stage 2",
+        "altName": "",
+        "shortDesc": "By the crafts"
+    },
+    "3": {
+        "locationId": 3,
+        "name": "Friends of the Festival Stage 3",
+        "altName": "",
+        "shortDesc": "Beer gardens"
+    },
+    "4": {
+        "locationId": 4,
+        "name": "National Stage 4",
+        "altName": "",
+        "shortDesc": "Big alt-main stage by main gates"
+    },
+    "5": {
+        "locationId": 5,
+        "name": "RSG Telecom Stage 5",
+        "altName": "",
+        "shortDesc": "Shady-ish hill"
+    },
+    "6": {
+        "locationId": 6,
+        "name": "Community Natural Foods Stage 6",
+        "altName": "",
+        "shortDesc": "Covered tent"
+    },
+    "7": {
+        "locationId": 7,
+        "name": "Altitude Communications Talk Tent",
+        "altName": "",
+        "shortDesc": "Kids tent"
+    }
+}

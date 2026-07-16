@@ -1,0 +1,762 @@
+{
+  "2026-07-23": {
+    "date": "Thu, Jul 23 2026",
+    "gate_open_time": "",
+    "schedule": {
+      "342": {
+        "showId": "342",
+        "showName": "Julian Taylor",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "17:30:00",
+        "endTime": "18:20:00",
+        "startDateTime": "2026-07-23T17:30:00",
+        "endDateTime": "2026-07-23T18:20:00",
+        "tags": [
+          "Julian Taylor"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          }
+        }
+      },
+      "343": {
+        "showId": "343",
+        "showName": "Tiken Jah Fakoly",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "18:35:00",
+        "endTime": "19:30:00",
+        "startDateTime": "2026-07-23T18:35:00",
+        "endDateTime": "2026-07-23T19:30:00",
+        "tags": [
+          "Tiken Jah Fakoly"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "tiken-jah-fakoly": {
+            "slug": "tiken-jah-fakoly",
+            "name": "Tiken Jah Fakoly"
+          }
+        }
+      },
+      "344": {
+        "showId": "344",
+        "showName": "Valerie June",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "19:45:00",
+        "endTime": "20:55:00",
+        "startDateTime": "2026-07-23T19:45:00",
+        "endDateTime": "2026-07-23T20:55:00",
+        "tags": [
+          "Valerie June"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "valerie-june": {
+            "slug": "valerie-june",
+            "name": "Valerie June"
+          }
+        }
+      },
+      "345": {
+        "showId": "345",
+        "showName": "Of Monsters and Men",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "21:10:00",
+        "endTime": "22:25:00",
+        "startDateTime": "2026-07-23T21:10:00",
+        "endDateTime": "2026-07-23T22:25:00",
+        "tags": [
+          "Of Monsters and Men"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "of-monsters-and-men": {
+            "slug": "of-monsters-and-men",
+            "name": "Of Monsters and Men"
+          }
+        }
+      },
+      "360": {
+        "showId": "360",
+        "showName": "Mariel Buckley",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "17:45:00",
+        "endTime": "18:35:00",
+        "startDateTime": "2026-07-23T17:45:00",
+        "endDateTime": "2026-07-23T18:35:00",
+        "tags": [
+          "Mariel Buckley"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          }
+        }
+      },
+      "361": {
+        "showId": "361",
+        "showName": "Ruby Singh and the Future Ancestors",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "18:55:00",
+        "endTime": "19:45:00",
+        "startDateTime": "2026-07-23T18:55:00",
+        "endDateTime": "2026-07-23T19:45:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          }
+        }
+      },
+      "362": {
+        "showId": "362",
+        "showName": "Killabeatmaker",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "20:00:00",
+        "endTime": "21:05:00",
+        "startDateTime": "2026-07-23T20:00:00",
+        "endDateTime": "2026-07-23T21:05:00",
+        "tags": [
+          "Killabeatmaker"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          }
+        }
+      },
+      "363": {
+        "showId": "363",
+        "showName": "The Neighborhood Kids",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-23",
+        "startTime": "21:25:00",
+        "endTime": "22:30:00",
+        "startDateTime": "2026-07-23T21:25:00",
+        "endDateTime": "2026-07-23T22:30:00",
+        "tags": [
+          "The Neighborhood Kids"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          }
+        }
+      }
+    }
+  },
+  "2026-07-24": {
+    "date": "Fri, Jul 24 2026",
+    "gate_open_time": "",
+    "schedule": {
+      "342": {
+        "showId": "342",
+        "showName": "Julian Taylor",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "17:30:00",
+        "endTime": "18:20:00",
+        "startDateTime": "2026-07-24T17:30:00",
+        "endDateTime": "2026-07-24T18:20:00",
+        "tags": [
+          "Julian Taylor"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          }
+        }
+      },
+      "343": {
+        "showId": "343",
+        "showName": "Tiken Jah Fakoly",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "18:35:00",
+        "endTime": "19:30:00",
+        "startDateTime": "2026-07-24T18:35:00",
+        "endDateTime": "2026-07-24T19:30:00",
+        "tags": [
+          "Tiken Jah Fakoly"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "tiken-jah-fakoly": {
+            "slug": "tiken-jah-fakoly",
+            "name": "Tiken Jah Fakoly"
+          }
+        }
+      },
+      "344": {
+        "showId": "344",
+        "showName": "Valerie June",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "19:45:00",
+        "endTime": "20:55:00",
+        "startDateTime": "2026-07-24T19:45:00",
+        "endDateTime": "2026-07-24T20:55:00",
+        "tags": [
+          "Valerie June"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "valerie-june": {
+            "slug": "valerie-june",
+            "name": "Valerie June"
+          }
+        }
+      },
+      "345": {
+        "showId": "345",
+        "showName": "Of Monsters and Men",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "21:10:00",
+        "endTime": "22:25:00",
+        "startDateTime": "2026-07-24T21:10:00",
+        "endDateTime": "2026-07-24T22:25:00",
+        "tags": [
+          "Of Monsters and Men"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "of-monsters-and-men": {
+            "slug": "of-monsters-and-men",
+            "name": "Of Monsters and Men"
+          }
+        }
+      },
+      "360": {
+        "showId": "360",
+        "showName": "Mariel Buckley",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "17:45:00",
+        "endTime": "18:35:00",
+        "startDateTime": "2026-07-24T17:45:00",
+        "endDateTime": "2026-07-24T18:35:00",
+        "tags": [
+          "Mariel Buckley"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          }
+        }
+      },
+      "361": {
+        "showId": "361",
+        "showName": "Ruby Singh and the Future Ancestors",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "18:55:00",
+        "endTime": "19:45:00",
+        "startDateTime": "2026-07-24T18:55:00",
+        "endDateTime": "2026-07-24T19:45:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          }
+        }
+      },
+      "362": {
+        "showId": "362",
+        "showName": "Killabeatmaker",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "20:00:00",
+        "endTime": "21:05:00",
+        "startDateTime": "2026-07-24T20:00:00",
+        "endDateTime": "2026-07-24T21:05:00",
+        "tags": [
+          "Killabeatmaker"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          }
+        }
+      },
+      "363": {
+        "showId": "363",
+        "showName": "The Neighborhood Kids",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-24",
+        "startTime": "21:25:00",
+        "endTime": "22:30:00",
+        "startDateTime": "2026-07-24T21:25:00",
+        "endDateTime": "2026-07-24T22:30:00",
+        "tags": [
+          "The Neighborhood Kids"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          }
+        }
+      }
+    }
+  },
+  "2026-07-25": {
+    "date": "Sat, Jul 25 2026",
+    "gate_open_time": "",
+    "schedule": {
+      "342": {
+        "showId": "342",
+        "showName": "Julian Taylor",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "17:30:00",
+        "endTime": "18:20:00",
+        "startDateTime": "2026-07-25T17:30:00",
+        "endDateTime": "2026-07-25T18:20:00",
+        "tags": [
+          "Julian Taylor"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          }
+        }
+      },
+      "343": {
+        "showId": "343",
+        "showName": "Tiken Jah Fakoly",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "18:35:00",
+        "endTime": "19:30:00",
+        "startDateTime": "2026-07-25T18:35:00",
+        "endDateTime": "2026-07-25T19:30:00",
+        "tags": [
+          "Tiken Jah Fakoly"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "tiken-jah-fakoly": {
+            "slug": "tiken-jah-fakoly",
+            "name": "Tiken Jah Fakoly"
+          }
+        }
+      },
+      "344": {
+        "showId": "344",
+        "showName": "Valerie June",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "19:45:00",
+        "endTime": "20:55:00",
+        "startDateTime": "2026-07-25T19:45:00",
+        "endDateTime": "2026-07-25T20:55:00",
+        "tags": [
+          "Valerie June"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "valerie-june": {
+            "slug": "valerie-june",
+            "name": "Valerie June"
+          }
+        }
+      },
+      "345": {
+        "showId": "345",
+        "showName": "Of Monsters and Men",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "21:10:00",
+        "endTime": "22:25:00",
+        "startDateTime": "2026-07-25T21:10:00",
+        "endDateTime": "2026-07-25T22:25:00",
+        "tags": [
+          "Of Monsters and Men"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "of-monsters-and-men": {
+            "slug": "of-monsters-and-men",
+            "name": "Of Monsters and Men"
+          }
+        }
+      },
+      "360": {
+        "showId": "360",
+        "showName": "Mariel Buckley",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "17:45:00",
+        "endTime": "18:35:00",
+        "startDateTime": "2026-07-25T17:45:00",
+        "endDateTime": "2026-07-25T18:35:00",
+        "tags": [
+          "Mariel Buckley"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          }
+        }
+      },
+      "361": {
+        "showId": "361",
+        "showName": "Ruby Singh and the Future Ancestors",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "18:55:00",
+        "endTime": "19:45:00",
+        "startDateTime": "2026-07-25T18:55:00",
+        "endDateTime": "2026-07-25T19:45:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          }
+        }
+      },
+      "362": {
+        "showId": "362",
+        "showName": "Killabeatmaker",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "20:00:00",
+        "endTime": "21:05:00",
+        "startDateTime": "2026-07-25T20:00:00",
+        "endDateTime": "2026-07-25T21:05:00",
+        "tags": [
+          "Killabeatmaker"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          }
+        }
+      },
+      "363": {
+        "showId": "363",
+        "showName": "The Neighborhood Kids",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-25",
+        "startTime": "21:25:00",
+        "endTime": "22:30:00",
+        "startDateTime": "2026-07-25T21:25:00",
+        "endDateTime": "2026-07-25T22:30:00",
+        "tags": [
+          "The Neighborhood Kids"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          }
+        }
+      }
+    }
+  },
+  "2026-07-26": {
+    "date": "Sun, Jul 26 2026",
+    "gate_open_time": "",
+    "schedule": {
+      "342": {
+        "showId": "342",
+        "showName": "Julian Taylor",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "17:30:00",
+        "endTime": "18:20:00",
+        "startDateTime": "2026-07-26T17:30:00",
+        "endDateTime": "2026-07-26T18:20:00",
+        "tags": [
+          "Julian Taylor"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "julian-taylor": {
+            "slug": "julian-taylor",
+            "name": "Julian Taylor"
+          }
+        }
+      },
+      "343": {
+        "showId": "343",
+        "showName": "Tiken Jah Fakoly",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "18:35:00",
+        "endTime": "19:30:00",
+        "startDateTime": "2026-07-26T18:35:00",
+        "endDateTime": "2026-07-26T19:30:00",
+        "tags": [
+          "Tiken Jah Fakoly"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "tiken-jah-fakoly": {
+            "slug": "tiken-jah-fakoly",
+            "name": "Tiken Jah Fakoly"
+          }
+        }
+      },
+      "344": {
+        "showId": "344",
+        "showName": "Valerie June",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "19:45:00",
+        "endTime": "20:55:00",
+        "startDateTime": "2026-07-26T19:45:00",
+        "endDateTime": "2026-07-26T20:55:00",
+        "tags": [
+          "Valerie June"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "valerie-june": {
+            "slug": "valerie-june",
+            "name": "Valerie June"
+          }
+        }
+      },
+      "345": {
+        "showId": "345",
+        "showName": "Of Monsters and Men",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "21:10:00",
+        "endTime": "22:25:00",
+        "startDateTime": "2026-07-26T21:10:00",
+        "endDateTime": "2026-07-26T22:25:00",
+        "tags": [
+          "Of Monsters and Men"
+        ],
+        "location": "ATB Main Stage",
+        "locationId": 0,
+        "slugs": {
+          "of-monsters-and-men": {
+            "slug": "of-monsters-and-men",
+            "name": "Of Monsters and Men"
+          }
+        }
+      },
+      "360": {
+        "showId": "360",
+        "showName": "Mariel Buckley",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "17:45:00",
+        "endTime": "18:35:00",
+        "startDateTime": "2026-07-26T17:45:00",
+        "endDateTime": "2026-07-26T18:35:00",
+        "tags": [
+          "Mariel Buckley"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "mariel-buckley": {
+            "slug": "mariel-buckley",
+            "name": "Mariel Buckley"
+          }
+        }
+      },
+      "361": {
+        "showId": "361",
+        "showName": "Ruby Singh and the Future Ancestors",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "18:55:00",
+        "endTime": "19:45:00",
+        "startDateTime": "2026-07-26T18:55:00",
+        "endDateTime": "2026-07-26T19:45:00",
+        "tags": [
+          "Ruby Singh and the Future Ancestors"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "ruby-singh-and-the-future-ancestors": {
+            "slug": "ruby-singh-and-the-future-ancestors",
+            "name": "Ruby Singh and the Future Ancestors"
+          }
+        }
+      },
+      "362": {
+        "showId": "362",
+        "showName": "Killabeatmaker",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "20:00:00",
+        "endTime": "21:05:00",
+        "startDateTime": "2026-07-26T20:00:00",
+        "endDateTime": "2026-07-26T21:05:00",
+        "tags": [
+          "Killabeatmaker"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "killabeatmaker": {
+            "slug": "killabeatmaker",
+            "name": "Killabeatmaker"
+          }
+        }
+      },
+      "363": {
+        "showId": "363",
+        "showName": "The Neighborhood Kids",
+        "showDesc": null,
+        "type": "Concert",
+        "startDate": "2026-07-26",
+        "endDate": "2026-07-26",
+        "startTime": "21:25:00",
+        "endTime": "22:30:00",
+        "startDateTime": "2026-07-26T21:25:00",
+        "endDateTime": "2026-07-26T22:30:00",
+        "tags": [
+          "The Neighborhood Kids"
+        ],
+        "location": "National Stage 4",
+        "locationId": 4,
+        "slugs": {
+          "the-neighborhood-kids": {
+            "slug": "the-neighborhood-kids",
+            "name": "The Neighborhood Kids"
+          }
+        }
+      }
+    }
+  }
+}

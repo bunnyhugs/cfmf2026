@@ -1,0 +1,120 @@
+{
+  "69": {
+    "_id": 69,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "20240526092522_bf202352",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      67,
+      68
+    ],
+    "title": "Main Stage"
+  },
+  "70": {
+    "_id": 70,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      61,
+      68
+    ],
+    "title": "Stage 1"
+  },
+  "71": {
+    "_id": 71,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      62,
+      68
+    ],
+    "title": "Stage 2"
+  },
+  "72": {
+    "_id": 72,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      63,
+      68
+    ],
+    "title": "Stage 3"
+  },
+  "73": {
+    "_id": 73,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      64,
+      68
+    ],
+    "title": "Stage 5"
+  },
+  "74": {
+    "_id": 74,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      65,
+      68
+    ],
+    "title": "Stage 6"
+  },
+  "75": {
+    "_id": 75,
+    "can_associate_shows": 1,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "is_rateable": false,
+    "photo_suffix": "",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      59,
+      60,
+      66,
+      68
+    ],
+    "title": "Stage 7"
+  }
+}

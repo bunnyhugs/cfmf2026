@@ -1,0 +1,2130 @@
+{
+    "2024-08-08": {
+        "date": "Thu, Aug 08 2024",
+        "gate_open_time": "",
+        "schedule": {
+            "161": {
+                "showId": "161",
+                "showName": "Orchestra Gold Concert",
+                "showDesc": "<p>Blending the traditions of Mali and American rock/funk with a retro feel, Orchestra Gold represents a world of powerful cross-cultural experience. With the 2023 release of their third album, <i>Medicine</i>, this profoundly spiritual and dance-inducing ensemble continues their pursuit of spreading healing and community through the universal gift of music, offering a kaleidoscope of magical sound deeply rooted in the past while boldly blazing towards the genre-bending future.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-08",
+                "endDate": "2024-08-08",
+                "startTime": "18:30:00",
+                "endTime": "19:25:00",
+                "startDateTime": "2024-08-08T18:30:00",
+                "endDateTime": "2024-08-08T19:25:00",
+                "tags": [
+                    "Orchestra Gold"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "orchestra-gold-concert": {
+                        "slug": "orchestra-gold-concert",
+                        "name": "Orchestra Gold Concert"
+                    }
+                }
+            },
+            "169": {
+                "showId": "169",
+                "showName": "Ben Howard Concert",
+                "showDesc": "<p><i>Is It?</i>, the fifth studio release by the English singer-songwriter is a lush, sonically splintered album which captures working through moments of seismic shift. When speaking to The Guardian, Howards says he is \u201cwriting about life, love and the savouring of it.\u201d In contrast to previous recordings where \u201c[he\u2019s] written\u2026about apathy and depression and heavy subjects,\u201d he says \u201c...this is not that. It\u2019s more an outpouring of affection for people and places.\u201d</p>",
+                "type": "Concert",
+                "startDate": "2024-08-08",
+                "endDate": "2024-08-08",
+                "startTime": "19:50:00",
+                "endTime": "21:05:00",
+                "startDateTime": "2024-08-08T19:50:00",
+                "endDateTime": "2024-08-08T21:05:00",
+                "tags": [
+                    "Ben Howard"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "ben-howard-concert": {
+                        "slug": "ben-howard-concert",
+                        "name": "Ben Howard Concert"
+                    }
+                }
+            },
+            "199": {
+                "showId": "199",
+                "showName": "Black Pumas Concert",
+                "showDesc": "<p>With their self-titled debut in 2019, the Austin-bred duo set off a reaction almost as combustible and rapturous as their music. Earning a career total of seven Grammy Award nominations, singer-songwriter Eric Burton and guitarist/producer Adrian Quesada have achieved massive success as a live act, delivering a transcendent show Eric aptly refers to as \"electric church.\"</p>",
+                "type": "Concert",
+                "startDate": "2024-08-08",
+                "endDate": "2024-08-08",
+                "startTime": "21:30:00",
+                "endTime": "22:45:00",
+                "startDateTime": "2024-08-08T21:30:00",
+                "endDateTime": "2024-08-08T22:45:00",
+                "tags": [
+                    "Black Pumas"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "black-pumas-concert": {
+                        "slug": "black-pumas-concert",
+                        "name": "Black Pumas Concert"
+                    }
+                }
+            }
+        }
+    },
+    "2024-08-09": {
+        "date": "Fri, Aug 09 2024",
+        "gate_open_time": "",
+        "schedule": {
+            "200": {
+                "showId": "200",
+                "showName": "La Misa Negra Concert",
+                "showDesc": "<p>Since their live debut in the fall of 2011, La Misa Negra has toured the country, sharing stages and festival bills with the likes of Stevie Wonder, SZA, Julieta Venegas and Ozomatli.&nbsp; On the strength of their wild and one-of-a-kind shows, they have gained a reputation as one of the most exciting live bands to emerge from the Bay Area in recent years, garnering a diverse fan base that transcends musical, cultural, and generational divides.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "22:45:00",
+                "endTime": "23:50:00",
+                "startDateTime": "2024-08-09T22:45:00",
+                "endDateTime": "2024-08-09T23:50:00",
+                "tags": [
+                    "La Misa Negra"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "la-misa-negra-concert": {
+                        "slug": "la-misa-negra-concert",
+                        "name": "La Misa Negra Concert"
+                    }
+                }
+            },
+            "201": {
+                "showId": "201",
+                "showName": "Blue Rodeo Concert",
+                "showDesc": "<p>Blue Rodeo has taken the road less travelled \u2013 and succeeded far beyond anyone\u2019s expectations. In the 35 years since forming, they have sold over four million albums, received dozens of JUNO Award nominations and wins, played over 2,000 shows, been inducted into the Canadian Music Hall of Fame, and received a star on Canada\u2019s Walk of Fame.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "21:10:00",
+                "endTime": "22:25:00",
+                "startDateTime": "2024-08-09T21:10:00",
+                "endDateTime": "2024-08-09T22:25:00",
+                "tags": [
+                    "Blue Rodeo"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "blue-rodeo-concert": {
+                        "slug": "blue-rodeo-concert",
+                        "name": "Blue Rodeo Concert"
+                    }
+                }
+            },
+            "268": {
+                "showId": "268",
+                "showName": "String Me Along",
+                "showDesc": "<p>Featuring Michael Jerome Browne, of Eric Bibb with Michael Jerome Browne</p>",
+                "type": "Session",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:00:00",
+                "endTime": "19:15:00",
+                "startDateTime": "2024-08-09T18:00:00",
+                "endDateTime": "2024-08-09T19:15:00",
+                "tags": [
+                    "Pharis and Jason Romero",
+                    "Michael Jerome Browne",
+                    "Eric Bibb & Michael Jerome Browne",
+                    "Jake Vaadeland and The Sturgeon River Boys"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "string-me-along": {
+                        "slug": "string-me-along",
+                        "name": "String Me Along"
+                    }
+                }
+            },
+            "276": {
+                "showId": "276",
+                "showName": "Lessons Learned",
+                "showDesc": "<p></p>",
+                "type": "Session",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:05:00",
+                "endTime": "19:25:00",
+                "startDateTime": "2024-08-09T18:05:00",
+                "endDateTime": "2024-08-09T19:25:00",
+                "tags": [
+                    "Sammy Volkov",
+                    "Abigail Lapell",
+                    "Boy Golden",
+                    "Gunning & Cormier"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "lessons-learned": {
+                        "slug": "lessons-learned",
+                        "name": "Lessons Learned"
+                    }
+                }
+            },
+            "472": {
+                "showId": "472",
+                "showName": "Alpha Yaya Diallo Concert",
+                "showDesc": "<p>With <i>Doye Doye</i>, his latest release, Diallo takes his art to new heights. The title means a state of wariness: \u201cWe need to pay more attention today to how we live our lives in the face of many challenges, to show responsibility, and to act with care.\u201d Always seeking new territories to explore while at the same time respecting his roots, Alpha is one of the most inspired and inspirational world music artists performing anywhere.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:00:00",
+                "endTime": "19:15:00",
+                "startDateTime": "2024-08-09T18:00:00",
+                "endDateTime": "2024-08-09T19:15:00",
+                "tags": [
+                    "Alpha Yaya Diallo"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "alpha-yaya-diallo-concert": {
+                        "slug": "alpha-yaya-diallo-concert",
+                        "name": "Alpha Yaya Diallo Concert"
+                    }
+                }
+            },
+            "473": {
+                "showId": "473",
+                "showName": "Shake Your Hips",
+                "showDesc": "<p>Featuring Mariam Diakite &amp; Erich Huffaker, of Orchestra Gold.</p>",
+                "type": "Session",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:40:00",
+                "endTime": "20:50:00",
+                "startDateTime": "2024-08-09T19:40:00",
+                "endDateTime": "2024-08-09T20:50:00",
+                "tags": [
+                    "Alpha Yaya Diallo",
+                    "Black Umfolosi International",
+                    "Mokoomba"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "shake-your-hips": {
+                        "slug": "shake-your-hips",
+                        "name": "Shake Your Hips"
+                    }
+                }
+            },
+            "489": {
+                "showId": "489",
+                "showName": "Don Ross Concert",
+                "showDesc": "<p>The son of a Mi\u2019kmaw Indigenous mother and a Scottish immigrant father, he graduated with a Bachelor of Fine Arts (Music) degree from Toronto\u2019s York University and started working full-time as a musician in 1988. Ross has just released his new solo album, <i>Water</i>, which includes collaborations with legendary musicians Bruce Cockburn, Michael Manring, Sean Hall, Brooke Miller and the City of Prague Philharmonic Orchestra.</p><p></p><p>Don Ross will be joined onstage with Jule Malischk.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:30:00",
+                "endTime": "20:40:00",
+                "startDateTime": "2024-08-09T19:30:00",
+                "endDateTime": "2024-08-09T20:40:00",
+                "tags": [
+                    "Don Ross"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "don-ross-concert": {
+                        "slug": "don-ross-concert",
+                        "name": "Don Ross Concert"
+                    }
+                }
+            },
+            "492": {
+                "showId": "492",
+                "showName": "Crisis, What Crisis",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:40:00",
+                "endTime": "20:50:00",
+                "startDateTime": "2024-08-09T19:40:00",
+                "endDateTime": "2024-08-09T20:50:00",
+                "tags": [
+                    "Rose Cousins",
+                    "Ruen Brothers",
+                    "Elisapie",
+                    "Jess Williamson"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "crisis-what-crisis": {
+                        "slug": "crisis-what-crisis",
+                        "name": "Crisis, What Crisis"
+                    }
+                }
+            },
+            "500": {
+                "showId": "500",
+                "showName": "Gunning & Cormier Concert",
+                "showDesc": "<p>Gunning &amp; Cormier are two songwriters, interpreters, guitar players, and singers at their peak. It\u2019s the power of the song, the highest quality from the past to the now. It\u2019s two friends, brothers, uncompromising performers, making the album of their lives. <i>Leather and Dust</i> is the much anticipated follow-up release to their debut album, <i>Two</i>, and expands on the duo\u2019s solid harmonic compatibilities by featuring a multitude of instruments.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:40:00",
+                "endTime": "20:50:00",
+                "startDateTime": "2024-08-09T19:40:00",
+                "endDateTime": "2024-08-09T20:50:00",
+                "tags": [
+                    "Gunning & Cormier"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "gunning-cormier-concert": {
+                        "slug": "gunning-cormier-concert",
+                        "name": "Gunning & Cormier Concert"
+                    }
+                }
+            },
+            "509": {
+                "showId": "509",
+                "showName": "John Reischman & the Jaybirds Concert",
+                "showDesc": "<p>Like the powerful mandolinist and composer at its helm, John Reischman and the Jaybirds fashion a stylish take on bluegrass that seamlessly blends original songs and instrumentals with Appalachian old-time music for a truly unique band sound. Now in their 20th year, with seven acclaimed albums and two JUNO nominations, the Jaybirds are simultaneously innovative and unadorned, happily old-fashioned and 21st-century.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:05:00",
+                "endTime": "19:15:00",
+                "startDateTime": "2024-08-09T18:05:00",
+                "endDateTime": "2024-08-09T19:15:00",
+                "tags": [
+                    "John Reischman and the Jaybirds"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "john-reischman-the-jaybirds-concert": {
+                        "slug": "john-reischman-the-jaybirds-concert",
+                        "name": "John Reischman & the Jaybirds Concert"
+                    }
+                }
+            },
+            "516": {
+                "showId": "516",
+                "showName": "The Main Thing",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:35:00",
+                "endTime": "20:50:00",
+                "startDateTime": "2024-08-09T19:35:00",
+                "endDateTime": "2024-08-09T20:50:00",
+                "tags": [
+                    "Sultans of String - Walking Through the Fire",
+                    "Les Grands Hurleurs",
+                    "The McDades"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "the-main-thing": {
+                        "slug": "the-main-thing",
+                        "name": "The Main Thing"
+                    }
+                }
+            },
+            "523": {
+                "showId": "523",
+                "showName": "Rose Cousins Concert",
+                "showDesc": "<p>The newest offering from Cousins, <i>Bravado</i>, is the sound of a heart trying to open. It explores the complication of emotion, its irrational tendencies and its wisdom. It invites us to feel the courage it takes to be vulnerable. For Cousins, this chapter is a personal and professional metamorphosis. She is in the producer chair, applying her years of experience, trusting her own ear and pulling thoughtfully from her network of talented colleagues.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:05:00",
+                "endTime": "19:10:00",
+                "startDateTime": "2024-08-09T18:05:00",
+                "endDateTime": "2024-08-09T19:10:00",
+                "tags": [
+                    "Rose Cousins"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "rose-cousins-concert": {
+                        "slug": "rose-cousins-concert",
+                        "name": "Rose Cousins Concert"
+                    }
+                }
+            },
+            "531": {
+                "showId": "531",
+                "showName": "The McDades Concert",
+                "showDesc": "<p>The McDades are known for stretching the boundaries of traditional music, being celtic-rooted, but with much wider inspiration that is full of side trips and improvisations. The JUNO award-winning band are excited to announce the release of their third album, <i>The Empress</i>. When deciding on a title for the album, the group was drawn to the concept of The Empress, having ties to creativity, growth, new ideas and expression.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "18:05:00",
+                "endTime": "19:15:00",
+                "startDateTime": "2024-08-09T18:05:00",
+                "endDateTime": "2024-08-09T19:15:00",
+                "tags": [
+                    "The McDades"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "the-mcdades-concert": {
+                        "slug": "the-mcdades-concert",
+                        "name": "The McDades Concert"
+                    }
+                }
+            },
+            "664": {
+                "showId": "664",
+                "showName": "Wyatt C. Louis Concert",
+                "showDesc": "<p>Walking the line between genres like an easy path rather than a tightrope, carried by textural and ethereal songs lifted up by stunning vocals, \u202fLouis\u2019 debut album, <i>Chandler</i>, refers to simply their middle name. Wyatt (they/he), a Plains Cree singer-songwriter born and raised in parts of Treaty Six, lets that amalgamation of place shine through on these tracks, some of which came to life in the quiet and contemplative days of deep pandemic lockdown.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-09",
+                "endDate": "2024-08-09",
+                "startTime": "19:25:00",
+                "endTime": "20:30:00",
+                "startDateTime": "2024-08-09T19:25:00",
+                "endDateTime": "2024-08-09T20:30:00",
+                "tags": [
+                    "Wyatt C. Louis"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "wyatt-c-louis-concert": {
+                        "slug": "wyatt-c-louis-concert",
+                        "name": "Wyatt C. Louis Concert"
+                    }
+                }
+            }
+        }
+    },
+    "2024-08-10": {
+        "date": "Sat, Aug 10 2024",
+        "gate_open_time": "",
+        "schedule": {
+            "202": {
+                "showId": "202",
+                "showName": "Dawes Concert",
+                "showDesc": "<p>Dawes began their journey in the San Fernando Valley in 2009, and have picked up more than a few things when it comes to sticking around and what it means to be a true band. From the first downbeat, <i>Good Luck With Whatever</i>, the seventh studio album by the Los Angeles based band Dawes, sets a tone all its own.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "18:55:00",
+                "endTime": "20:00:00",
+                "startDateTime": "2024-08-10T18:55:00",
+                "endDateTime": "2024-08-10T20:00:00",
+                "tags": [
+                    "Dawes"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "dawes-concert": {
+                        "slug": "dawes-concert",
+                        "name": "Dawes Concert"
+                    }
+                }
+            },
+            "203": {
+                "showId": "203",
+                "showName": "Rhiannon Giddens Concert",
+                "showDesc": "<p>Rhiannon Giddens has made a singular, iconic career out of stretching her brand of folk music into just about every field imaginable. A two-time Grammy Award and Pulitzer Prize-winning singer and instrumentalist, MacArthur \u201cGenius\u201d grant recipient, and composer of opera, ballet, and film, Giddens has centered her work around the mission of lifting up people whose contributions to American music history have previously been overlooked or erased, and advocating for a more accurate understanding of her country\u2019s musical origins through art.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "20:15:00",
+                "endTime": "21:20:00",
+                "startDateTime": "2024-08-10T20:15:00",
+                "endDateTime": "2024-08-10T21:20:00",
+                "tags": [
+                    "Rhiannon Giddens"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "rhiannon-giddens-concert": {
+                        "slug": "rhiannon-giddens-concert",
+                        "name": "Rhiannon Giddens Concert"
+                    }
+                }
+            },
+            "204": {
+                "showId": "204",
+                "showName": "Angie McMahon Concert",
+                "showDesc": "<p>Angie McMahon is quickly gathering a reputation for moving audiences with her soulful ruminations on life and love. Her honest songwriting and romantic melodies cover the full dynamic spectrum, shifting between gravelly intimacy and pounding rock. Angie pours it all out on stage, drawing inspiration from artists like Bruce Springsteen, Lianne La Havas, Big Thief and Tom Waits.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "21:35:00",
+                "endTime": "22:40:00",
+                "startDateTime": "2024-08-10T21:35:00",
+                "endDateTime": "2024-08-10T22:40:00",
+                "tags": [
+                    "Angie McMahon"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "angie-mcmahon-concert": {
+                        "slug": "angie-mcmahon-concert",
+                        "name": "Angie McMahon Concert"
+                    }
+                }
+            },
+            "205": {
+                "showId": "205",
+                "showName": "Fantastic Negrito Concert",
+                "showDesc": "<p>Part love story, part historical excavation, Fantastic Negrito\u2019s extraordinary new album, <i>White Jesus Black Problems</i>, is an exhilarating ode to the power of family and the enduring resilience of our shared humanity. His accolades include three consecutive Grammy Awards for Best Contemporary Blues Album, tours with Sturgill Simpson and Chris Cornell, studio collaborations with Sting and E-40, his own record label and festival performances including Lollapalooza and Glastonbury.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "22:55:00",
+                "endTime": "23:59:00",
+                "startDateTime": "2024-08-10T22:55:00",
+                "endDateTime": "2024-08-10T23:59:00",
+                "tags": [
+                    "Fantastic Negrito"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "fantastic-negrito-concert": {
+                        "slug": "fantastic-negrito-concert",
+                        "name": "Fantastic Negrito Concert"
+                    }
+                }
+            },
+            "232": {
+                "showId": "232",
+                "showName": "Wild Rivers Concert",
+                "showDesc": "<p>Wild Rivers first caught audiences\u2019 attention with their 2016 self-titled debut, followed by two EPs, Eighty-Eight and Songs To Break Up To. The band have recently taken their latest album, Sidelines, on the road, opening for Noah Kahan - reuniting with the place where they originally cultivated a dedicated following. Building an authentic relationship with fans, while channeling classic singer-songwriters like James Taylor and Fleetwood Mac, has been vital to Wild Rivers\u2019 connection with audiences across the globe.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "14:00:00",
+                "endTime": "14:55:00",
+                "startDateTime": "2024-08-10T14:00:00",
+                "endDateTime": "2024-08-10T14:55:00",
+                "tags": [
+                    "Wild Rivers"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "wild-rivers-concert": {
+                        "slug": "wild-rivers-concert",
+                        "name": "Wild Rivers Concert"
+                    }
+                }
+            },
+            "289": {
+                "showId": "289",
+                "showName": "Abigail Lapell Concert",
+                "showDesc": "<p>Over the past five years and three spellbinding albums, Abigail has garnered two Canadian Folk Music Awards, hit number one on Canadian folk radio and accrued over 20 million Spotify streams. Her elemental and powerfully evocative third album, <i>Stolen Time</i>, is unhurried, psychedelic and otherworldly.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:45:00",
+                "endTime": "18:45:00",
+                "startDateTime": "2024-08-10T17:45:00",
+                "endDateTime": "2024-08-10T18:45:00",
+                "tags": [
+                    "Abigail Lapell"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "abigail-lapell-concert": {
+                        "slug": "abigail-lapell-concert",
+                        "name": "Abigail Lapell Concert"
+                    }
+                }
+            },
+            "309": {
+                "showId": "309",
+                "showName": "Shine a Light",
+                "showDesc": "<p>Featuring The North Sound, from Sultans and String - Walking Through the Fire</p>",
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-10T11:00:00",
+                "endDateTime": "2024-08-10T12:15:00",
+                "tags": [
+                    "The Langan Band",
+                    "Alpha Yaya Diallo",
+                    "The North Sound"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "shine-a-light": {
+                        "slug": "shine-a-light",
+                        "name": "Shine a Light"
+                    }
+                }
+            },
+            "324": {
+                "showId": "324",
+                "showName": "Mentors",
+                "showDesc": "<p>Featuring Reuben and the Dark, of Reuben and the Dark with Bullhorn Singers</p>",
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:45:00",
+                "endTime": "18:45:00",
+                "startDateTime": "2024-08-10T17:45:00",
+                "endDateTime": "2024-08-10T18:45:00",
+                "tags": [
+                    "Noeline Hofmann",
+                    "Wild Rivers",
+                    "Reuben and the Dark with Bullhorn Singers",
+                    "Dorsten"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "mentors": {
+                        "slug": "mentors",
+                        "name": "Mentors"
+                    }
+                }
+            },
+            "469": {
+                "showId": "469",
+                "showName": "True North",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-10T11:00:00",
+                "endDateTime": "2024-08-10T12:15:00",
+                "tags": [
+                    "Sammy Volkov",
+                    "Abigail Lapell",
+                    "Elisapie"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "true-north": {
+                        "slug": "true-north",
+                        "name": "True North"
+                    }
+                }
+            },
+            "470": {
+                "showId": "470",
+                "showName": "All the Best",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:05:00",
+                "endTime": "12:20:00",
+                "startDateTime": "2024-08-10T11:05:00",
+                "endDateTime": "2024-08-10T12:20:00",
+                "tags": [
+                    "AJ Lee and Blue Summit",
+                    "John Reischman and the Jaybirds"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "all-the-best": {
+                        "slug": "all-the-best",
+                        "name": "All the Best"
+                    }
+                }
+            },
+            "474": {
+                "showId": "474",
+                "showName": "Influences",
+                "showDesc": "<p>Featuring Taylor &amp; Griffin Goldsmith, of Dawes.</p>",
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-10T15:05:00",
+                "endDateTime": "2024-08-10T16:10:00",
+                "tags": [
+                    "Rose Cousins",
+                    "Angie McMahon",
+                    "Dawes",
+                    "Tina Dico"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "influences": {
+                        "slug": "influences",
+                        "name": "Influences"
+                    }
+                }
+            },
+            "475": {
+                "showId": "475",
+                "showName": "Changes",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:05:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-10T11:05:00",
+                "endDateTime": "2024-08-10T12:15:00",
+                "tags": [
+                    "Black Umfolosi International",
+                    "Dorsten",
+                    "Jon and Roy"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "changes": {
+                        "slug": "changes",
+                        "name": "Changes"
+                    }
+                }
+            },
+            "476": {
+                "showId": "476",
+                "showName": "Black Umfolosi International Concert",
+                "showDesc": "<p>Black Umfolosi International is a self taught acapella (Imbube) singing and traditional dance group that formed in 1982 by the then school age members who wanted to develop themselves and contribute to their community. Specialising in Imbube music, gumboot dance and Zulu dance, Black Umfolosi has toured extensively nationally and internationally.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:00:00",
+                "endTime": "16:50:00",
+                "startDateTime": "2024-08-10T16:00:00",
+                "endDateTime": "2024-08-10T16:50:00",
+                "tags": [
+                    "Black Umfolosi International"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "black-umfolosi-international-concert": {
+                        "slug": "black-umfolosi-international-concert",
+                        "name": "Black Umfolosi International Concert"
+                    }
+                }
+            },
+            "478": {
+                "showId": "478",
+                "showName": "Ancestors",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:35:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "Ruen Brothers",
+                    "Blanco White",
+                    "Jake Xerxes Fussell"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "ancestors": {
+                        "slug": "ancestors",
+                        "name": "Ancestors"
+                    }
+                }
+            },
+            "481": {
+                "showId": "481",
+                "showName": "Imagine",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-10T15:05:00",
+                "endDateTime": "2024-08-10T16:10:00",
+                "tags": [
+                    "The Bankes Brothers",
+                    "Boy Golden",
+                    "Briscoe",
+                    "Leith Ross"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "imagine": {
+                        "slug": "imagine",
+                        "name": "Imagine"
+                    }
+                }
+            },
+            "485": {
+                "showId": "485",
+                "showName": "Traditions",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:35:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "S.G. Goodman",
+                    "Buffalo Nichols",
+                    "Good Lovelies",
+                    "Leith Ross"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "traditions": {
+                        "slug": "traditions",
+                        "name": "Traditions"
+                    }
+                }
+            },
+            "486": {
+                "showId": "486",
+                "showName": "On the Road Again",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:25:00",
+                "endTime": "17:25:00",
+                "startDateTime": "2024-08-10T16:25:00",
+                "endDateTime": "2024-08-10T17:25:00",
+                "tags": [
+                    "The Heavy Heavy",
+                    "Buffalo Nichols",
+                    "Kim Churchill"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "on-the-road-again": {
+                        "slug": "on-the-road-again",
+                        "name": "On the Road Again"
+                    }
+                }
+            },
+            "490": {
+                "showId": "490",
+                "showName": "Full Circle",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-10T11:00:00",
+                "endDateTime": "2024-08-10T12:15:00",
+                "tags": [
+                    "Pharis and Jason Romero",
+                    "Sultans of String - Walking Through the Fire",
+                    "Don Ross"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "full-circle": {
+                        "slug": "full-circle",
+                        "name": "Full Circle"
+                    }
+                }
+            },
+            "493": {
+                "showId": "493",
+                "showName": "Elisapie Concert",
+                "showDesc": "<p>Elisapie was born and raised in Salluit, a small village in Nunavik which is only accessible by plane. It is the unconditional attachment to her territory and her language that has remained at the core of her creative journey. <i>Inuktitut</i>, her fourth solo record, features ten classic rock and pop songs ranging from the 1960\u2019s to the 1990\u2019s that are translated into Inuktitut, her mother tongue. Released in 2023, the album garnered Elisape a win for Contemporary Indigenous Artist of the Year, at this year\u2019s JUNO Awards.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-10T15:05:00",
+                "endDateTime": "2024-08-10T16:10:00",
+                "tags": [
+                    "Elisapie"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "elisapie-concert": {
+                        "slug": "elisapie-concert",
+                        "name": "Elisapie Concert"
+                    }
+                }
+            },
+            "494": {
+                "showId": "494",
+                "showName": "Goin' Gone",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:35:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "Miko Marks",
+                    "Wyatt C. Louis",
+                    "Eric Bibb & Michael Jerome Browne",
+                    "Jess Williamson"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "goin-gone": {
+                        "slug": "goin-gone",
+                        "name": "Goin' Gone"
+                    }
+                }
+            },
+            "495": {
+                "showId": "495",
+                "showName": "Eric Bibb with Michael Jerome Browne Concert",
+                "showDesc": "<p>The ultimate \u201cblues brother\u201d, multiple Grammy nominee Eric Bibb is revered globally as a fiery singer-songwriter with true soul, grounded in the folk/blues tradition but with contemporary sensibilities. Bibb will be joined by Canadian Folk Music Award recipient and five-time Juno Award Nominee, Michael Jerome Browne.&nbsp;</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:25:00",
+                "endTime": "17:25:00",
+                "startDateTime": "2024-08-10T16:25:00",
+                "endDateTime": "2024-08-10T17:25:00",
+                "tags": [
+                    "Eric Bibb & Michael Jerome Browne"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "eric-bibb-with-michael-jerome-browne-concert": {
+                        "slug": "eric-bibb-with-michael-jerome-browne-concert",
+                        "name": "Eric Bibb with Michael Jerome Browne Concert"
+                    }
+                }
+            },
+            "497": {
+                "showId": "497",
+                "showName": "Neighbours",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-10T15:05:00",
+                "endDateTime": "2024-08-10T16:10:00",
+                "tags": [
+                    "Orchestra Gold",
+                    "Fantastic Negrito",
+                    "La Misa Negra"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "neighbours": {
+                        "slug": "neighbours",
+                        "name": "Neighbours"
+                    }
+                }
+            },
+            "498": {
+                "showId": "498",
+                "showName": "Good Lovelies Concert",
+                "showDesc": "<p>The rich complexity of life is the emotional focus of the much anticipated new album from one of Canada\u2019s most accomplished and harmonious trios. <i>We Will Never Be the Same</i>,<i> </i>is both a return to a more elemental, acoustic-based musical platform, as well as an immersive emotional experience crafted by three seasoned songwriters who bring their own real-life stories in all their dynamism and messy complexity to the fore.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:00:00",
+                "endTime": "15:50:00",
+                "startDateTime": "2024-08-10T15:00:00",
+                "endDateTime": "2024-08-10T15:50:00",
+                "tags": [
+                    "Good Lovelies"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "good-lovelies-concert": {
+                        "slug": "good-lovelies-concert",
+                        "name": "Good Lovelies Concert"
+                    }
+                }
+            },
+            "501": {
+                "showId": "501",
+                "showName": "Pharis and Jason Romero Concert",
+                "showDesc": "<p>Pharis and Jason Romero are pure craftspeople and top-notch musicians. They've won four JUNO awards and seven Canadian Folk Music Awards, connecting with audiences through their music, lifestyle, and the sense of joy and ease that comes from this small-town renaissance couple. Their newest record, <i>Tell \u2018Em You Were Gold</i>, was built around the beauty of their banjos and the pair\u2019s deep psychic and artistic connection, with conviction, delicacy and stunning singing.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "18:00:00",
+                "endTime": "18:50:00",
+                "startDateTime": "2024-08-10T18:00:00",
+                "endDateTime": "2024-08-10T18:50:00",
+                "tags": [
+                    "Pharis and Jason Romero"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "pharis-and-jason-romero-concert": {
+                        "slug": "pharis-and-jason-romero-concert",
+                        "name": "Pharis and Jason Romero Concert"
+                    }
+                }
+            },
+            "502": {
+                "showId": "502",
+                "showName": "Jake Vaadeland and The Sturgeon River Boys Concert",
+                "showDesc": "<p>Jake is a self-taught multi-instrumentalist and songwriter with a traditional sound and unique style that could be defined as a blend of bluegrass and 50\u2019s rockabilly. \"Vaadeland proceeds to charm, cajole and chuckle\u2026His gorgeous singing, stellar band and committed showmanship turn any performance into a full-on show.\" (NEXT Magazine)</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:40:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:40:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "Jake Vaadeland and The Sturgeon River Boys"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "jake-vaadeland-and-the-sturgeon-river-boys-concert": {
+                        "slug": "jake-vaadeland-and-the-sturgeon-river-boys-concert",
+                        "name": "Jake Vaadeland and The Sturgeon River Boys Concert"
+                    }
+                }
+            },
+            "507": {
+                "showId": "507",
+                "showName": "John Craigie Concert",
+                "showDesc": "<p>With his 2020 release, <i>Asterisk The Universe</i>, being described as \u201c\u2026a soft, dreamy place to come to\u2026for many weary and heavy-hearted listeners...\u201d (No Depression), the Portland based singer-songwriter, and producer invites everyone into this space on his 2024 full-length album, <i>Pagan Church</i>. Craigie believes that much like community, music nourishes us mentally, emotionally, spiritually, and also allows us to come together under the same roof and in a shared moment.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-10T15:05:00",
+                "endDateTime": "2024-08-10T16:10:00",
+                "tags": [
+                    "John Craigie"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "john-craigie-concert": {
+                        "slug": "john-craigie-concert",
+                        "name": "John Craigie Concert"
+                    }
+                }
+            },
+            "511": {
+                "showId": "511",
+                "showName": "Kim Churchill Concert",
+                "showDesc": "<p>Kim Churchill has a laidback folk style that continues to strike a chord with industry and fans alike. Playing renowned festivals including Glastonbury Music Festival, Montreal\u2019s International Jazz Festival and South By Southwest, along with a stack of home grown festivals, his decade long industry experience spreads far and wide. Churchill was previously crowned Australia\u2019s National Youth Folk Artist of the Year and nominated for the National Live Music Awards Roots Act of the Year.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:45:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:45:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "Kim Churchill"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "kim-churchill-concert": {
+                        "slug": "kim-churchill-concert",
+                        "name": "Kim Churchill Concert"
+                    }
+                }
+            },
+            "512": {
+                "showId": "512",
+                "showName": "KT Tunstall Concert",
+                "showDesc": "<p>KT Tunstall burst onto the music scene in 2004 with the global hits \"Black Horse and the Cherry Tree\" and \"Suddenly I See\". These songs established Tunstall as a captivating, must-see performer, as well as a songwriter with a singular knack for balancing introspective folk and propulsive rock. In the last few years, the Grammy nominated Scottish musician has expanded on these musical selves by focusing on a trilogy of records, where each album zeroes in on a single concept: soul, body and mind.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-10T16:25:00",
+                "endDateTime": "2024-08-10T17:30:00",
+                "tags": [
+                    "KT Tunstall"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "kt-tunstall-concert": {
+                        "slug": "kt-tunstall-concert",
+                        "name": "KT Tunstall Concert"
+                    }
+                }
+            },
+            "517": {
+                "showId": "517",
+                "showName": "Les Grands Hurleurs Concert",
+                "showDesc": "<p>With <i>Layon</i>, their sixth album, Les Grands Hurleurs invite listeners on a journey into Qu\u00e9bec\u2019s rich cultural past. It was while working on the repertoire for the album that they began to notice a common theme to all the songs: stories about people travelling and the things that happened on the way. And so they chose the name \u2018Layon\u2019 \u2013 a seldom-used word for a small forest or mountain trail.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:40:00",
+                "endTime": "18:45:00",
+                "startDateTime": "2024-08-10T17:40:00",
+                "endDateTime": "2024-08-10T18:45:00",
+                "tags": [
+                    "Les Grands Hurleurs"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "les-grands-hurleurs-concert": {
+                        "slug": "les-grands-hurleurs-concert",
+                        "name": "Les Grands Hurleurs Concert"
+                    }
+                }
+            },
+            "522": {
+                "showId": "522",
+                "showName": "Robert Finley Concert",
+                "showDesc": "<p>Mixing southern soul, heavy rock, swamp pop, jazz, folk, and anything else that crosses his mind, Finley has developed and refined an exuberant and omnivorous playing style. \u201cA song should tell a good story,\u201d says Finley. \u201cBy the time you hear it beginning to end, it should be like reading a short story or a novel. It should be more than just a laugh. It should leave some kind of impression on whoever\u2019s listening to it. And it should stay as close to the truth as possible.\u201d</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-10T16:25:00",
+                "endDateTime": "2024-08-10T17:30:00",
+                "tags": [
+                    "Robert Finley"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "robert-finley-concert": {
+                        "slug": "robert-finley-concert",
+                        "name": "Robert Finley Concert"
+                    }
+                }
+            },
+            "524": {
+                "showId": "524",
+                "showName": "Kobo Town Concert",
+                "showDesc": "<p><i>Carnival of the Ghosts</i>, is an album that puts the wit and wordplay that defined the group's previous releases on full display, accompanied by an everything-soup of infectious Caribbean sounds - where calypso melodies and ska-driven horn hooks collide over heavy reggae and soca bass grooves, all amid an interplay of dirty electric guitars with hints of zouk and son montuno.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:45:00",
+                "endTime": "18:45:00",
+                "startDateTime": "2024-08-10T17:45:00",
+                "endDateTime": "2024-08-10T18:45:00",
+                "tags": [
+                    "Kobo Town"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "kobo-town-concert": {
+                        "slug": "kobo-town-concert",
+                        "name": "Kobo Town Concert"
+                    }
+                }
+            },
+            "525": {
+                "showId": "525",
+                "showName": "S.G. Goodman Concert",
+                "showDesc": "<p>When the Kentucky native released her debut album, <i>Old Time Feeling</i>, she was rightly coined an \u201cuntamed rock and roll truth-teller\u201d (Rolling Stone). The roots-inflected record saw Goodman lending her gritty, haunting vocals to narrate the dual perspectives of her upbringing as the daughter of a crop farmer, and a queer woman coming out in a rural town. Her latest album, <i>Teeth Marks</i>, pulses with downtown Velvet Underground electricity, shifting focus inward, while never losing Goodman\u2019s searing and universal point of view.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:40:00",
+                "endTime": "18:45:00",
+                "startDateTime": "2024-08-10T17:40:00",
+                "endDateTime": "2024-08-10T18:45:00",
+                "tags": [
+                    "S.G. Goodman"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "sg-goodman-concert": {
+                        "slug": "sg-goodman-concert",
+                        "name": "S.G. Goodman Concert"
+                    }
+                }
+            },
+            "526": {
+                "showId": "526",
+                "showName": "Sammy Volkov Concert",
+                "showDesc": "<p>With its release in 2022, <i>Be Alright!</i>, was the first album to debut at #1 on the CKUA Top 30 Chart. The Edmonton based singer has \u201c...vocals that emanate\u2026an air of melancholy. Roy Orbison, with a dash of Chris Isaak and a pinch of gospel-era Elvis Presley are the knee-jerk comparisons, as Volkov sings like a man out of time.\u201d (The Edmonton Journal).</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "17:00:00",
+                "endTime": "17:50:00",
+                "startDateTime": "2024-08-10T17:00:00",
+                "endDateTime": "2024-08-10T17:50:00",
+                "tags": [
+                    "Sammy Volkov"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "sammy-volkov-concert": {
+                        "slug": "sammy-volkov-concert",
+                        "name": "Sammy Volkov Concert"
+                    }
+                }
+            },
+            "527": {
+                "showId": "527",
+                "showName": "School of Song Concert",
+                "showDesc": "<p><b>Kaiya Kodie</b> - is an Edmonton singer, guitarist, piano player and songwriter who's introspective nature drives her desire to weave unique textures of melodies and lyrics combined. The timelessness of Kodie\u2019s EP, <i>When All The Lights Have Gone Out</i>, is evidenced by enjoying the number two position on CKUA\u2019s top 30 chart for two weeks in January 2024.</p><p><br></p><p><b>John Hewitt </b>- Originally from Sault Ste. Marie, Ontario, and being Alberta bound since 2018, Hewitt\u2019s mark on the Western music scene is impossible to go unnoticed. Performing over 150 shows per year - from Alberta and British Columbia to Montana, Colorado, California and beyond - covering 20,000 miles per annum and releasing three albums in that same timeframe, there is no comparison to the work ethic, the attitude and the drive that he has as an artist.</p><p><br></p><p><b>Lily Monaghan </b>- Born and raised in Edmonton, Monaghan is a blues/folk singer-songwriter with a warm, unique tone. Often using a biographical approach to songwriting, she captures a raw and soulful atmosphere for anybody who listens. Lily\u2019s passion is to create heartfelt and meaningful music, drawing inspiration from many songwriters including Brandi Carlile, Hozier, and Stevie Nicks.</p><p><br><b>Ken Stead </b>- already has a firm foothold in the Canadian roots community, having graced the grassy stages and sessions of many prominent Alberta festivals. Whether playing solo, or with his five piece band, Stead makes every room feel like home. A generous demeanor, a delicate wit, and an empathetic understanding of audiences of all shapes, his performances are as true and honest as the songs themselves.</p>",
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "12:30:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-10T12:30:00",
+                "endDateTime": "2024-08-10T13:50:00",
+                "tags": [
+                    "Ken Stead",
+                    "Kaiya Kodie",
+                    "John Hewitt",
+                    "Lily Monaghan",
+                    "School of Song"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "school-of-song-concert": {
+                        "slug": "school-of-song-concert",
+                        "name": "School of Song Concert"
+                    }
+                }
+            },
+            "530": {
+                "showId": "530",
+                "showName": "The Langan Band Concert",
+                "showDesc": "<p>The Langan Band brought together by a deep respect of traditional song and music, the trio discovered a mutual love of the evisceration and regeneration of these pieces into provocative and fascinating new compositions, as was recognised by the band winning the prestigious \u201cDanny Kyle Award\u201d at Glasgow\u2019s Celtic Connections Festival. This sound and process went on to inform the band\u2019s now mostly original repertoire, and has resulted in a musical experience quite unlike any other.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-10T16:25:00",
+                "endDateTime": "2024-08-10T17:30:00",
+                "tags": [
+                    "The Langan Band"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "the-langan-band-concert": {
+                        "slug": "the-langan-band-concert",
+                        "name": "The Langan Band Concert"
+                    }
+                }
+            },
+            "534": {
+                "showId": "534",
+                "showName": "Nikamowin",
+                "showDesc": "<p>Stage 7 comes alive on Saturday morning with a special performance by N\u00eepis\u00eey \u14c2\u1431\u14ef\u1528.</p><p></p><p>Join us again this year as the Edmonton Folk Music Festival continues to work with members of Edmonton\u2019s Indigenous Arts Community to present First Nations, M\u00e9tis and Inuit artists on our stages. We acknowledge that the EFMF takes place on Treaty 6 traditional lands, the home of the Cree, Dene, Blackfoot, Saulteaux, Nakota Sioux and Metis peoples. We look forward to growing our relationship with Indigenous peoples and communities in the coming years and we invite you to join us as we walk this journey of reconciliation together.&nbsp;</p>",
+                "type": "Session",
+                "startDate": "2024-08-10",
+                "endDate": "2024-08-10",
+                "startTime": "11:40:00",
+                "endTime": "12:30:00",
+                "startDateTime": "2024-08-10T11:40:00",
+                "endDateTime": "2024-08-10T12:30:00",
+                "tags": [
+                    "Nikamowin"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "nikamowin": {
+                        "slug": "nikamowin",
+                        "name": "Nikamowin"
+                    }
+                }
+            }
+        }
+    },
+    "2024-08-11": {
+        "date": "Sun, Aug 11 2024",
+        "gate_open_time": "",
+        "schedule": {
+            "206": {
+                "showId": "206",
+                "showName": "Sultans of String - Walking Through the Fire Concert",
+                "showDesc": "<p>In the spirit of Truth and Reconciliation, Sultans of String have created, <i>Walking Through the Fire</i>, an album and live show that are powerful collections of collaboration between the roots group and First Nations, M\u00e9tis, and Inuit artists from across Turtle Island. The group will be joined by Ojibwe singer-songwriter Marc Meril\u00e4inen (Nadjiwan), M\u00e9tis violist Alyssa Delbaere-Sawchuk, Tsm\u2019syen Elder singer-songwriter Shannon Thunderbird and The North Sound, led by Blackfoot singer-songwriter Forrest Eaglespeaker with Nevada Freistadt.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "14:00:00",
+                "endTime": "14:55:00",
+                "startDateTime": "2024-08-11T14:00:00",
+                "endDateTime": "2024-08-11T14:55:00",
+                "tags": [
+                    "Sultans of String - Walking Through the Fire"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "sultans-of-string-walking-through-the-fire-concert": {
+                        "slug": "sultans-of-string-walking-through-the-fire-concert",
+                        "name": "Sultans of String - Walking Through the Fire Concert"
+                    }
+                }
+            },
+            "208": {
+                "showId": "208",
+                "showName": "Robert Plant & Alison Krauss Concert",
+                "showDesc": "<p>Plant and Krauss released <i>Raising Sand</i>, one of the most acclaimed albums of the 21st Century. It was an unlikely, mesmerizing pairing of one of rock\u2019s greatest frontmen with one of country music\u2019s finest and most honoured artists, produced by the legendary T Bone Burnett. After 14 years, the two icons reunited with <i>Raise the Roof</i>. Earning three 2023 Grammy nominations and unanimous acclaim, these dozen songs have extended this remarkable collaboration in thrilling new directions.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "21:40:00",
+                "endTime": "22:55:00",
+                "startDateTime": "2024-08-11T21:40:00",
+                "endDateTime": "2024-08-11T22:55:00",
+                "tags": [
+                    "Robert Plant Alison Krauss"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "robert-plant-alison-krauss-concert": {
+                        "slug": "robert-plant-alison-krauss-concert",
+                        "name": "Robert Plant & Alison Krauss Concert"
+                    }
+                }
+            },
+            "222": {
+                "showId": "222",
+                "showName": "Danielle Ponder Concert",
+                "showDesc": "<p>Danielle Ponder had always been musical but chose to pursue a career in law after her brother received a 20 year sentence due to a \u201cthree strikes\u201d law. But even as she became a tireless advocate for justice in her community, music was never far from her heart. 2022 was a banner year for Danielle with appearances on Late Night with Seth Meyers, CBS This Morning, and tours with Marcus Mumford, Amos Lee, St. Paul and the Broken Bones and Leon Bridges.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "20:15:00",
+                "endTime": "21:15:00",
+                "startDateTime": "2024-08-11T20:15:00",
+                "endDateTime": "2024-08-11T21:15:00",
+                "tags": [
+                    "Danielle Ponder"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "danielle-ponder-concert": {
+                        "slug": "danielle-ponder-concert",
+                        "name": "Danielle Ponder Concert"
+                    }
+                }
+            },
+            "290": {
+                "showId": "290",
+                "showName": "Home",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-11T11:00:00",
+                "endDateTime": "2024-08-11T12:15:00",
+                "tags": [
+                    "Rose Cousins",
+                    "Abigail Lapell",
+                    "Gunning & Cormier",
+                    "Jake Xerxes Fussell"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "home": {
+                        "slug": "home",
+                        "name": "Home"
+                    }
+                }
+            },
+            "308": {
+                "showId": "308",
+                "showName": "AJ Lee & Blue Summit Concert",
+                "showDesc": "<p>Drawing from influences such as country, soul, swing, rock, and jam music, AJ uses the lens of bluegrass as a vessel through which to express and explore the thread that binds and unifies all great music. Blue Summit features Sullivan Tuttle and Scott Gates on steel stringed acoustic guitars, AJ on mandolin, Jan Purat on fiddle, and Chad Bowen on upright bass.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:35:00",
+                "endTime": "13:45:00",
+                "startDateTime": "2024-08-11T12:35:00",
+                "endDateTime": "2024-08-11T13:45:00",
+                "tags": [
+                    "AJ Lee and Blue Summit"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "aj-lee-blue-summit-concert": {
+                        "slug": "aj-lee-blue-summit-concert",
+                        "name": "AJ Lee & Blue Summit Concert"
+                    }
+                }
+            },
+            "310": {
+                "showId": "310",
+                "showName": "Blanco White Concert",
+                "showDesc": "<p>Blanco White has already crafted a sound of his own with his off-world explorations of Latin American and Andalusian folk music. On <i>Tarifa</i>, Josh Edwards\u2019 second solo album, he mines new depths within his colourful fusions of folk with indie and electronics, while embracing the thrill of collaboration, discovery and cultural exchange.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:25:00",
+                "endTime": "17:35:00",
+                "startDateTime": "2024-08-11T16:25:00",
+                "endDateTime": "2024-08-11T17:35:00",
+                "tags": [
+                    "Blanco White"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "blanco-white-concert": {
+                        "slug": "blanco-white-concert",
+                        "name": "Blanco White Concert"
+                    }
+                }
+            },
+            "471": {
+                "showId": "471",
+                "showName": "A New World",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:05:00",
+                "endTime": "16:15:00",
+                "startDateTime": "2024-08-11T15:05:00",
+                "endDateTime": "2024-08-11T16:15:00",
+                "tags": [
+                    "Pharis and Jason Romero",
+                    "AJ Lee and Blue Summit",
+                    "Les Grands Hurleurs",
+                    "Gunning & Cormier"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "a-new-world": {
+                        "slug": "a-new-world",
+                        "name": "A New World"
+                    }
+                }
+            },
+            "477": {
+                "showId": "477",
+                "showName": "Sing Out",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-11T12:35:00",
+                "endDateTime": "2024-08-11T13:50:00",
+                "tags": [
+                    "Robert Finley",
+                    "Black Umfolosi International",
+                    "Danielle Ponder",
+                    "Eric Bibb & Michael Jerome Browne"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "sing-out": {
+                        "slug": "sing-out",
+                        "name": "Sing Out"
+                    }
+                }
+            },
+            "479": {
+                "showId": "479",
+                "showName": "Sense of Wonder",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-11T12:35:00",
+                "endDateTime": "2024-08-11T13:50:00",
+                "tags": [
+                    "Blanco White",
+                    "KT Tunstall",
+                    "Leif Vollebekk",
+                    "Tina Dico"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "sense-of-wonder": {
+                        "slug": "sense-of-wonder",
+                        "name": "Sense of Wonder"
+                    }
+                }
+            },
+            "480": {
+                "showId": "480",
+                "showName": "Boy Golden Concert",
+                "showDesc": "<p>When listening to his music, it feels easy to dissolve into the ether. Everything flows. From classic country to psych-folk, alternative to roadhouse pop to Appalachian bluegrass. Boy Golden\u2019s music is easy, breezy, warm and gritty. And don\u2019t it just feel good to listen to it.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-11T16:25:00",
+                "endDateTime": "2024-08-11T17:30:00",
+                "tags": [
+                    "Boy Golden"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "boy-golden-concert": {
+                        "slug": "boy-golden-concert",
+                        "name": "Boy Golden Concert"
+                    }
+                }
+            },
+            "482": {
+                "showId": "482",
+                "showName": "Wishes",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-11T11:00:00",
+                "endDateTime": "2024-08-11T12:15:00",
+                "tags": [
+                    "Noeline Hofmann",
+                    "Sammy Volkov",
+                    "Boy Golden",
+                    "Leith Ross"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "wishes": {
+                        "slug": "wishes",
+                        "name": "Wishes"
+                    }
+                }
+            },
+            "483": {
+                "showId": "483",
+                "showName": "Song Catchers",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-11T11:00:00",
+                "endDateTime": "2024-08-11T12:15:00",
+                "tags": [
+                    "Briscoe",
+                    "Good Lovelies",
+                    "Jess Williamson"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "song-catchers": {
+                        "slug": "song-catchers",
+                        "name": "Song Catchers"
+                    }
+                }
+            },
+            "484": {
+                "showId": "484",
+                "showName": "Briscoe Concert",
+                "showDesc": "<p><i>West of It All</i>, the debut album from Briscoe, is a coming-of-age soundtrack set against the backdrop of the Texas Hill Country. It charts its own musical geography, with production from Grammy nominee Brad Cook (Bon Iver, Waxahatchee, Nathaniel Rateliff &amp; The Night Sweats) and adventurous songwriting that bridges the gap between classic American roots music and its modern-day incarnation.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:55:00",
+                "endTime": "18:55:00",
+                "startDateTime": "2024-08-11T17:55:00",
+                "endDateTime": "2024-08-11T18:55:00",
+                "tags": [
+                    "Briscoe"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "briscoe-concert": {
+                        "slug": "briscoe-concert",
+                        "name": "Briscoe Concert"
+                    }
+                }
+            },
+            "487": {
+                "showId": "487",
+                "showName": "More Than This",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:00:00",
+                "endTime": "11:55:00",
+                "startDateTime": "2024-08-11T11:00:00",
+                "endDateTime": "2024-08-11T11:55:00",
+                "tags": [
+                    "Buffalo Nichols",
+                    "Wyatt C. Louis",
+                    "Don Ross"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "more-than-this": {
+                        "slug": "more-than-this",
+                        "name": "More Than This"
+                    }
+                }
+            },
+            "488": {
+                "showId": "488",
+                "showName": "Buffalo Nichols Concert",
+                "showDesc": "<p>On his second album, <i>The Fatalist</i>, Carl \u201cBuffalo\u201d Nichols does things with the blues that might catch you off guard. His vision for the blues is of a form of music that\u2019s intimately tied to everyday life in 2023, something that\u2019s reflected not only in the choice of instrumentation, but in the complexities of the songwriting and the gray areas his lyrics explore.&nbsp;</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:45:00",
+                "endTime": "18:50:00",
+                "startDateTime": "2024-08-11T17:45:00",
+                "endDateTime": "2024-08-11T18:50:00",
+                "tags": [
+                    "Buffalo Nichols"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "buffalo-nichols-concert": {
+                        "slug": "buffalo-nichols-concert",
+                        "name": "Buffalo Nichols Concert"
+                    }
+                }
+            },
+            "491": {
+                "showId": "491",
+                "showName": "Dorsten Concert",
+                "showDesc": "<p>Dorsten is an award-winning brother-sister Americana band with a passion for captivating lyrics, unparalleled creativity, exceptional musicianship, and top-notch production that extends well beyond their years. Influenced by the likes of Brandi Carlile, The Lumineers, and Of Monsters And Men, the duo has spent years honing their craft, captivating audiences on national tours and numerous music festivals.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "13:05:00",
+                "endTime": "13:55:00",
+                "startDateTime": "2024-08-11T13:05:00",
+                "endDateTime": "2024-08-11T13:55:00",
+                "tags": [
+                    "Dorsten"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "dorsten-concert": {
+                        "slug": "dorsten-concert",
+                        "name": "Dorsten Concert"
+                    }
+                }
+            },
+            "496": {
+                "showId": "496",
+                "showName": "Truth Will Out",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-11T15:05:00",
+                "endDateTime": "2024-08-11T16:10:00",
+                "tags": [
+                    "Miko Marks",
+                    "Eric Bibb & Michael Jerome Browne",
+                    "Fantastic Negrito"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "truth-will-out": {
+                        "slug": "truth-will-out",
+                        "name": "Truth Will Out"
+                    }
+                }
+            },
+            "499": {
+                "showId": "499",
+                "showName": "A Sense of Place",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:00:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-11T15:00:00",
+                "endDateTime": "2024-08-11T16:10:00",
+                "tags": [
+                    "S.G. Goodman",
+                    "Reuben and the Dark with Bullhorn Singers",
+                    "Good Lovelies",
+                    "John Craigie"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "a-sense-of-place": {
+                        "slug": "a-sense-of-place",
+                        "name": "A Sense of Place"
+                    }
+                }
+            },
+            "503": {
+                "showId": "503",
+                "showName": "Someday Soon",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:05:00",
+                "endTime": "12:20:00",
+                "startDateTime": "2024-08-11T11:05:00",
+                "endDateTime": "2024-08-11T12:20:00",
+                "tags": [
+                    "Noeline Hofmann",
+                    "Jake Vaadeland and The Sturgeon River Boys",
+                    "John Reischman and the Jaybirds"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "someday-soon": {
+                        "slug": "someday-soon",
+                        "name": "Someday Soon"
+                    }
+                }
+            },
+            "504": {
+                "showId": "504",
+                "showName": "Jake Xerxes Fussell Concert",
+                "showDesc": "<p>&nbsp;Jake Xerxes Fussell is a singer and guitarist based in Durham, North Carolina, whose album, <i>Good and Green Again</i>, was released to critical acclaim in January of 2022. \u201c(Fussell) is one of the great magpies of American song, collecting forgotten, tarnished gems with a folklorist\u2019s zeal\u2026 his renditions aren\u2019t so much cover versions as composites\u2026\u201d. (The Guardian)</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:05:00",
+                "endTime": "16:15:00",
+                "startDateTime": "2024-08-11T15:05:00",
+                "endDateTime": "2024-08-11T16:15:00",
+                "tags": [
+                    "Jake Xerxes Fussell"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "jake-xerxes-fussell-concert": {
+                        "slug": "jake-xerxes-fussell-concert",
+                        "name": "Jake Xerxes Fussell Concert"
+                    }
+                }
+            },
+            "505": {
+                "showId": "505",
+                "showName": "JD McPherson Concert",
+                "showDesc": "<p>JD McPherson has recorded four studio albums and toured extensively at venues worldwide, including festival sets at Glastonbury and Bonnaroo. Rolling Stone has described his music as \u201cTimeless, forward-thinking rock and roll.\u201d This summer JD will also be part of the Robert Plant and Alison Krauss touring band.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-11T15:05:00",
+                "endDateTime": "2024-08-11T16:10:00",
+                "tags": [
+                    "JD McPherson"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "jd-mcpherson-concert": {
+                        "slug": "jd-mcpherson-concert",
+                        "name": "JD McPherson Concert"
+                    }
+                }
+            },
+            "506": {
+                "showId": "506",
+                "showName": "Jess Williamson Concert",
+                "showDesc": "<p>The singer-songwriter\u2019s latest release, <i>Time Ain\u2019t Accidental</i>, is evocative of iconic Western landscapes, tear-in-beer anthems, and a wholly modern take on country music that is completely her own. Above everything, sonically and thematically, this album is about Jess\u2019 voice, crystalline and acrobatic in its range, standing front and centre. Think Linda Rondstadt turned minimalist, The Chicks gone indie or Emmylou Harris\u2019 work with Daniel Lanois.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-11T16:25:00",
+                "endDateTime": "2024-08-11T17:30:00",
+                "tags": [
+                    "Jess Williamson"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "jess-williamson-concert": {
+                        "slug": "jess-williamson-concert",
+                        "name": "Jess Williamson Concert"
+                    }
+                }
+            },
+            "508": {
+                "showId": "508",
+                "showName": "The Story",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:30:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-11T12:30:00",
+                "endDateTime": "2024-08-11T13:50:00",
+                "tags": [
+                    "The Heavy Heavy",
+                    "John Craigie",
+                    "Jon and Roy",
+                    "Kim Churchill"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "the-story": {
+                        "slug": "the-story",
+                        "name": "The Story"
+                    }
+                }
+            },
+            "510": {
+                "showId": "510",
+                "showName": "Jon and Roy Concert",
+                "showDesc": "<p>It\u2019s easy to fall for the effortless, amiable charm of Jon Middleton and Roy Vizer. Seasoned musicians and long time friends, their brand of indie folk rock is one that evokes freewheeling summer days, winding stretches of road and the pull of the journey. With over 150 million streams worldwide, it\u2019s clear many others have been captivated by Jon and Roy and the stories they tell.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:55:00",
+                "endTime": "18:55:00",
+                "startDateTime": "2024-08-11T17:55:00",
+                "endDateTime": "2024-08-11T18:55:00",
+                "tags": [
+                    "Jon and Roy"
+                ],
+                "location": "Stage 1",
+                "locationId": 70,
+                "slugs": {
+                    "jon-and-roy-concert": {
+                        "slug": "jon-and-roy-concert",
+                        "name": "Jon and Roy Concert"
+                    }
+                }
+            },
+            "513": {
+                "showId": "513",
+                "showName": "Rhyme or Reason",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:45:00",
+                "endTime": "18:50:00",
+                "startDateTime": "2024-08-11T17:45:00",
+                "endDateTime": "2024-08-11T18:50:00",
+                "tags": [
+                    "Ruen Brothers",
+                    "The Langan Band",
+                    "KT Tunstall"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "rhyme-or-reason": {
+                        "slug": "rhyme-or-reason",
+                        "name": "Rhyme or Reason"
+                    }
+                }
+            },
+            "514": {
+                "showId": "514",
+                "showName": "Leif Vollebekk Concert",
+                "showDesc": "<p>Leif Vollebekk is an acclaimed singer-songwriter originally from Ottawa who now resides in Montreal. He has sold-out headlining tours across North America, Europe and Australia. Leif's first Secret City Records release, <i>Twin Solitude</i>, was a breakthrough album, landing a spot on the Polaris Music Prize 2017 shortlist, a JUNO nomination and gathering over 60 million streams.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:50:00",
+                "endTime": "18:55:00",
+                "startDateTime": "2024-08-11T17:50:00",
+                "endDateTime": "2024-08-11T18:55:00",
+                "tags": [
+                    "Leif Vollebekk"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "leif-vollebekk-concert": {
+                        "slug": "leif-vollebekk-concert",
+                        "name": "Leif Vollebekk Concert"
+                    }
+                }
+            },
+            "515": {
+                "showId": "515",
+                "showName": "Leith Ross Concert",
+                "showDesc": "<p>Their songs are hugely personal and take them to vulnerable places, always rendered in folk-adjacent tones, sometimes with a pop beat or a rock riff, sometimes just their voice and their guitar dancing alone. \u201cFans see their own heartache in Ross\u2019 thoughtful, if anguished storytelling, which serves as a reminder that the most striking perspectives often come from those who are underestimated.\u201d (NME Magazine)</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "17:45:00",
+                "endTime": "18:55:00",
+                "startDateTime": "2024-08-11T17:45:00",
+                "endDateTime": "2024-08-11T18:55:00",
+                "tags": [
+                    "Leith Ross"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "leith-ross-concert": {
+                        "slug": "leith-ross-concert",
+                        "name": "Leith Ross Concert"
+                    }
+                }
+            },
+            "518": {
+                "showId": "518",
+                "showName": "Common Ground",
+                "showDesc": null,
+                "type": "Session",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "11:00:00",
+                "endTime": "12:15:00",
+                "startDateTime": "2024-08-11T11:00:00",
+                "endDateTime": "2024-08-11T12:15:00",
+                "tags": [
+                    "The Langan Band",
+                    "Les Grands Hurleurs",
+                    "The McDades"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "common-ground": {
+                        "slug": "common-ground",
+                        "name": "Common Ground"
+                    }
+                }
+            },
+            "519": {
+                "showId": "519",
+                "showName": "Miko Marks Concert",
+                "showDesc": "<p>Life as a Black woman in country and roots music is only a small part of her story. After a 13 year break from releasing music, her resurgence took an industry by storm, deftly blending country, blues, southern rock and even gospel to create a sound and experience that has literally brought every audience to its feet. Her warm and soulful spirit catapulted her into a community of change with her doing more than breaking ground - she\u2019s shattering it.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:35:00",
+                "endTime": "13:50:00",
+                "startDateTime": "2024-08-11T12:35:00",
+                "endDateTime": "2024-08-11T13:50:00",
+                "tags": [
+                    "Miko Marks"
+                ],
+                "location": "Stage 2",
+                "locationId": 71,
+                "slugs": {
+                    "miko-marks-concert": {
+                        "slug": "miko-marks-concert",
+                        "name": "Miko Marks Concert"
+                    }
+                }
+            },
+            "520": {
+                "showId": "520",
+                "showName": "Noeline Hofmann Concert",
+                "showDesc": "<p>From bittersweet ballad to gritty barn burner, Hofmann brings the glowing expanse of the Plains to the stage - a voice with the golden charm of a meadowlark and lyricism with the strike of a rattlesnake. Between a history of working in honky-tonks and punching cattle across the Canadian Prairies, her sage songwriting and live show bleed a head-turning authenticity through her sterling brand of 'wild rose' country music.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:30:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-11T16:30:00",
+                "endDateTime": "2024-08-11T17:30:00",
+                "tags": [
+                    "Noeline Hofmann"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "noeline-hofmann-concert": {
+                        "slug": "noeline-hofmann-concert",
+                        "name": "Noeline Hofmann Concert"
+                    }
+                }
+            },
+            "521": {
+                "showId": "521",
+                "showName": "Reuben and the Dark with Bullhorn Singers Concert",
+                "showDesc": null,
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:25:00",
+                "endTime": "17:30:00",
+                "startDateTime": "2024-08-11T16:25:00",
+                "endDateTime": "2024-08-11T17:30:00",
+                "tags": [
+                    "Reuben and the Dark with Bullhorn Singers"
+                ],
+                "location": "Stage 6",
+                "locationId": 74,
+                "slugs": {
+                    "reuben-and-the-dark-with-bullhorn-singers-concert": {
+                        "slug": "reuben-and-the-dark-with-bullhorn-singers-concert",
+                        "name": "Reuben and the Dark with Bullhorn Singers Concert"
+                    }
+                }
+            },
+            "528": {
+                "showId": "528",
+                "showName": "The Bankes Brothers Concert",
+                "showDesc": "<p>The Victoria, BC four-piece formed in a pool hall one night in 2017, playing their first gig less than a week later. Delivering a dynamic setlist influenced by Otis Redding to Talking Heads, the former high school classmates were overwhelmed by an undeniable musical chemistry. Now with the imminent release of the highly anticipated full EP, <i>In Waves</i>, all eyes are on The Bankes Brothers for what promises to be another banner year for one of Canada\u2019s rising stars in contemporary roots music.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "12:05:00",
+                "endTime": "12:55:00",
+                "startDateTime": "2024-08-11T12:05:00",
+                "endDateTime": "2024-08-11T12:55:00",
+                "tags": [
+                    "The Bankes Brothers"
+                ],
+                "location": "Stage 7",
+                "locationId": 75,
+                "slugs": {
+                    "the-bankes-brothers-concert": {
+                        "slug": "the-bankes-brothers-concert",
+                        "name": "The Bankes Brothers Concert"
+                    }
+                }
+            },
+            "529": {
+                "showId": "529",
+                "showName": "Ruen Brothers Concert",
+                "showDesc": "<p>The duo have returned with moody, neo-noir gold on their third full-length album, <i>Ten Paces</i>, which follows their 2018 Rick Rubin-produced debut, <i>All My Shades of Blue</i> and 2021\u2019s, <i>ULTRAMODERN</i>. On their new tour-de-force project, the brothers have embraced their love for the American Westerns that they grew up watching with their mother, and have put a modern spin on the classic genre.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "15:05:00",
+                "endTime": "16:10:00",
+                "startDateTime": "2024-08-11T15:05:00",
+                "endDateTime": "2024-08-11T16:10:00",
+                "tags": [
+                    "Ruen Brothers"
+                ],
+                "location": "Stage 3",
+                "locationId": 72,
+                "slugs": {
+                    "ruen-brothers-concert": {
+                        "slug": "ruen-brothers-concert",
+                        "name": "Ruen Brothers Concert"
+                    }
+                }
+            },
+            "532": {
+                "showId": "532",
+                "showName": "Tina Dico Concert",
+                "showDesc": "<p>Tina Dico&nbsp;released her 11th studio album, <i>Fastland</i>, in late 2018 and has been touring the record ever since. Along the way, Dico wrote and performed with Zero 7 on their classic 'When It Falls' album, giving her songs and voice a platform which she grasped firmly. Having now released somewhere in the region of 150 songs, the now household name in&nbsp;</p><p>Denmark continues to build a loyal and fanatical audience all around the world.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "16:35:00",
+                "endTime": "17:40:00",
+                "startDateTime": "2024-08-11T16:35:00",
+                "endDateTime": "2024-08-11T17:40:00",
+                "tags": [
+                    "Tina Dico"
+                ],
+                "location": "Stage 5",
+                "locationId": 73,
+                "slugs": {
+                    "tina-dico-concert": {
+                        "slug": "tina-dico-concert",
+                        "name": "Tina Dico Concert"
+                    }
+                }
+            },
+            "533": {
+                "showId": "533",
+                "showName": "The Heavy Heavy Concert",
+                "showDesc": "<p>The Heavy Heavy creates the kind of unfettered rock and roll that warps time and place, immediately pulling the audience into a euphoric fugue state with its own sun-soaked atmosphere. Led by lifelong musicians Will Turner and Georgie Fuller, the Brighton, UK-based band began with a shared ambition of \u201cmaking records that sound like our favourite records ever,\u201d and soon arrived at a reverb-drenched collision of psychedelia and blues, acid rock and sunshine pop.</p>",
+                "type": "Concert",
+                "startDate": "2024-08-11",
+                "endDate": "2024-08-11",
+                "startTime": "19:00:00",
+                "endTime": "19:55:00",
+                "startDateTime": "2024-08-11T19:00:00",
+                "endDateTime": "2024-08-11T19:55:00",
+                "tags": [
+                    "The Heavy Heavy"
+                ],
+                "location": "Main Stage",
+                "locationId": 69,
+                "slugs": {
+                    "the-heavy-heavy-concert": {
+                        "slug": "the-heavy-heavy-concert",
+                        "name": "The Heavy Heavy Concert"
+                    }
+                }
+            }
+        }
+    }
+}

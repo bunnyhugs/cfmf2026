@@ -1,0 +1,16 @@
+Config:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/config.json
+Texts:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/texts.json
+Tags:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/tags.json
+Events:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/events.json
+Shows:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/shows.json
+Performances:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/performances.json
+Artists:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/artists.json
+400:
+https://goeventweb-static.greencopper.com/34cd2cdd72524070aa3b1180d445c1fe/edmontonfolkfestivalwebwidget-2024/data/eng/events/400.json

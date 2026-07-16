@@ -1,0 +1,732 @@
+{
+  "100": {
+    "_id": 100,
+    "letter": "J",
+    "photo_suffix": "20240410015800_ae0f88e3",
+    "slug": "jake-xerxes-fussell",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Jake Xerxes Fussell"
+  },
+  "101": {
+    "_id": 101,
+    "letter": "J",
+    "photo_suffix": "20240410015800_ff5d3bde",
+    "slug": "jd-mcpherson",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "JD McPherson"
+  },
+  "102": {
+    "_id": 102,
+    "letter": "J",
+    "photo_suffix": "20240410015800_1ca1976d",
+    "slug": "jess-williamson",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Jess Williamson"
+  },
+  "103": {
+    "_id": 103,
+    "letter": "J",
+    "photo_suffix": "20240521031346_fbb135ab",
+    "slug": "john-craigie",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "John Craigie"
+  },
+  "104": {
+    "_id": 104,
+    "letter": "J",
+    "photo_suffix": "20240410015802_29a0b6c9",
+    "slug": "john-reischman-the-jaybirds",
+    "sort_order": null,
+    "subtitle": "Canada/BC",
+    "tags": [],
+    "title": "John Reischman & the Jaybirds"
+  },
+  "105": {
+    "_id": 105,
+    "letter": "J",
+    "photo_suffix": "20240527020754_913da112",
+    "slug": "jon-and-roy",
+    "sort_order": null,
+    "subtitle": "Canada/BC",
+    "tags": [],
+    "title": "Jon and Roy"
+  },
+  "106": {
+    "_id": 106,
+    "letter": "K",
+    "photo_suffix": "20240527020754_3da3ffe8",
+    "slug": "kim-churchill",
+    "sort_order": null,
+    "subtitle": "Australia",
+    "tags": [],
+    "title": "Kim Churchill"
+  },
+  "107": {
+    "_id": 107,
+    "letter": "K",
+    "photo_suffix": "20240410015803_64e8bd7b",
+    "slug": "kt-tunstall",
+    "sort_order": null,
+    "subtitle": "UK/Scotland",
+    "tags": [],
+    "title": "KT Tunstall"
+  },
+  "108": {
+    "_id": 108,
+    "letter": "L",
+    "photo_suffix": "20240410015805_f15d10ea",
+    "slug": "la-misa-negra",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "La Misa Negra"
+  },
+  "109": {
+    "_id": 109,
+    "letter": "L",
+    "photo_suffix": "20240426125330_6f09d3bd",
+    "slug": "leif-vollebekk",
+    "sort_order": null,
+    "subtitle": "Canada/QC",
+    "tags": [],
+    "title": "Leif Vollebekk"
+  },
+  "110": {
+    "_id": 110,
+    "letter": "L",
+    "photo_suffix": "20240410015805_bb2bf77f",
+    "slug": "leith-ross",
+    "sort_order": null,
+    "subtitle": "Canada/MB",
+    "tags": [],
+    "title": "Leith Ross"
+  },
+  "111": {
+    "_id": 111,
+    "letter": "L",
+    "photo_suffix": "20240610125105_62fabe15",
+    "slug": "les-grands-hurleurs",
+    "sort_order": null,
+    "subtitle": "Canada/QC",
+    "tags": [],
+    "title": "Les Grands Hurleurs"
+  },
+  "112": {
+    "_id": 112,
+    "letter": "M",
+    "photo_suffix": "20240410015808_59f2cde5",
+    "slug": "miko-marks",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Miko Marks"
+  },
+  "114": {
+    "_id": 114,
+    "letter": "N",
+    "photo_suffix": "20240410015809_291d71ed",
+    "slug": "noeline-hofmann",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Noeline Hofmann"
+  },
+  "115": {
+    "_id": 115,
+    "letter": "O",
+    "photo_suffix": "20240410015810_53467443",
+    "slug": "orchestra-gold",
+    "sort_order": null,
+    "subtitle": "Mali/USA",
+    "tags": [],
+    "title": "Orchestra Gold"
+  },
+  "116": {
+    "_id": 116,
+    "letter": "P",
+    "photo_suffix": "20240527020756_0bcd167d",
+    "slug": "pharis-and-jason-romero",
+    "sort_order": null,
+    "subtitle": "Canada/BC",
+    "tags": [],
+    "title": "Pharis and Jason Romero"
+  },
+  "117": {
+    "_id": 117,
+    "letter": "R",
+    "photo_suffix": "20240410015811_7ac4fd54",
+    "slug": "reuben-and-the-dark-with-bullhorn-singers",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Reuben and the Dark with Bullhorn Singers"
+  },
+  "118": {
+    "_id": 118,
+    "letter": "R",
+    "photo_suffix": "20240527020756_77db3916",
+    "slug": "rhiannon-giddens",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Rhiannon Giddens"
+  },
+  "119": {
+    "_id": 119,
+    "letter": "R",
+    "photo_suffix": "20240410015812_93e4f78f",
+    "slug": "robert-finley",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Robert Finley"
+  },
+  "120": {
+    "_id": 120,
+    "letter": "R",
+    "photo_suffix": "20240410015812_f6f84ce3",
+    "slug": "robert-plant-alison-krauss",
+    "sort_order": null,
+    "subtitle": "UK/USA",
+    "tags": [],
+    "title": "Robert Plant & Alison Krauss"
+  },
+  "121": {
+    "_id": 121,
+    "letter": "R",
+    "photo_suffix": "20240410015813_73138a8e",
+    "slug": "rose-cousins",
+    "sort_order": null,
+    "subtitle": "Canada/NS",
+    "tags": [],
+    "title": "Rose Cousins"
+  },
+  "122": {
+    "_id": 122,
+    "letter": "R",
+    "photo_suffix": "20240528025334_b5578ab6",
+    "slug": "ruen-brothers",
+    "sort_order": null,
+    "subtitle": "UK/England",
+    "tags": [],
+    "title": "Ruen Brothers"
+  },
+  "123": {
+    "_id": 123,
+    "letter": "S",
+    "photo_suffix": "20240410015814_63146687",
+    "slug": "sg-goodman",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "S.G. Goodman"
+  },
+  "124": {
+    "_id": 124,
+    "letter": "S",
+    "photo_suffix": "20240410015814_cbd6f1f7",
+    "slug": "sammy-volkov",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Sammy Volkov"
+  },
+  "125": {
+    "_id": 125,
+    "letter": "S",
+    "photo_suffix": "20240410015814_ce5d86b0",
+    "slug": "sultans-of-string-walking-through-the-fire",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Sultans of String - Walking Through the Fire"
+  },
+  "126": {
+    "_id": 126,
+    "letter": "T",
+    "photo_suffix": "20240410015815_4e46d987",
+    "slug": "the-bankes-brothers",
+    "sort_order": null,
+    "subtitle": "Canada/BC",
+    "tags": [],
+    "title": "The Bankes Brothers"
+  },
+  "127": {
+    "_id": 127,
+    "letter": "T",
+    "photo_suffix": "20240627032209_8ad77a69",
+    "slug": "the-heavy-heavy",
+    "sort_order": null,
+    "subtitle": "UK/England",
+    "tags": [],
+    "title": "The Heavy Heavy"
+  },
+  "128": {
+    "_id": 128,
+    "letter": "T",
+    "photo_suffix": "20240527020757_97cc6067",
+    "slug": "the-langan-band",
+    "sort_order": null,
+    "subtitle": "UK/Scotland",
+    "tags": [],
+    "title": "The Langan Band"
+  },
+  "129": {
+    "_id": 129,
+    "letter": "T",
+    "photo_suffix": "20240410015818_174b2788",
+    "slug": "the-mcdades",
+    "sort_order": null,
+    "subtitle": "Canada/AB/QC",
+    "tags": [],
+    "title": "The McDades"
+  },
+  "130": {
+    "_id": 130,
+    "letter": "T",
+    "photo_suffix": "20240410015817_4d9fc7f7",
+    "slug": "tina-dico",
+    "sort_order": null,
+    "subtitle": "Denmark/Iceland",
+    "tags": [],
+    "title": "Tina Dico"
+  },
+  "131": {
+    "_id": 131,
+    "letter": "W",
+    "photo_suffix": "20240521044858_2a36e0eb",
+    "slug": "wild-rivers",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Wild Rivers"
+  },
+  "132": {
+    "_id": 132,
+    "letter": "W",
+    "photo_suffix": "20240410015819_7527c90f",
+    "slug": "wyatt-c-louis",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Wyatt C. Louis"
+  },
+  "134": {
+    "_id": 134,
+    "letter": "S",
+    "photo_suffix": "20240410015821_85ccc1fd",
+    "slug": "school-of-song-john-hewitt-kaiya-kodie-ken-stead-lily-monaghan",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "School of Song (John Hewitt, Kaiya Kodie, Ken Stead, Lily Monaghan)"
+  },
+  "135": {
+    "_id": 135,
+    "letter": "K",
+    "photo_suffix": "20240410015821_a835616c",
+    "slug": "ken-stead-school-of-song",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Ken Stead"
+  },
+  "136": {
+    "_id": 136,
+    "letter": "J",
+    "photo_suffix": "20240410015821_8c94abda",
+    "slug": "john-hewitt-school-of-song",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "John Hewitt"
+  },
+  "137": {
+    "_id": 137,
+    "letter": "K",
+    "photo_suffix": "20240410015822_c8793b96",
+    "slug": "kaiya-kodie-school-of-song",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Kaiya Kodie"
+  },
+  "138": {
+    "_id": 138,
+    "letter": "L",
+    "photo_suffix": "20240527020758_477f8835",
+    "slug": "lily-monaghan-school-of-song",
+    "sort_order": null,
+    "subtitle": "Canada/AB",
+    "tags": [],
+    "title": "Lily Monaghan"
+  },
+  "430": {
+    "_id": 430,
+    "letter": "K",
+    "photo_suffix": "20240627032210_025f002c",
+    "slug": "kobo-town",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Kobo Town"
+  },
+  "431": {
+    "_id": 431,
+    "letter": "A",
+    "photo_suffix": "20240627032210_4c6ae776",
+    "slug": "anna-muskego-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Anna Muskego (Nikamowin)"
+  },
+  "432": {
+    "_id": 432,
+    "letter": "B",
+    "photo_suffix": "20240627032211_70581225",
+    "slug": "brianna-lizotte-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Brianna Lizotte (Nikamowin)"
+  },
+  "433": {
+    "_id": 433,
+    "letter": "C",
+    "photo_suffix": "20240627032211_dd85cfa1",
+    "slug": "celina-loyer-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Celina Loyer (Nikamowin)"
+  },
+  "434": {
+    "_id": 434,
+    "letter": "E",
+    "photo_suffix": "20240627032211_643dd28c",
+    "slug": "ekti-margaret-cardinal-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Ekti Margaret Cardinal (Nikamowin)"
+  },
+  "435": {
+    "_id": 435,
+    "letter": "E",
+    "photo_suffix": "20240627032212_85fb1fe1",
+    "slug": "esta-bee-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Esta Bee (Nikamowin)"
+  },
+  "436": {
+    "_id": 436,
+    "letter": "G",
+    "photo_suffix": "20240627032212_448df53b",
+    "slug": "goota-desmarais-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Goota Desmarais (Nikamowin)"
+  },
+  "437": {
+    "_id": 437,
+    "letter": "L",
+    "photo_suffix": "20240627032213_1aa2705c",
+    "slug": "leo-and-priscilla-mcgilvery-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Leo and Priscilla McGilvery (Nikamowin)"
+  },
+  "438": {
+    "_id": 438,
+    "letter": "L",
+    "photo_suffix": "20240627032213_b07078e1",
+    "slug": "levi-wolfe-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [],
+    "title": "Levi Wolfe (Nikamowin)"
+  },
+  "439": {
+    "_id": 439,
+    "letter": "M",
+    "photo_suffix": "20240627032213_a7e4914c",
+    "slug": "matt-hiltermann-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Matt Hiltermann (Nikamowin)"
+  },
+  "440": {
+    "_id": 440,
+    "letter": "N",
+    "photo_suffix": "20240627032214_775dea75",
+    "slug": "nipisiy-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "N\u00eepis\u00eey \u14c2\u1431\u14ef\u1528 (Nikamowin)"
+  },
+  "441": {
+    "_id": 441,
+    "letter": "T",
+    "photo_suffix": "20240627032214_27d2cd55",
+    "slug": "tootoosis-crew-nikamowin",
+    "sort_order": null,
+    "subtitle": null,
+    "tags": [
+      427
+    ],
+    "title": "Tootoosis Crew (Nikamowin)"
+  },
+  "77": {
+    "_id": 77,
+    "letter": "A",
+    "photo_suffix": "20240410015744_1d7a20e6",
+    "slug": "abigail-lapell",
+    "sort_order": null,
+    "subtitle": "Canada / ON",
+    "tags": [],
+    "title": "Abigail Lapell"
+  },
+  "78": {
+    "_id": 78,
+    "letter": "A",
+    "photo_suffix": "20240521031344_c0c13e9f",
+    "slug": "aj-lee-blue-summit",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "AJ Lee & Blue Summit"
+  },
+  "79": {
+    "_id": 79,
+    "letter": "A",
+    "photo_suffix": "20240422053729_a573a64e",
+    "slug": "alpha-yaya-diallo",
+    "sort_order": null,
+    "subtitle": "Canada/Guinea",
+    "tags": [],
+    "title": "Alpha Yaya Diallo"
+  },
+  "80": {
+    "_id": 80,
+    "letter": "A",
+    "photo_suffix": "20240410015745_7567929e",
+    "slug": "angie-mcmahon",
+    "sort_order": null,
+    "subtitle": "Australia",
+    "tags": [],
+    "title": "Angie McMahon"
+  },
+  "81": {
+    "_id": 81,
+    "letter": "B",
+    "photo_suffix": "20240527020753_6dca4774",
+    "slug": "ben-howard",
+    "sort_order": null,
+    "subtitle": "UK/England",
+    "tags": [],
+    "title": "Ben Howard"
+  },
+  "82": {
+    "_id": 82,
+    "letter": "B",
+    "photo_suffix": "20240410015746_7475b45f",
+    "slug": "black-pumas",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Black Pumas"
+  },
+  "83": {
+    "_id": 83,
+    "letter": "B",
+    "photo_suffix": "20240410015749_782b630b",
+    "slug": "black-umfolosi-international",
+    "sort_order": null,
+    "subtitle": "Zimbabwe/Canada",
+    "tags": [],
+    "title": "Black Umfolosi International"
+  },
+  "84": {
+    "_id": 84,
+    "letter": "B",
+    "photo_suffix": "20240410015749_4b60f334",
+    "slug": "blanco-white",
+    "sort_order": null,
+    "subtitle": "UK/England",
+    "tags": [],
+    "title": "Blanco White"
+  },
+  "85": {
+    "_id": 85,
+    "letter": "B",
+    "photo_suffix": "20240410015750_1f7d2a49",
+    "slug": "blue-rodeo",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Blue Rodeo"
+  },
+  "86": {
+    "_id": 86,
+    "letter": "B",
+    "photo_suffix": "20240526080748_5e5a18f1",
+    "slug": "boy-golden",
+    "sort_order": null,
+    "subtitle": "Canada/MB",
+    "tags": [],
+    "title": "Boy Golden"
+  },
+  "87": {
+    "_id": 87,
+    "letter": "B",
+    "photo_suffix": "20240410015752_a9b495c3",
+    "slug": "briscoe",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Briscoe"
+  },
+  "88": {
+    "_id": 88,
+    "letter": "B",
+    "photo_suffix": "20240410015752_306cf85a",
+    "slug": "buffalo-nichols",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Buffalo Nichols"
+  },
+  "89": {
+    "_id": 89,
+    "letter": "D",
+    "photo_suffix": "20240410015753_2751583a",
+    "slug": "danielle-ponder",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Danielle Ponder"
+  },
+  "90": {
+    "_id": 90,
+    "letter": "D",
+    "photo_suffix": "20240410015753_d6e73201",
+    "slug": "dawes",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Dawes"
+  },
+  "91": {
+    "_id": 91,
+    "letter": "D",
+    "photo_suffix": "20240410015755_38788086",
+    "slug": "don-ross",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Don Ross"
+  },
+  "92": {
+    "_id": 92,
+    "letter": "D",
+    "photo_suffix": "20240410015755_9f74a33a",
+    "slug": "dorsten",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Dorsten"
+  },
+  "93": {
+    "_id": 93,
+    "letter": "E",
+    "photo_suffix": "20240527022528_892f540c",
+    "slug": "elisapie",
+    "sort_order": null,
+    "subtitle": "Canada/NU",
+    "tags": [],
+    "title": "Elisapie"
+  },
+  "95": {
+    "_id": 95,
+    "letter": "E",
+    "photo_suffix": "20240410015758_d8175b75",
+    "slug": "eric-bibb-with-michael-jerome-browne",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Eric Bibb with Michael Jerome Browne"
+  },
+  "96": {
+    "_id": 96,
+    "letter": "F",
+    "photo_suffix": "20240527020753_1c938ede",
+    "slug": "fantastic-negrito",
+    "sort_order": null,
+    "subtitle": "USA",
+    "tags": [],
+    "title": "Fantastic Negrito"
+  },
+  "97": {
+    "_id": 97,
+    "letter": "G",
+    "photo_suffix": "20240410015759_9666f57d",
+    "slug": "good-lovelies",
+    "sort_order": null,
+    "subtitle": "Canada/ON",
+    "tags": [],
+    "title": "Good Lovelies"
+  },
+  "98": {
+    "_id": 98,
+    "letter": "G",
+    "photo_suffix": "20240410015759_e6fce2c1",
+    "slug": "gunning-cormier",
+    "sort_order": null,
+    "subtitle": "Canada/NS",
+    "tags": [],
+    "title": "Gunning & Cormier"
+  },
+  "99": {
+    "_id": 99,
+    "letter": "J",
+    "photo_suffix": "20240410015759_0b95c002",
+    "slug": "jake-vaadeland-the-sturgeon-river-boys",
+    "sort_order": null,
+    "subtitle": "Canada/SK",
+    "tags": [],
+    "title": "Jake Vaadeland & the Sturgeon River Boys"
+  }
+}

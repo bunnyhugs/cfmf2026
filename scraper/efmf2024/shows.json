@@ -1,0 +1,2630 @@
+{
+  "161": {
+    "_id": 161,
+    "date_end": "2024-08-08",
+    "date_start": "2024-08-08",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 160,
+      "title": "Orchestra Gold Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-08",
+    "ref_date_end": "2024-08-08",
+    "slug": "orchestra-gold-concert",
+    "sort_order": null,
+    "tags": [
+      165,
+      141,
+      145,
+      151
+    ],
+    "time_end": "19:25:00",
+    "time_start": "18:30:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "169": {
+    "_id": 169,
+    "date_end": "2024-08-08",
+    "date_start": "2024-08-08",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 167,
+      "title": "Ben Howard Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-08",
+    "ref_date_end": "2024-08-08",
+    "slug": "ben-howard-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      168,
+      145,
+      151
+    ],
+    "time_end": "21:05:00",
+    "time_start": "19:50:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "199": {
+    "_id": 199,
+    "date_end": "2024-08-08",
+    "date_start": "2024-08-08",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 180,
+      "title": "Black Pumas Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-08",
+    "ref_date_end": "2024-08-08",
+    "slug": "black-pumas-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      192,
+      145,
+      151
+    ],
+    "time_end": "22:45:00",
+    "time_start": "21:30:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "200": {
+    "_id": 200,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 182,
+      "title": "La Misa Negra Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "la-misa-negra-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      145,
+      231,
+      151
+    ],
+    "time_end": "23:50:00",
+    "time_start": "22:45:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "201": {
+    "_id": 201,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 181,
+      "title": "Blue Rodeo Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "blue-rodeo-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      193,
+      145,
+      151
+    ],
+    "time_end": "22:25:00",
+    "time_start": "21:10:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "202": {
+    "_id": 202,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 183,
+      "title": "Dawes Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "dawes-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      145,
+      196,
+      151
+    ],
+    "time_end": "20:00:00",
+    "time_start": "18:55:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "203": {
+    "_id": 203,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 184,
+      "title": "Rhiannon Giddens Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "rhiannon-giddens-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      190,
+      145,
+      151
+    ],
+    "time_end": "21:20:00",
+    "time_start": "20:15:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "204": {
+    "_id": 204,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 185,
+      "title": "Angie McMahon Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "angie-mcmahon-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      145,
+      194,
+      151
+    ],
+    "time_end": "22:40:00",
+    "time_start": "21:35:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "205": {
+    "_id": 205,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 186,
+      "title": "Fantastic Negrito Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "fantastic-negrito-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      145,
+      197,
+      151
+    ],
+    "time_end": "23:59:00",
+    "time_start": "22:55:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "206": {
+    "_id": 206,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 187,
+      "title": "Sultans of String - Walking Through the Fire Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "sultans-of-string-walking-through-the-fire-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      191,
+      145,
+      151
+    ],
+    "time_end": "14:55:00",
+    "time_start": "14:00:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "208": {
+    "_id": 208,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 189,
+      "title": "Robert Plant & Alison Krauss Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "robert-plant-alison-krauss-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      142,
+      145,
+      151
+    ],
+    "time_end": "22:55:00",
+    "time_start": "21:40:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "222": {
+    "_id": 222,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 220,
+      "title": "Danielle Ponder Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "danielle-ponder-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      221,
+      145,
+      151
+    ],
+    "time_end": "21:15:00",
+    "time_start": "20:15:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "232": {
+    "_id": 232,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 229,
+      "title": "Wild Rivers Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "wild-rivers-concert",
+    "sort_order": null,
+    "tags": [
+      141,
+      230,
+      145,
+      151
+    ],
+    "time_end": "14:55:00",
+    "time_start": "14:00:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "268": {
+    "_id": 268,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 267,
+      "title": "String Me Along",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "string-me-along",
+    "sort_order": null,
+    "tags": [
+      251,
+      139,
+      258,
+      143,
+      146,
+      252,
+      151
+    ],
+    "time_end": "19:15:00",
+    "time_start": "18:00:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "276": {
+    "_id": 276,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 273,
+      "title": "Lessons Learned",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "lessons-learned",
+    "sort_order": null,
+    "tags": [
+      139,
+      274,
+      147,
+      150,
+      144,
+      275,
+      151
+    ],
+    "time_end": "19:25:00",
+    "time_start": "18:05:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "289": {
+    "_id": 289,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 285,
+      "title": "Abigail Lapell Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "abigail-lapell-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      147,
+      236,
+      151
+    ],
+    "time_end": "18:45:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "290": {
+    "_id": 290,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 286,
+      "title": "Home",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "home",
+    "sort_order": null,
+    "tags": [
+      139,
+      287,
+      147,
+      237,
+      275,
+      288,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "308": {
+    "_id": 308,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 301,
+      "title": "AJ Lee & Blue Summit Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "aj-lee-blue-summit-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      305,
+      236,
+      151
+    ],
+    "time_end": "13:45:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "309": {
+    "_id": 309,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 302,
+      "title": "Shine a Light",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "shine-a-light",
+    "sort_order": null,
+    "tags": [
+      139,
+      304,
+      306,
+      307,
+      144,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "310": {
+    "_id": 310,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 303,
+      "title": "Blanco White Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "blanco-white-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      149,
+      235,
+      151
+    ],
+    "time_end": "17:35:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "324": {
+    "_id": 324,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 320,
+      "title": "Mentors",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "mentors",
+    "sort_order": null,
+    "tags": [
+      321,
+      139,
+      230,
+      322,
+      237,
+      323,
+      151
+    ],
+    "time_end": "18:45:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "469": {
+    "_id": 469,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 361,
+      "title": "True North",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "true-north",
+    "sort_order": null,
+    "tags": [
+      139,
+      274,
+      147,
+      236,
+      458,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "470": {
+    "_id": 470,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 362,
+      "title": "All the Best",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "all-the-best",
+    "sort_order": null,
+    "tags": [
+      139,
+      305,
+      235,
+      462,
+      151
+    ],
+    "time_end": "12:20:00",
+    "time_start": "11:05:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "471": {
+    "_id": 471,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 363,
+      "title": "A New World",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "a-new-world",
+    "sort_order": null,
+    "tags": [
+      251,
+      139,
+      305,
+      448,
+      236,
+      275,
+      151
+    ],
+    "time_end": "16:15:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "472": {
+    "_id": 472,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 364,
+      "title": "Alpha Yaya Diallo Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "alpha-yaya-diallo-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      306,
+      235,
+      151
+    ],
+    "time_end": "19:15:00",
+    "time_start": "18:00:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "473": {
+    "_id": 473,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 365,
+      "title": "Shake Your Hips",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "shake-your-hips",
+    "sort_order": null,
+    "tags": [
+      139,
+      306,
+      447,
+      235,
+      151,
+      198
+    ],
+    "time_end": "20:50:00",
+    "time_start": "19:40:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "474": {
+    "_id": 474,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 366,
+      "title": "Influences",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "influences",
+    "sort_order": null,
+    "tags": [
+      139,
+      287,
+      237,
+      194,
+      196,
+      151,
+      468
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "475": {
+    "_id": 475,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 367,
+      "title": "Changes",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "changes",
+    "sort_order": null,
+    "tags": [
+      139,
+      447,
+      143,
+      323,
+      463,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:05:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "476": {
+    "_id": 476,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 368,
+      "title": "Black Umfolosi International Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "black-umfolosi-international-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      447,
+      238,
+      151
+    ],
+    "time_end": "16:50:00",
+    "time_start": "16:00:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "477": {
+    "_id": 477,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 369,
+      "title": "Sing Out",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "sing-out",
+    "sort_order": null,
+    "tags": [
+      139,
+      442,
+      447,
+      221,
+      144,
+      146,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "478": {
+    "_id": 478,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 370,
+      "title": "Ancestors",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "ancestors",
+    "sort_order": null,
+    "tags": [
+      139,
+      443,
+      149,
+      237,
+      288,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "479": {
+    "_id": 479,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 371,
+      "title": "Sense of Wonder",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "sense-of-wonder",
+    "sort_order": null,
+    "tags": [
+      139,
+      149,
+      237,
+      465,
+      466,
+      151,
+      468
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "480": {
+    "_id": 480,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 372,
+      "title": "Boy Golden Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "boy-golden-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      150,
+      144,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "481": {
+    "_id": 481,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 373,
+      "title": "Imagine",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "imagine",
+    "sort_order": null,
+    "tags": [
+      139,
+      444,
+      150,
+      449,
+      143,
+      467,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "482": {
+    "_id": 482,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 374,
+      "title": "Wishes",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "wishes",
+    "sort_order": null,
+    "tags": [
+      321,
+      139,
+      274,
+      150,
+      143,
+      467,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "483": {
+    "_id": 483,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 375,
+      "title": "Song Catchers",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "song-catchers",
+    "sort_order": null,
+    "tags": [
+      139,
+      449,
+      235,
+      459,
+      148,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "484": {
+    "_id": 484,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 376,
+      "title": "Briscoe Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "briscoe-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      449,
+      236,
+      151
+    ],
+    "time_end": "18:55:00",
+    "time_start": "17:55:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "485": {
+    "_id": 485,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 377,
+      "title": "Traditions",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "traditions",
+    "sort_order": null,
+    "tags": [
+      139,
+      445,
+      450,
+      143,
+      459,
+      467,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "486": {
+    "_id": 486,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 378,
+      "title": "On the Road Again",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "on-the-road-again",
+    "sort_order": null,
+    "tags": [
+      139,
+      446,
+      450,
+      144,
+      464,
+      151
+    ],
+    "time_end": "17:25:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "487": {
+    "_id": 487,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 379,
+      "title": "More Than This",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "more-than-this",
+    "sort_order": null,
+    "tags": [
+      139,
+      450,
+      455,
+      238,
+      457,
+      151
+    ],
+    "time_end": "11:55:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "488": {
+    "_id": 488,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 380,
+      "title": "Buffalo Nichols Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "buffalo-nichols-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      450,
+      238,
+      151
+    ],
+    "time_end": "18:50:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "489": {
+    "_id": 489,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 381,
+      "title": "Don Ross Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "don-ross-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      457,
+      151
+    ],
+    "time_end": "20:40:00",
+    "time_start": "19:30:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "490": {
+    "_id": 490,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 382,
+      "title": "Full Circle",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "full-circle",
+    "sort_order": null,
+    "tags": [
+      251,
+      139,
+      191,
+      237,
+      457,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "491": {
+    "_id": 491,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 383,
+      "title": "Dorsten Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "dorsten-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      323,
+      151
+    ],
+    "time_end": "13:55:00",
+    "time_start": "13:05:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "492": {
+    "_id": 492,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 384,
+      "title": "Crisis, What Crisis",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "crisis-what-crisis",
+    "sort_order": null,
+    "tags": [
+      139,
+      287,
+      443,
+      237,
+      458,
+      148,
+      151
+    ],
+    "time_end": "20:50:00",
+    "time_start": "19:40:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "493": {
+    "_id": 493,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 385,
+      "title": "Elisapie Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "elisapie-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      144,
+      458,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "494": {
+    "_id": 494,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 386,
+      "title": "Goin' Gone",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "goin-gone",
+    "sort_order": null,
+    "tags": [
+      139,
+      451,
+      455,
+      144,
+      146,
+      148,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "495": {
+    "_id": 495,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 387,
+      "title": "Eric Bibb with Michael Jerome Browne Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "eric-bibb-with-michael-jerome-browne-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      143,
+      146,
+      151
+    ],
+    "time_end": "17:25:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "496": {
+    "_id": 496,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 388,
+      "title": "Truth Will Out",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "truth-will-out",
+    "sort_order": null,
+    "tags": [
+      139,
+      451,
+      143,
+      146,
+      197,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "497": {
+    "_id": 497,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 389,
+      "title": "Neighbours",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "neighbours",
+    "sort_order": null,
+    "tags": [
+      165,
+      139,
+      235,
+      197,
+      231,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "498": {
+    "_id": 498,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 390,
+      "title": "Good Lovelies Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "good-lovelies-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      459,
+      151
+    ],
+    "time_end": "15:50:00",
+    "time_start": "15:00:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "499": {
+    "_id": 499,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 391,
+      "title": "A Sense of Place",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "a-sense-of-place",
+    "sort_order": null,
+    "tags": [
+      139,
+      445,
+      322,
+      237,
+      459,
+      461,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:00:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "500": {
+    "_id": 500,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 392,
+      "title": "Gunning & Cormier Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "gunning-cormier-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      144,
+      275,
+      151
+    ],
+    "time_end": "20:50:00",
+    "time_start": "19:40:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "501": {
+    "_id": 501,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 393,
+      "title": "Pharis and Jason Romero Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "pharis-and-jason-romero-concert",
+    "sort_order": null,
+    "tags": [
+      251,
+      140,
+      238,
+      151
+    ],
+    "time_end": "18:50:00",
+    "time_start": "18:00:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "502": {
+    "_id": 502,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 394,
+      "title": "Jake Vaadeland and The Sturgeon River Boys Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "jake-vaadeland-and-the-sturgeon-river-boys-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      235,
+      252,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:40:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "503": {
+    "_id": 503,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 395,
+      "title": "Someday Soon",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "someday-soon",
+    "sort_order": null,
+    "tags": [
+      321,
+      139,
+      144,
+      252,
+      462,
+      151
+    ],
+    "time_end": "12:20:00",
+    "time_start": "11:05:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "504": {
+    "_id": 504,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 396,
+      "title": "Jake Xerxes Fussell Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "jake-xerxes-fussell-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      288,
+      151
+    ],
+    "time_end": "16:15:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "505": {
+    "_id": 505,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 397,
+      "title": "JD McPherson Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "jd-mcpherson-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      235,
+      460,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "506": {
+    "_id": 506,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 398,
+      "title": "Jess Williamson Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "jess-williamson-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      143,
+      148,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "507": {
+    "_id": 507,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 399,
+      "title": "John Craigie Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "john-craigie-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      236,
+      461,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "508": {
+    "_id": 508,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 400,
+      "title": "The Story",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "the-story",
+    "sort_order": null,
+    "tags": [
+      139,
+      446,
+      235,
+      461,
+      463,
+      464,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:30:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "509": {
+    "_id": 509,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 401,
+      "title": "John Reischman & the Jaybirds Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "john-reischman-the-jaybirds-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      462,
+      151
+    ],
+    "time_end": "19:15:00",
+    "time_start": "18:05:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "510": {
+    "_id": 510,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 402,
+      "title": "Jon and Roy Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "jon-and-roy-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      235,
+      463,
+      151
+    ],
+    "time_end": "18:55:00",
+    "time_start": "17:55:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "511": {
+    "_id": 511,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 403,
+      "title": "Kim Churchill Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "kim-churchill-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      238,
+      464,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:45:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "512": {
+    "_id": 512,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 404,
+      "title": "KT Tunstall Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "kt-tunstall-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      237,
+      465,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "513": {
+    "_id": 513,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 405,
+      "title": "Rhyme or Reason",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "rhyme-or-reason",
+    "sort_order": null,
+    "tags": [
+      139,
+      443,
+      304,
+      143,
+      465,
+      151
+    ],
+    "time_end": "18:50:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "514": {
+    "_id": 514,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 406,
+      "title": "Leif Vollebekk Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "leif-vollebekk-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      237,
+      466,
+      151
+    ],
+    "time_end": "18:55:00",
+    "time_start": "17:50:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "515": {
+    "_id": 515,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 407,
+      "title": "Leith Ross Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "leith-ross-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      144,
+      467,
+      151
+    ],
+    "time_end": "18:55:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "516": {
+    "_id": 516,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 408,
+      "title": "The Main Thing",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "the-main-thing",
+    "sort_order": null,
+    "tags": [
+      139,
+      191,
+      448,
+      452,
+      236,
+      151
+    ],
+    "time_end": "20:50:00",
+    "time_start": "19:35:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "517": {
+    "_id": 517,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 409,
+      "title": "Les Grands Hurleurs Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "les-grands-hurleurs-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      448,
+      143,
+      151
+    ],
+    "time_end": "18:45:00",
+    "time_start": "17:40:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "518": {
+    "_id": 518,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 410,
+      "title": "Common Ground",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "common-ground",
+    "sort_order": null,
+    "tags": [
+      139,
+      304,
+      448,
+      452,
+      236,
+      151
+    ],
+    "time_end": "12:15:00",
+    "time_start": "11:00:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "519": {
+    "_id": 519,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 411,
+      "title": "Miko Marks Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "miko-marks-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      451,
+      143,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:35:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "520": {
+    "_id": 520,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 412,
+      "title": "Noeline Hofmann Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "noeline-hofmann-concert",
+    "sort_order": null,
+    "tags": [
+      321,
+      140,
+      238,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:30:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "521": {
+    "_id": 521,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 413,
+      "title": "Reuben and the Dark with Bullhorn Singers Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "reuben-and-the-dark-with-bullhorn-singers-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      322,
+      237,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 74,
+      "title": "Stage 6"
+    }
+  },
+  "522": {
+    "_id": 522,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 414,
+      "title": "Robert Finley Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "robert-finley-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      442,
+      235,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "523": {
+    "_id": 523,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 415,
+      "title": "Rose Cousins Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "rose-cousins-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      287,
+      143,
+      151
+    ],
+    "time_end": "19:10:00",
+    "time_start": "18:05:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  },
+  "524": {
+    "_id": 524,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 416,
+      "title": "Kobo Town Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "kobo-town-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      454,
+      235,
+      151
+    ],
+    "time_end": "18:45:00",
+    "time_start": "17:45:00",
+    "venue": {
+      "_id": 70,
+      "title": "Stage 1"
+    }
+  },
+  "525": {
+    "_id": 525,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 417,
+      "title": "S.G. Goodman Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "sg-goodman-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      445,
+      144,
+      151
+    ],
+    "time_end": "18:45:00",
+    "time_start": "17:40:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "526": {
+    "_id": 526,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 418,
+      "title": "Sammy Volkov Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "sammy-volkov-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      274,
+      238,
+      151
+    ],
+    "time_end": "17:50:00",
+    "time_start": "17:00:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "527": {
+    "_id": 527,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 419,
+      "title": "School of Song Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "school-of-song-concert",
+    "sort_order": null,
+    "tags": [
+      139,
+      236,9991,9992,9993,9994,
+      456,
+      151
+    ],
+    "time_end": "13:50:00",
+    "time_start": "12:30:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "528": {
+    "_id": 528,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 420,
+      "title": "The Bankes Brothers Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "the-bankes-brothers-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      444,
+      238,
+      151
+    ],
+    "time_end": "12:55:00",
+    "time_start": "12:05:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "529": {
+    "_id": 529,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 421,
+      "title": "Ruen Brothers Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "ruen-brothers-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      443,
+      144,
+      151
+    ],
+    "time_end": "16:10:00",
+    "time_start": "15:05:00",
+    "venue": {
+      "_id": 72,
+      "title": "Stage 3"
+    }
+  },
+  "530": {
+    "_id": 530,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 422,
+      "title": "The Langan Band Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "the-langan-band-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      304,
+      236,
+      151
+    ],
+    "time_end": "17:30:00",
+    "time_start": "16:25:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "531": {
+    "_id": 531,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 423,
+      "title": "The McDades Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "the-mcdades-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      452,
+      236,
+      151
+    ],
+    "time_end": "19:15:00",
+    "time_start": "18:05:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "532": {
+    "_id": 532,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 424,
+      "title": "Tina Dico Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "tina-dico-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      236,
+      151,
+      468
+    ],
+    "time_end": "17:40:00",
+    "time_start": "16:35:00",
+    "venue": {
+      "_id": 73,
+      "title": "Stage 5"
+    }
+  },
+  "533": {
+    "_id": 533,
+    "date_end": "2024-08-11",
+    "date_start": "2024-08-11",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 425,
+      "title": "The Heavy Heavy Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-11",
+    "ref_date_end": "2024-08-11",
+    "slug": "the-heavy-heavy-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      446,
+      145,
+      151
+    ],
+    "time_end": "19:55:00",
+    "time_start": "19:00:00",
+    "venue": {
+      "_id": 69,
+      "title": "Main Stage"
+    }
+  },
+  "534": {
+    "_id": 534,
+    "date_end": "2024-08-10",
+    "date_start": "2024-08-10",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 426,
+      "title": "Nikamowin",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-10",
+    "ref_date_end": "2024-08-10",
+    "slug": "nikamowin",
+    "sort_order": null,
+    "tags": [
+      139,
+      453,
+      238,
+      151
+    ],
+    "time_end": "12:30:00",
+    "time_start": "11:40:00",
+    "venue": {
+      "_id": 75,
+      "title": "Stage 7"
+    }
+  },
+  "664": {
+    "_id": 664,
+    "date_end": "2024-08-09",
+    "date_start": "2024-08-09",
+    "linkTicket": null,
+    "livestreamUrl": null,
+    "object": {
+      "_id": 663,
+      "title": "Wyatt C. Louis Concert",
+      "type": 0
+    },
+    "price": null,
+    "ref_date": "2024-08-09",
+    "ref_date_end": "2024-08-09",
+    "slug": "wyatt-c-louis-concert",
+    "sort_order": null,
+    "tags": [
+      140,
+      455,
+      143,
+      151
+    ],
+    "time_end": "20:30:00",
+    "time_start": "19:25:00",
+    "venue": {
+      "_id": 71,
+      "title": "Stage 2"
+    }
+  }
+}
