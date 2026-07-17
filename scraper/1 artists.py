@@ -5,6 +5,13 @@ import os
 import time
 from urllib.parse import urlparse
 
+# https://www.calgaryfolkfest.com/folk-fest/schedule?day=1
+# View Source, copy entirety to day1.html
+# Repeat for other days
+# Update dates in schedule.py
+# Run 1, 2, 3
+# Copy artists.json and schedule.json to root
+
 BASE_URL = "https://calgaryfolkfest.com/folk-fest/"
 LINEUP_URL = f"{BASE_URL}lineup"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
