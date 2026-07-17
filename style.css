@@ -1,4 +1,7 @@
 :root {
+	--fringe-header-height: 80px;
+	--folk-header-height: 40px;
+
 	--slot-height: 16px;
 	--slot-padding: 2px 3px;
 	--time-slot-padding: 5px;
@@ -15,18 +18,29 @@
 	--header-background-about: rgb(197, 197, 197);
 	--header-background-artists: rgb(7, 197, 197);
 	--header-background-hover: rgb(127, 77, 177);
+	--header-background-food: gold;
+	--header-background-now: gold;
 	--header-background-1: gold;
 	--header-background-2: rgb(150, 150, 150);
 	--header-background-3: rgb(150, 150, 150);
 	--header-background-4: rgb(150, 150, 150);
 	--header-background-5: rgb(150, 150, 150);
+	--header-background-venue: rgb(150, 150, 150);
 	--column-min-width: 10em;
 	--column-max-width: 200px;
 	--slide-time: 0.2s;
 	--header-div-date-width: 20vw;
-	--location-header-height: 40px;
 	--following-header-border: rgba(187,102,102,1);
 	--following-header-background: rgba(227,192,192,.5);
+}
+
+:root:is([data-mode="fringe"]) {
+	--location-header-height: var(--fringe-header-height);
+}
+
+:root:is([data-mode="efmf"]),
+:root:is([data-mode="cfmf"]) {
+	--location-header-height: var(--folk-header-height);
 }
 
 a {
@@ -49,6 +63,22 @@ body {
 	overflow: hidden;
 
 	
+}
+
+img.warning-image {
+	width: 16px;
+	height: 16px;
+}
+
+div.artistDataTableBio span {
+	padding-left: 10px;
+	padding-right: 3px;
+}
+
+div.artistDataTableBio div.tags, 
+div.artistDataTableBio div.tags span {
+	display: flex;
+	align-items: center;
 }
 
 .header {
@@ -105,23 +135,19 @@ body {
 	font-size: 12px;
 }
 
-.header div:nth-of-type(1) a {
-	background-color: var(--header-background-1);
-}
-.header div:nth-of-type(2) a {
-	background-color: var(--header-background-2);
-}
-.header div:nth-of-type(3) a {
-	background-color: var(--header-background-3);
-}
-.header div:nth-of-type(4) a {
-	background-color: var(--header-background-4);
-}
-.header div:nth-of-type(5) a {
-	background-color: var(--header-background-5);
+.header div a {
+	background-color: var(--header-background-venue);
 }
 .header div a.artists {
 	background-color: var(--header-background-artists);
+}
+
+.header div a.now {
+	background-color: var(--header-background-now);
+}
+
+.header div a.food {
+	background-color: var(--header-background-food);
 }
 
 .header div a.about {
@@ -150,6 +176,19 @@ body {
 main {
 	background-color: var(--primary-background);
 	background-image: repeating-linear-gradient(45deg, transparent, transparent 12px, rgba(0, 0, 0, 0.1) 12px, rgba(0, 0, 0, 0.1) 13px);
+}
+
+#loadingStatus {
+	position: fixed;
+	top: 20%;
+	left: 10%;
+	padding: 20px;
+	background: #333;
+	color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 40px 40px rgba(0, 0, 0, 0.5);
+	border-radius: 13px;
+    z-index: 100;
 }
 
 #schedule-section {
@@ -551,6 +590,36 @@ div.artistImage :before {
 	color: #468;
 }
 
+:root:is([data-mode="fringe"]) a[title="Festival artist page"] {
+	border: solid 1px #000;
+	border-radius: 7px;
+	background: #5f5;
+	padding: 16px 5px 0px;
+	isolation: isolate;
+	-webkit-filter: invert(0%) !important;
+	filter: invert(0%) !important;
+}
+
+:root:is([data-mode="fringe"]) div.artistCard a[title="Festival artist page"] {
+	padding-right: 18px;
+}
+
+div.artistCardHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+div.artistCardHeader span {
+	font-weight: 600;
+}
+
+div.artistCardHeader span span {
+	display: inline-block;
+}
+
+div.artistCardHeader span span img {
+	padding-top: 0px;
+}
 
 .schedule-item a.artistLink {
 	white-space: normal;
@@ -669,6 +738,11 @@ div.heardItStar div.heardIt  {
 
 }
 
+:root:is([data-mode="fringe"]) #food-section,
+:root:is([data-mode="fringe"]) #foodHeader {
+	display: none;
+}
+
 .favourites .location-header {
 	background-color: var(--favourite-header-background);
 }
@@ -776,13 +850,25 @@ div.heardItStar div.heardIt  {
 	width: 100vw;
 	overflow: hidden;
 }
+
+table.artistTable {
+	width: calc(100% - 0px) !important;
+	max-width: 620px;
+}
+
+#artistTable {
+	width: calc(100% - 10px) !important;
+	max-width: 620px;
+}
+
+
 .artistList {
 	z-index: 1000;
 	position: relative;
 	height: 80%;
 	min-width: 350px;
 	width: 60vw;
-	max-width: 80%;
+	max-width: 630px;
 	top: var(--artistList-height);
 	margin: 0px auto;
     background-color: #fff;
@@ -812,7 +898,6 @@ div.heardItStar div.heardIt  {
     justify-content: center;
     align-items: center;
 	text-align: center;
-	padding: 10px 40px;
 }
 
 .aboutBox .aboutImg
@@ -846,7 +931,8 @@ div.heardItStar div.heardIt  {
 	color: #000;
 }
 
-#exportButton {
+#exportButton,
+#exportLink {
 	padding: 10px;
 	background-color: #000;
 	color: #fff;
@@ -854,6 +940,10 @@ div.heardItStar div.heardIt  {
 	cursor: pointer; /* Add cursor style */
 }
 
+#exportLink {
+	/* Todo: finish */
+	/* display: none; */
+}
 
 .file-upload {
 	display: inline-block;
@@ -933,18 +1023,51 @@ tbody {
 	border-radius: 8px;
 
 }
+
+div.dataTAbles_scrollBody {
+/*	max-height: 60vw;*/
+}
+
 .socialLink {
 	height: 29px;
 	width: 29px;
 	padding-left: 15px;
 }
+
+div.artistDataTableBio {
+	max-width: calc(100vw - 30px);
+}
+
+div.tags {
+	background: #ddd;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-right: 4px;
+	border: 1px #444 dotted;
+}
+
+div.tags > span:has(img.warning-image) {
+	font-style: italic;
+}
+
+div.artistDataTableBio {
+	max-width: calc(95vw - 30px);
+}
+
 div.artistRow > a:first-of-type > .socialLink {
 	padding-left: 0px;
 }
 
 img.socialLink.fest {
 	height: 29px;
-/*	width: 72px; /* EFMF ONLY */
+}
+
+:root:is([data-mode="fringe"]) img.socialLink.fest {
+	width: 33px; /* Fringe ONLY */
+}
+
+:root:is([data-mode="efmf"]) img.socialLink.fest {
+	width: 72px; /* Fringe ONLY */
 }
 	
 a.socialLink:hover {
@@ -1082,7 +1205,13 @@ div.food *:not(div.food) {
 	border-radius: initial;
 	overflow: initial;
 	vertical-align: middle;
-	display: inline-block;
+	/* display: inline-block; */
+}
+
+div.fl-col, 
+div.fl-rich-text,
+div.fl-rich-text p {
+	display: block !important;
 }
 
 div.food>div {
@@ -1122,4 +1251,32 @@ div.food img {
 div.food a {
 	text-decoration: none;
 	color: #000;
+}
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,.4);
+}
+
+dialog h2 {
+    margin-top: 0;
+}
+
+dialog menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+dialog button {
+    padding: .5rem 1rem;
 }

@@ -1,3 +1,48 @@
+const availabilityTranslationDict = {
+	"available": "Available",
+	"low-availability": "Low",
+	"no-availablility": "Sold out"
+}
+	
+export function translateAvailability(availStr) {
+	if (availStr in availabilityTranslationDict) return availabilityTranslationDict[availStr];
+	return availStr;
+}
+
+export function getLastUpdate(availabilityData, eventKey) {
+	if (!availabilityData) return 0;
+    const eventAvailability = availabilityData[eventKey];
+    if (!eventAvailability) return 0;
+    if (!Number.isInteger(eventAvailability["lastUpdate"])) return "unknown";
+	return formatDuration(Math.floor(Date.now()/1000) - eventAvailability["lastUpdate"]);
+}
+
+export function getTotalAvailability(availabilityData, eventKey) {
+    const eventAvailability = availabilityData[eventKey];
+    if (!eventAvailability) return 0;
+
+    let total = 0;
+    let status = null; // Tracks the "highest priority" non-numeric status
+
+    for (const [key, value] of Object.entries(eventAvailability)) {
+        if (key == "lastUpdate") continue;
+		const parsed = parseInt(value, 10);
+        if (!isNaN(parsed)) {
+            total += parsed;
+        } else {
+            if (value !== 'available' && value !== 'low-availability') {
+                // Unknown status overrides all
+                return value;
+            } else if (value === 'low-availability') {
+                status = translateAvailability(value);
+            } else if (value === 'available' && status === null) {
+                status = translateAvailability(value);
+            }
+        }
+    }
+
+    return status === null ? total : status;
+}
 
 // Function to fetch JSON data
 export async function fetchJsonData(url) {
@@ -14,13 +59,23 @@ export async function fetchJsonData(url) {
 
 export function getSortedUniqueFieldFromDict(dict, field) {
 	const dictArray = Object.values(dict);
-	
+
 	// Extract unique field values
 	const uniqueVals = [...new Set(dictArray.map(item => item[field]))];
 
-	// Sort the unique field values
-	const sortedUniqueVals = uniqueVals.sort();
-	
+	// Sort numerically if all values are valid integers
+	const sortedUniqueVals = uniqueVals.sort((a, b) => {
+		const aNum = parseInt(a, 10);
+		const bNum = parseInt(b, 10);
+		const aValid = !isNaN(aNum) && aNum.toString() === a.toString();
+		const bValid = !isNaN(bNum) && bNum.toString() === b.toString();
+
+		if (aValid && bValid) {
+			return aNum - bNum;
+		}
+		return a.toString().localeCompare(b.toString()); // fallback to string sort
+	});
+
 	return sortedUniqueVals;
 }
 
@@ -46,13 +101,42 @@ export function time24format(timeString) {
     return hours + ":" + minutes;
 }
 
+function formatDuration(seconds) {
+    if (seconds < 60) {
+        return `${Math.abs(seconds)}s`;
+    }
+
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    const secs = seconds % 60;
+
+    let result = '';
+	if (hours > 0) {
+		result += `${hours}h`;
+	}
+    result += `${minutes % 60}m`;
+	if (hours == 0 && secs > 0) {
+        result += `${secs}s`;
+    }
+
+    return result;
+}
+
 export function getTime(dateObj) {
 	if (! dateObj) { 
 		return "9:30am";
 	}
+	/*
 	const resultTime = dateObj.toLocaleTimeString('en-US', { hour: "numeric", minute: "2-digit", hour12: true });
 	const hours = dateObj.getHours();
 	return resultTime.substring(0,5).trim() + (hours < 12 ? 'am' : 'pm');
+	*/
+	const hours = dateObj.getHours();
+	const minutes = dateObj.getMinutes();
+	const ampm = hours >= 12 ? 'pm' : 'am';
+	const hour12 = hours % 12 || 12;
+	const paddedMinutes = minutes.toString().padStart(2, '0');
+	return `${hour12}:${paddedMinutes}${ampm}`;
 }
 
 export function getHour(dateObj) {
@@ -93,11 +177,11 @@ export function findMaxEndTime(arrayOfObjects) {
     return null; // Return null for an empty array or invalid input
   }
 
-  let maxEndTime = "00:00"; // Initialize with the smallest time as a starting point
+  let maxEndTime = new Date("1970-01-01T00:00"); // Initialize with the smallest time as a starting point
 
   for (let obj of arrayOfObjects) {
-    if (obj.endTime > maxEndTime) {
-      maxEndTime = obj.endTime;
+    if (new Date(obj.endDateTime + "-06:00") > maxEndTime) {
+      maxEndTime = new Date(obj.endDateTime + "-06:00");
     }
   }
 
@@ -119,7 +203,42 @@ export function getHeardList() {
 	return heardList;
 }
 
-export function exportLocalStorageToFile() {
+export function getCompressedShareableURL() {
+    let simpleData = localStorage;
+	delete simpleData["DataTables_artistTable_/"]
+	const data = JSON.stringify(simpleData);
+    const compressed = LZString.compressToEncodedURIComponent(data); // Safe for URLs
+    const url = `${location.origin}${location.pathname}?share=${compressed}`;
+    return url;
+}
+
+export function importFromCompressedShareParam() {
+    const params = new URLSearchParams(window.location.search);
+    const compressed = params.get('share');
+    if (!compressed) return;
+
+    try {
+        const json = LZString.decompressFromEncodedURIComponent(compressed);
+        const localStorageData = JSON.parse(json);
+
+        if (!isValidLocalStorageData(localStorageData)) {
+            console.error("Invalid localStorage data.");
+            return;
+        }
+
+        // localStorage.clear();
+        Object.keys(localStorageData).forEach(key => {
+            const sanitizedValue = sanitizeValue(localStorageData[key]);
+            localStorage.setItem(key, sanitizedValue);
+        });
+
+        console.log("localStorage successfully restored.");
+    } catch (e) {
+        console.error("Error restoring data from URL:", e);
+	}
+}
+
+export function exportLocalStorageToFile(filename) {
     try {
         const localStorageData = JSON.stringify(localStorage);
         const blob = new Blob([localStorageData], { type: 'application/json' });
@@ -127,7 +246,7 @@ export function exportLocalStorageToFile() {
 
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'cfmf2025schedule.json';
+        a.download = filename;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -174,13 +293,13 @@ export function importLocalStorageFromFile(inputElement) {
     reader.readAsText(file);
 }
 
-function isValidLocalStorageData(data) {
+export function isValidLocalStorageData(data) {
     // Example validation: Ensure data is an object and keys are strings
     return (typeof data === 'object' && data !== null && !Array.isArray(data)) &&
            Object.keys(data).every(key => typeof key === 'string');
 }
 
-function sanitizeValue(value) {
+export function sanitizeValue(value) {
     // Example sanitization: Ensure value is a string
     return typeof value === 'string' ? value : JSON.stringify(value);
 }

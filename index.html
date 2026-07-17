@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mode="cfmf">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,6 +19,7 @@
 	<script src="pwa.js"></script>
 	<script src="jquery-3.7.0.min.js"></script>
 	<script src="jquery.dataTables.min.js"></script>
+	<script src="lz-string.min.js"></script>
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-title" content="Music Festival Schedule" />
@@ -61,11 +62,13 @@
 <body>
 	<header>
 		<div id="installedStatus" class="hide"></div>
+		<div id="loadingStatus" class=""><span id="buildingday">Loading... (this may take a minute)</span></div>
 		<div class="header" id="header">
 			<div id="nowHeader"><a href="" class="now">Now</a></div>
 		</div>
 	</header>
     <main>
+	
         <section id="schedule-section">
 			<div class="schedule hide" id="schedule-2023-06-30">
 			   <div class="location-column favourites">
@@ -77,8 +80,10 @@
             <!-- Time slots and schedule will be dynamically populated here -->
         </section>
 		<section id="food-section" class="food hide">
-<div class="foodContainer">
-<div class="food">
+			<div class="foodContainer">
+				<div class="food">
+
+<!-- Just paste the food HTML here -->
 
 <div class="vendor-section container"><div class="vendor-container pad-small-top">
 <div class="vendor"><div class="vendor-wrapper flex"><p>Concorde Catering</p><div class="vendor-filters"><div class="flex-aligned"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#EDB900" d="M5.23 13.417q-.427.001-.842.054-.017.13-.029.26a6.773 6.773 0 0 0 7.587 7.303q.053-.414.055-.846a6.77 6.77 0 0 0-6.771-6.771"></path><path fill="#EDB900" d="M5.23 6.708q-.427.002-.842.054c-.012.088-.02.172-.029.26a6.773 6.773 0 0 0 7.587 7.303q.053-.414.055-.846A6.77 6.77 0 0 0 5.23 6.708M18.771 13.417q.427.001.841.054.018.13.03.26a6.773 6.773 0 0 1-7.588 7.303 6.772 6.772 0 0 1 6.717-7.617"></path><path fill="#EDB900" d="M18.771 6.708q.427.002.841.054c.013.088.021.172.03.26a6.773 6.773 0 0 1-7.588 7.303 6.772 6.772 0 0 1 6.717-7.617M11.42.5c.184-.181.38-.346.58-.5.06.049.126.098.187.146a5.983 5.983 0 0 1 .755 8.552 6.3 6.3 0 0 1-.94.885A5.981 5.981 0 0 1 11.42.5"></path><path fill="#EDB900" d="M11.25 23a.75.75 0 0 0 1.5 0zm0-15.333V23h1.5V7.667z"></path><path stroke="#1B1B1B" stroke-linecap="round" stroke-width="1.5" d="M5 21 20 6" class="gluten_svg__gluten-line"></path></svg></div><div class="flex-aligned"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="29" fill="none"><path fill="#FFA01D" d="M17.701 6.905c-.414-.28-4.803-3.462-7.931 1.176S2.44 22.969 5.482 25.02c3.042 2.05 10.972-5.683 14.1-10.321 3.129-4.639-1.466-7.515-1.88-7.795"></path><path stroke="#009320" stroke-linecap="round" stroke-width="2" d="m16.819 8.213 2.519-3.735M16.408 8.823l4.466-.59M16.403 8.82l-1.126-4.363"></path></svg></div></div></div></div>
@@ -105,15 +110,14 @@
 <div class="vendor"><div class="vendor-wrapper flex"><p>Hungry Hero</p><div class="vendor-filters"><div class="flex-aligned"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#EDB900" d="M5.23 13.417q-.427.001-.842.054-.017.13-.029.26a6.773 6.773 0 0 0 7.587 7.303q.053-.414.055-.846a6.77 6.77 0 0 0-6.771-6.771"></path><path fill="#EDB900" d="M5.23 6.708q-.427.002-.842.054c-.012.088-.02.172-.029.26a6.773 6.773 0 0 0 7.587 7.303q.053-.414.055-.846A6.77 6.77 0 0 0 5.23 6.708M18.771 13.417q.427.001.841.054.018.13.03.26a6.773 6.773 0 0 1-7.588 7.303 6.772 6.772 0 0 1 6.717-7.617"></path><path fill="#EDB900" d="M18.771 6.708q.427.002.841.054c.013.088.021.172.03.26a6.773 6.773 0 0 1-7.588 7.303 6.772 6.772 0 0 1 6.717-7.617M11.42.5c.184-.181.38-.346.58-.5.06.049.126.098.187.146a5.983 5.983 0 0 1 .755 8.552 6.3 6.3 0 0 1-.94.885A5.981 5.981 0 0 1 11.42.5"></path><path fill="#EDB900" d="M11.25 23a.75.75 0 0 0 1.5 0zm0-15.333V23h1.5V7.667z"></path><path stroke="#1B1B1B" stroke-linecap="round" stroke-width="1.5" d="M5 21 20 6" class="gluten_svg__gluten-line"></path></svg></div><div class="flex-aligned"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="29" fill="none"><path fill="#FFA01D" d="M17.701 6.905c-.414-.28-4.803-3.462-7.931 1.176S2.44 22.969 5.482 25.02c3.042 2.05 10.972-5.683 14.1-10.321 3.129-4.639-1.466-7.515-1.88-7.795"></path><path stroke="#009320" stroke-linecap="round" stroke-width="2" d="m16.819 8.213 2.519-3.735M16.408 8.823l4.466-.59M16.403 8.82l-1.126-4.363"></path></svg></div></div></div></div>
 <div class="vendor"><div class="vendor-wrapper flex"><p>NativPott</p></div></div>
 <div class="vendor"><div class="vendor-wrapper flex"><p>Celebration Station</p></div></div>
-
-
-
 </div>
 
-</div>
-</div>
+<!-- END paste the food HTML here -->
 
+				</div>
+			</div>
 		</section>
+
 		<section id="artistList-section" class="hide">
 			<!-- This section is dynamically populated with the full list of artists, sortable by name or favourite instances.
 			It is where artists can be "Followed". -->
@@ -126,6 +130,22 @@
             <!-- Artists list will be dynamically populated here -->
         </section>
     </main>
+
+<dialog id="shareDialog">
+    <form method="dialog">
+        <h2>Shared Data Found</h2>
+
+        <p>
+            This link contains shared data. What would you like to do?
+        </p>
+
+        <menu>
+            <button value="ignore">Ignore</button>
+            <button value="merge">Merge</button>
+            <button value="replace">Replace</button>
+        </menu>
+    </form>
+</dialog>
     <script src="app.js" type="module"></script>
 </body>
 </html>

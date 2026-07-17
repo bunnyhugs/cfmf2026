@@ -1,12 +1,27 @@
 import * as utils from './utils.js';
 // import * as draw from './js';
 
+const appmode = {
+	"fringe": false,
+	"efmf": false,
+	"cfmf": true
+}
+
+const report = {};
+report.menTotal = 0;
+report.notMenTotal = 0;
+report.menFollowed = 0;
+report.notMenFollowed = 0;
+report.menInStarredEvents = 0;
+report.notMenInStarredEvents = 0;
+report.menHeard = 0;
+report.notMenHeard = 0;
 
 var scheduleData;
 var locationData;
 var artistsData;
 var mergedScheduleArray;
-
+var availabilityDict = {};
 
 function getScheduleEvent(showId) {
 	return mergedScheduleArray.filter(item => item.showId == showId)[0];
@@ -61,6 +76,7 @@ function openArtistRow(artist) {
 	let artistRowElem = document.createElement("div");
 	artistRowElem.classList.add("artistRow");
 	
+	if (appmode["fringe"]) loadEvent(artist.id);
 	addArtistInfoToElement(artistRowElem, artist, false, null);
 
 	return artistRowElem;
@@ -68,7 +84,7 @@ function openArtistRow(artist) {
 
 function addArtistInfoToElement(artistElement, artist, isFullCard, artistSchedule) {
 
-	const festUrl = artist.url;
+	const festUrl = artist.socials.fest;
 	const photo = `<img class="artistPhoto" alt="${artist.name}" src=${artist.image} />`;
 	const fest = '<img class="socialLink fest" alt="Festival artist page" src="fest-logo.png" />';
 	const websiteSvg = '<svg viewBox="0 0 24 24" class="socialLink"><path d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" style="fill: currentcolor;"></path></svg>';
@@ -80,67 +96,78 @@ function addArtistInfoToElement(artistElement, artist, isFullCard, artistSchedul
 	const youtubeSvg = '<svg viewBox="0 0 24 24" class="socialLink"><path d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z" style="fill: currentcolor;"></path></svg>';
 	const spotifySvg = '<svg viewBox="0 0 24 24" class="socialLink"><path d="M17.9,10.9C14.7,9 9.35,8.8 6.3,9.75C5.8,9.9 5.3,9.6 5.15,9.15C5,8.65 5.3,8.15 5.75,8C9.3,6.95 15.15,7.15 18.85,9.35C19.3,9.6 19.45,10.2 19.2,10.65C18.95,11 18.35,11.15 17.9,10.9M17.8,13.7C17.55,14.05 17.1,14.2 16.75,13.95C14.05,12.3 9.95,11.8 6.8,12.8C6.4,12.9 5.95,12.7 5.85,12.3C5.75,11.9 5.95,11.45 6.35,11.35C10,10.25 14.5,10.8 17.6,12.7C17.9,12.85 18.05,13.35 17.8,13.7M16.6,16.45C16.4,16.75 16.05,16.85 15.75,16.65C13.4,15.2 10.45,14.9 6.95,15.7C6.6,15.8 6.3,15.55 6.2,15.25C6.1,14.9 6.35,14.6 6.65,14.5C10.45,13.65 13.75,14 16.35,15.6C16.7,15.75 16.75,16.15 16.6,16.45M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" style="fill: currentcolor;"></path></svg>';
 
+	var artistHtml = artistElement.innerHTML;
+
 	if (isFullCard) {
 		// add name, geo, and photo
 		const artistFollowName = generateArtistFollowName(artist);
 		artistElement.appendChild(artistFollowName);
-		//artistElement.innerHTML += `<h3>${artist.name}</h3>`;
-		artistElement.innerHTML += `<h4>${artist.geo}</h4>`;
-		artistElement.appendChild(artistSchedule);
-		artistElement.innerHTML += `<img src='${artist.image}' alt="${artist.name}"><p>`;
+		artistHtml += '<div class="artistCardHeader">';
+		if (appmode["fringe"]) {
+			artistHtml += `<span>${artist.name}</span>`;
+		}
+		artistHtml += `<span>${artist.geo}</span></div>`;
+		artistHtml += artistSchedule.outerHTML;
+		artistHtml += `<img src='${artist.image}' alt="${artist.name}"><p>`;
 	}
 
 	if (artist.slug) {
-		artistElement.innerHTML += `<a href=${festUrl} title="Festival artist page" target="_blank">${fest}</a>`;
+		artistHtml += `<a href=${festUrl} title="Festival artist page" target="_blank">${fest}</a>`;
 	}
 	if (artist.socials.website) {
-		artistElement.innerHTML += `<a href=${artist.socials.website} title="Website" target="_blank">${websiteSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.website} title="Website" target="_blank">${websiteSvg}</a>`;
 	} else {
 		// check for School of Song websites
 		for (var key in artist) {
 			if (key.includes(" website")) {
 				var specificArtistName = key.replace(" website", "");
-				artistElement.innerHTML += `<a href=${artist[key]} title="${specificArtistName} Website" target="_blank">${websiteSvg} ${specificArtistName}</a>`;
+				artistHtml += `<a href=${artist[key]} title="${specificArtistName} Website" target="_blank">${websiteSvg} ${specificArtistName}</a>`;
 			}
 		}
 	}
 	if (artist.socials.facebook) {
-		artistElement.innerHTML += `<a href=${artist.socials.facebook} title="Facebook" target="_blank">${facebookSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.facebook} title="Facebook" target="_blank">${facebookSvg}</a>`;
 	}
 	if (artist.socials.twitter) {
-		artistElement.innerHTML += `<a href=${artist.socials.twitter} title="Twitter" target="_blank">${twitterSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.twitter} title="Twitter" target="_blank">${twitterSvg}</a>`;
 	}
 	if (artist.socials.instagram) {
-		artistElement.innerHTML += `<a href=${artist.socials.instagram} title="Instagram" target="_blank">${instagramSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.instagram} title="Instagram" target="_blank">${instagramSvg}</a>`;
 	}
 	if (artist.socials.youtube) {
-		artistElement.innerHTML += `<a href=${artist.socials.youtube} title="YouTube" target="_blank">${youtubeSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.youtube} title="YouTube" target="_blank">${youtubeSvg}</a>`;
 	}
 	if (artist.socials.bandcamp) {
-		artistElement.innerHTML += `<a href=${artist.socials.bandcamp} title="Bandcamp" target="_blank">${bandcampSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.bandcamp} title="Bandcamp" target="_blank">${bandcampSvg}</a>`;
 	}
 	if (artist.socials.itunes) {
-		artistElement.innerHTML += `<a href=${artist.socials.itunes} title="Spotify" target="_blank">${itunesSvg}</a>`;
+		artistHtml += `<a href=${artist.socials.itunes} title="Spotify" target="_blank">${itunesSvg}</a>`;
 	}
 	if (artist.socials.spotify) {
-		artistElement.innerHTML += `<a href=${artist.socials.spotify} title="Spotify" target="_blank">${spotifySvg}</a>`;
+		artistHtml += `<a href=${artist.socials.spotify} title="Spotify" target="_blank">${spotifySvg}</a>`;
 	}
 	
 	if (!isFullCard) {
 		// this info comes at the end for the artist table
 		if (artist.image) {
-			artistElement.innerHTML += photo;
+			artistHtml += photo;
 		}
 		if (artist.artistScheduleString) {
-			artistElement.innerHTML += `<div class="artistSchedule">${artist.artistScheduleString}</div>`;
+			let artistId = (appmode["fringe"]) ? artist.id : artist.slug;
+
+			artistHtml += `<div class="artistSchedule">${artistsData[artistId].artistScheduleString}</div>`;
+			// update full card schedule too
+			let fullArtistCard = document.getElementById(`artist-${artistId}`);
+			let fullCardSchedule = fullArtistCard.querySelector('div.artistSchedule');
+			fullCardSchedule.innerHTML = `${artistsData[artistId].artistScheduleString}`;
 		}
-		artistElement.innerHTML += `</p><p>${artist.bio}</p>`;
+		artistHtml += `</p><div class="artistDataTableBio">${artist.bio}</div>`;
 	} else {
 		if (artist.bio) {
-			artistElement.innerHTML += artist.bio;
+			artistHtml += '<div class="artistDataTableBio">' + artist.bio + '</div>';
 		}
 	}
-	
+	artistElement.innerHTML = artistHtml;
 	return artistElement;
 }
 
@@ -191,85 +218,116 @@ function generateArtistFollowName(artist) {
 }
 
 function generateArtistSchedule(artist) {
-	// get the list of events the artist is appearing in
 	const artistSchedule = getArtistSchedule(mergedScheduleArray, artist.slug);
+	let artistId = (appmode["fringe"]) ? artist.id : artist.slug;
+	if (!artistSchedule || artistSchedule.length === 0) return document.createElement('div');
+
 	const favourites = utils.getFavourites();
 	const heardList = utils.getHeardList();
+	
+	// const hasArtistTickets = "tickets" in artist;
+	// if (!hasArtistTickets) artist.tickets = 0;
+	
+	artist.tickets = 0;
+
+	artist.artistSchedule = artistSchedule.sort((a, b) => a.startDateObj - b.startDateObj);
 
 	const artistScheduleDiv = document.createElement('div');
 	artistScheduleDiv.classList.add("artistSchedule");
 
-	if (artistSchedule) {
-		artist.artistSchedule = artistSchedule.sort(function(a, b) {
-			return a.startDateObj - b.startDateObj;
-		});;
+	var lastUpdate = (appmode["fringe"]) ? utils.getLastUpdate(availabilityDict, artistId) : null;
 
-		// Add detail listing of all performances
-		var artistScheduleString = '';
-		artist.artistSchedule.forEach((event, index) => {
 
-			if (! event.startDateObj) {
-				event.startDateObj = new Date(`${event.startDate}T${event.startTime}-06:00`);
-				event.endDateObj = new Date(`${event.startDate}T${event.endTime}-06:00`);
-			}
+	const fragment = document.createDocumentFragment();
 
-			const startDate = (event.startDateObj) ? utils.getShortDate(event.startDateObj) : event.startDate;
-			
-			const time = (event.startDateObj) ? utils.getTime(event.startDateObj) + "&ndash;" + utils.getTime(event.endDateObj) : event.startTime + "&ndash;" + event.endTime;
-			
-			if (event.type != "other") {
-				const scheduleStar = document.createElement('span');
-				artistScheduleDiv.appendChild(scheduleStar);
-				scheduleStar.classList.add("scheduleStar", "favouriteContainer", "scheduleList");
-				scheduleStar.dataset.favouriteId = event.showId;
-				if (utils.isFavourite(favourites, event.showId)) {
-					scheduleStar.classList.add("favouriteOn");
-				} else {
-					scheduleStar.classList.add("favouriteOff");
-				}
-				scheduleStar.addEventListener('mousedown', handleStarMouseDown);
-				scheduleStar.addEventListener('mouseup', handleStarMouseUp);
-
-				const scheduleHeard = document.createElement('span');
-				artistScheduleDiv.appendChild(scheduleHeard);
-				scheduleHeard.dataset.favouriteId = event.showId;
-				scheduleHeard.classList.add("scheduleHeard", "favouriteContainer", "scheduleList");
-				if (utils.isHeard(heardList, event.showId)) {
-					scheduleHeard.classList.add("heard");
-				} else {
-					scheduleHeard.classList.add("unheard");
-				}
-				scheduleHeard.addEventListener('mousedown', handleStarMouseDown);
-				scheduleHeard.addEventListener('mouseup', handleStarMouseUp);
-			}
-
-			const eventDate = document.createElement('span');
-			artistScheduleDiv.appendChild(eventDate);
-			eventDate.classList.add("eventTime");
-			eventDate.innerHTML = `${startDate}, ${time}`;
-
-			if (event.type != "other") {
-				const eventType = document.createElement('span');
-				artistScheduleDiv.appendChild(eventType);
-				eventType.classList.add("eventType");
-				if (event.type == "Session") {
-					eventType.innerHTML = `: ${utils.capitalizeFirstLetter(event.showName)}`;
-				} else {
-					eventType.innerHTML = `: ${utils.capitalizeFirstLetter(event.type)}`;
-				}
-			}
-
-			const eventLocation = document.createElement('span');
-			eventLocation.classList.add("eventLocation");
-			artistScheduleDiv.appendChild(eventLocation);
-			eventLocation.innerHTML = event.location;
-
-			if (index !== artist.artistSchedule.length - 1) {
-				artistScheduleDiv.appendChild(document.createElement('br'));
-			 }
-		});
-		artist.artistScheduleString = artistScheduleDiv.innerHTML;
+	if (appmode["fringe"]) {
+		const lastUpdateEl = document.createElement('div');
+		lastUpdateEl.textContent = "Ticket counts last updated: " + lastUpdate + " ago";
+		fragment.appendChild(lastUpdateEl);
 	}
+	
+	artist.artistSchedule.forEach((event, index) => {
+		// Cache/show-level info
+		const showId = event.showId;
+		const location = locationData[event.locationId];
+		const slugId = Object.keys(event.slugs)[0];
+		const availability = (appmode["fringe"] && availabilityDict && (artist.id in availabilityDict)) ? utils.translateAvailability(availabilityDict[artist.id][showId]) : 0;
+
+		// Ensure start/end date objects exist
+		if (!event.startDateObj) {
+			event.startDateObj = new Date(`${event.startDate}T${event.startTime}-06:00`);
+			event.endDateObj = new Date(`${event.endDateTime}-06:00`);
+		}
+
+		// Ticket availability tally
+		if (appmode["fringe"]) {
+			if ((Number.isInteger(Number(artist.tickets))) && (Number.isInteger(Number(availability)))) {
+				// we have a real availability count still for this artist
+				// we have a real ticket count for this event
+				artist.tickets += availability;
+			} else {
+				// text availability only
+				if (artist.tickets == 'Available' && availability == 'low-availability') {
+					artist.tickets = utils.translateAvailability(availability);
+				} else if (availability != 'available' && (!Number.isInteger(Number(availability)))) {
+					artist.tickets = utils.translateAvailability(availability);
+				} else {
+					// don't update noop
+				}
+			}
+		}
+
+		const startDate = utils.getShortDate(event.startDateObj);
+		const time = `${utils.getTime(event.startDateObj)}–${utils.getTime(event.endDateObj)}`;
+
+		if (event.type !== "other") {
+			// Favourite star
+			const scheduleStar = document.createElement('span');
+			scheduleStar.classList.add("scheduleStar", "favouriteContainer", "scheduleList");
+			scheduleStar.dataset.favouriteId = showId;
+			scheduleStar.dataset.slugId = slugId;
+			scheduleStar.classList.add(utils.isFavourite(favourites, showId) ? "favouriteOn" : "favouriteOff");
+			scheduleStar.addEventListener('mousedown', handleStarMouseDown);
+			scheduleStar.addEventListener('mouseup', handleStarMouseUp);
+			fragment.appendChild(scheduleStar);
+
+			// Heard icon
+			const scheduleHeard = document.createElement('span');
+			scheduleHeard.classList.add("scheduleHeard", "favouriteContainer", "scheduleList");
+			scheduleHeard.dataset.favouriteId = showId;
+			scheduleHeard.dataset.slugId = slugId;
+			scheduleHeard.classList.add(utils.isHeard(heardList, showId) ? "heard" : "unheard");
+			scheduleHeard.addEventListener('mousedown', handleStarMouseDown);
+			scheduleHeard.addEventListener('mouseup', handleStarMouseUp);
+			fragment.appendChild(scheduleHeard);
+		}
+
+		// Event date/time
+		const eventDate = document.createElement('span');
+		eventDate.classList.add("eventTime");
+		eventDate.textContent = `${startDate}, ${time}`;
+		fragment.appendChild(eventDate);
+
+		
+		// Event location/capacity
+		const eventDetails = document.createElement('span');
+		eventDetails.classList.add("eventLocation");
+		eventDetails.textContent = (!appmode["fringe"]) ? event.location : `${availability}/${location.maxCapacity}`;
+		fragment.appendChild(eventDetails);
+
+		// Line break between events
+		if (index !== artist.artistSchedule.length - 1) {
+			fragment.appendChild(document.createElement('br'));
+		}
+	});
+
+	// Append all at once
+	artistScheduleDiv.appendChild(fragment);
+
+	// Cache HTML if needed later
+	artist.artistScheduleString = artistScheduleDiv.innerHTML;
+	artistsData[artistId].artistScheduleString = artist.artistScheduleString;
+
 	return artistScheduleDiv;
 }
 
@@ -292,7 +350,7 @@ function fillArtistSection(artistsData) {
 			artistCard.id = 'artist-' + artistId;
 			artistCard.classList.add("artistCard");
 			artistCard.classList.add("popup");
-			artistCard.innerHTML = '';
+			artistCard.textContent = '';
 
 			const artistSchedule = generateArtistSchedule(artist);
 
@@ -315,16 +373,39 @@ function fillArtistSection(artistsData) {
 			*/
 			
 		} else {
-			if (artist.name) {
-				if (artist.name.toUpperCase() !== artist.name) console.log(`${artist.name} (${artistId}) found, but no event attached.`);
-			} else {
-				console.log(`${artist} has no name.`);
-			}
+			if (artist.name.toUpperCase() !== artist.name) console.log(`${artist.name} (${artistId}) found, but no event attached.`);
 		}
     }
 }
 
+// Custom sort for availability with specific text order
+$.fn.dataTable.ext.type.order['availability-pre'] = function (data) {
+    if (typeof data !== 'string') {
+        data = data.toString();
+    }
+    data = data.trim();
 
+    // Text priority mapping
+    const priority = {
+        "Available": 5000,
+        "Low availability": 10,
+        "Sold out": 0
+    };
+
+    // If matches one of our priority text values
+    if (priority.hasOwnProperty(data)) {
+        return priority[data];
+    }
+
+    // If numeric
+    let num = parseInt(data, 10);
+    if (!isNaN(num)) {
+        return num; // numeric value as-is
+    }
+
+    // Unknown text goes lowest
+    return -999;
+};
 
 // Initialize artist listing page
 function initArtistListing() {
@@ -337,10 +418,11 @@ function initArtistListing() {
 	artistList.classList.add("artistList");
 	artistListContainer.appendChild(artistList);
 
-	const artistListStats = document.createElement("div");
-	artistListStats.id = "artistListStats";
-	artistList.appendChild(artistListStats);
-
+	if (!appmode["fringe"]) {
+		const artistListStats = document.createElement("div");
+		artistListStats.id = "artistListStats";
+		artistList.appendChild(artistListStats);
+	}
 
 	const artistsTableData = { "data": [] };
 	const artistsTableColumns = [
@@ -357,29 +439,44 @@ function initArtistListing() {
             defaultContent: ''
         },
 		{ data: 'name', className: 'dt-control2' },
-		{ data: 'geo', className: 'dt-control2' },
+		{ data: 'genre', className: 'dt-control2' },
+		{ data: 'site', className: 'dt-control2' },
+		{ data: 'price', className: 'dt-control2', visible: appmode["fringe"] },
+		{ data: 'availability', type: 'availability', className: 'dt-control2', visible: appmode["fringe"] },
+		{ data: 'runtime', className: 'dt-control2', visible: appmode["fringe"] },
 		{ data: 'appearances', className: 'dt-control2' },
 		{ data: 'starred', className: 'dt-control2' },
-		{ data: 'listened', className: 'dt-control2' }
+		{ data: 'listened', className: 'dt-control2' },
+		{ data: 'bio', className: 'dt-control2', visible: false, searchable: true },
+		{ data: 'slug', className: 'dt-control2', visible: false, searchable: true }
 		];
 
 	const artistTable = document.createElement("table");
 	artistTable.id = "artistTable";
 	artistTable.classList.add("artistTable", "compact", "display");
 	const artistTableHead = document.createElement("thead");
-	artistTableHead.innerHTML = "<tr><th></th><th><img src='./follow-on.png'  title='Follow artist' alt='Follow artist' /></th><th>Name</th><th title='Geography'>Geo</th><th title='# of scheduled performances'>Perf</th><th><img alt='Starred'  title='Starred' src='./star-on.png' /></th><th><img alt='Heard'  title='Heard' src='./heard.png' /></th></tr>";
+	artistTableHead.innerHTML = `<tr><th></th><th><img src='./follow-on.png'  title='Follow artist' alt='Follow artist' /></th><th>Name</th><th title='Genre'>Type</th><th title='Site'>${appmode["fringe"] ? "Site" : "Geo"}</th><th title='Price'>Price</th><th title='Availability'>Avail Tix</th><th title='Runtime'>Run time</th><th title='# of scheduled performances'>Perf</th><th><img alt='Starred'  title='Starred' src='./star-on.png' /></th><th><img alt='Heard'  title='Heard' src='./heard.png' /></th></tr>`;
 	artistTable.appendChild(artistTableHead);
 	// const artistTableFoot = document.createElement("tfoot");
 	// artistTableFoot.innerHTML = artistTableHead.innerHTML;
 	// artistTable.appendChild(artistTableFoot);
 	artistList.appendChild(artistTable);
 
+	let ordering = [];
+	if (appmode["fringe"]) {
+		ordering = [[9, 'desc'], [10, 'desc'], [8, 'asc'], [2, 'asc']];
+	} else {
+		ordering = [[5, 'desc'], [6, 'desc'], [4, 'asc'], [2, 'asc']];
+	}
+
 	const dataTable = new DataTable( '#artistTable', { 
 		paging: false,
-		scrollY: 400,
+		scrollX: true,
+		scrollY: "min(60vh, 600px)",
 		stateSave: true, 
-		order: [[5, 'desc'], [6, 'desc'], [4, 'asc'], [2, 'asc']],
+		order: ordering,
 		columns: artistsTableColumns,
+		columnDefs: [ {"type": "num", "targets": 6} ],
 		data: artistsTableData.data,
 		createdRow: function(row, data, dataIndex) {
 			var value = data["following"];
@@ -388,6 +485,7 @@ function initArtistListing() {
 			if (value) {
 				cell.addClass('following');
 			}
+			$(row).attr('id', 'artistDataTableRow-' + data["slug"]);
 		}
 	});
 
@@ -454,101 +552,150 @@ function mergeSchedules() {
 	return mergedScheduleArray;
 }
 
-
-function fillArtistDataTable() {	
+function findAndUpdateArtistDataTableRow(artistId) {
+	const artist = artistsData[artistId];
 	const artistTable = $('#artistTable').DataTable();
-	artistTable.clear();
 
-	const heardList = utils.getHeardList();
-	const favourites = utils.getFavourites();
-	const report = {};
-	report.menTotal = 0;
-	report.notMenTotal = 0;
-	report.menFollowed = 0;
-	report.notMenFollowed = 0;
-	report.menInStarredEvents = 0;
-	report.notMenInStarredEvents = 0;
-	report.menHeard = 0;
-	report.notMenHeard = 0;
+	const rowId = `#artistDataTableRow-${artistId}`;
+	var dataTableRowToUpdate = artistTable.row(`${rowId}`);
+	var currentData = dataTableRowToUpdate.data();
+
+	currentData["starred"] = artist.starredCount;
+	currentData["listened"] = artist.heardCount;
+
+	if (appmode["fringe"]) {
+		var totalTickets = utils.getTotalAvailability(availabilityDict, artistId);
+		currentData["availability"] = totalTickets;
+	}
+	// tickets may have changed
+	// update this regardless to update ticket update time
+	generateArtistSchedule(artist);
+
+	let artistRow = document.getElementById(`artistDataTableRow-${artistId}`);
+	if (artistRow) {
+		let detailsRow = artistRow.nextElementSibling;
+		let artistScheduleElement = detailsRow.querySelector('div.artistSchedule');
+		artistScheduleElement.innerHTML = artist.artistScheduleString;
+	}
+	// update full card schedule too
+	let fullArtistCard = document.getElementById(`artist-${artistId}`);
+	let fullCardSchedule = fullArtistCard.querySelector('div.artistSchedule');
+	fullCardSchedule.innerHTML = artist.artistScheduleString;
+
+	if (appmode["fringe"]) {
+		artist.tickets = totalTickets;
+	}
+	
+	// update the data
+	dataTableRowToUpdate.data(currentData);
+}
 
 
-	const followingList = utils.getFollowing();
-	// list of the starred events
-	const heardSchedule = mergedScheduleArray.filter(show => heardList.hasOwnProperty(show.showId));
-	const starredSchedule = mergedScheduleArray.filter(show => favourites.hasOwnProperty(show.showId));
-	// const heardSchedule = utils.filterByKeys(mergedScheduleArray, heardList);
-	// const starredSchedule = utils.filterByKeys(mergedScheduleArray, favourites);
-	// const sortedArtists = artistsData.sort((a, b) => a.title.localeCompare(b.title));
-	for (const artistId in artistsData) {
-		const artist = artistsData[artistId];
-		
-		if (('type' in artist) && artist.type == "Session") {
-			continue;
-		}
-
-		artist.following = utils.isFollowing(followingList, artist.slug);
-		const starredCount = countArtist(starredSchedule, artist.slug);
-		const heardCount = countArtist(heardSchedule, artist.slug);
-		artist.starredCount = starredCount;
-		artist.heardCount = heardCount;
-		
-		if (typeof artist.men !== 'undefined') {
-			report.menTotal += artist.men;
-			report.notMenTotal += artist.notMen;
-			// console.log("artistId " + artistId);
-			// add up the number of times each artistId appears in favouriteSchedule (as artistId or in artistIds[])
-			report.menInStarredEvents += artist.men * starredCount;
-			report.notMenInStarredEvents += artist.notMen * starredCount;
-
-			report.menHeard += artist.men * heardCount;
-			report.notMenHeard += artist.notMen * heardCount;
-		}
-		
-		generateArtistSchedule(artist);
-
-		const artistSchedule = getArtistSchedule(mergedScheduleArray, artist.slug);
-		// count number of performances
-		const appearances = countArtist(artistSchedule, artist.slug);
-
-		const artistRowData = {
-				"name": artist.title,
-				"geo": artist.geo,
-				"appearances": appearances,
-				"starred": starredCount,
-				"listened": heardCount,
-				...artist
-				
-		};
-		
-		artistTable.row.add(artistRowData);
- 
-		// print artist info line
-		const artistPopupCard = document.getElementById('artist-' + artistId);
-		const artistPopupStarredCount = document.querySelector('.starredCount');
-		const artistPopupHeardCount = document.querySelector('.heardCount');
-		
-
+function updateArtistDataTableRow(artistTable, artistId)
+{
+	const artist = artistsData[artistId];
+	
+	if (('type' in artist) && artist.type == "Session") {
+		return;
 	}
 
-	const artistListStats = document.getElementById('artistListStats');
-	artistListStats.innerHTML = '<i>Approximate gender presentation statistics:</i><br />'
-	artistListStats.innerHTML += getStats("Lineup totals", "Men", "Everyone else", report.menTotal, report.notMenTotal);
-	artistListStats.innerHTML += getStats("Starred count", "Men", "Everyone else", report.menInStarredEvents, report.notMenInStarredEvents);
-	artistListStats.innerHTML += getStats("Attended count", "Men", "Everyone else", report.menHeard, report.notMenHeard);
+	generateArtistSchedule(artist);
 
-	// highlight followed artist: style schedule-item and artistLink for followed artistId
-	highlightFollowedArtists();
+	const artistSchedule = getArtistSchedule(mergedScheduleArray, artist.slug);
+	// count number of performances
+	const appearances = countArtist(artistSchedule, artist.slug);
+
+	const artistRowData = {
+			"name": artist.title,
+			"genre": (appmode["fringe"]) ? artist.geo.replace('<span> <img alt=\"\" src=\"/images/icon_type.svg\"/> </span> ', '') : (artist.mainstage) ? 'Headline' : '',
+			"site": (appmode["fringe"]) ? artist.locationId : artist.geo,
+			"price": artist.price ?? 0,
+			"availability": artist.tickets ?? 0,
+			"runtime": artist.runtime ?? 0,
+			"appearances": appearances,
+			"starred": artist.starredCount,
+			"listened": artist.heardCount,
+			"bio": artist.bio,
+			"slug": artist.slug,
+			...artist
+			
+	};
+	
+	artistTable.row.add(artistRowData);
+}
+
+function updateGenderReport() {
+	if (appmode["fringe"]) return;
+	
+	const artistListStats = document.getElementById('artistListStats');
+	let artistListStatsHtml = '';	
+	artistListStatsHtml += '<i>Approximate gender presentation statistics:</i><br />'
+	artistListStatsHtml += getStats("Lineup totals", "Men", "Everyone else", report.menTotal, report.notMenTotal);
+	artistListStatsHtml += getStats("Starred count", "Men", "Everyone else", report.menInStarredEvents, report.notMenInStarredEvents);
+	artistListStatsHtml += getStats("Attended count", "Men", "Everyone else", report.menHeard, report.notMenHeard);
+	artistListStats.innerHTML = artistListStatsHtml;
+}
+
+function fillArtistDataTable() {
+	setTimeout(() => {
+
+		console.log("fillArtistTable()");
+
+		const artistTable = $('#artistTable').DataTable();
+		artistTable.clear();
+
+		const heardList = utils.getHeardList();
+		const favourites = utils.getFavourites();
+
+		const followingList = utils.getFollowing();
+		// list of the starred events
+		const heardIds = new Set(Object.keys(heardList));
+		const starredIds = new Set(Object.keys(favourites));
+		const heardSchedule = mergedScheduleArray.filter(show => heardIds.has(show.showId));
+		const starredSchedule = mergedScheduleArray.filter(show => starredIds.has(show.showId));
+
+		for (const artistId in artistsData) {
+			const artist = artistsData[artistId];
+			const starredCount = countArtist(starredSchedule, artist.slug);
+			const heardCount = countArtist(heardSchedule, artist.slug);
+			artist.starredCount = starredCount;
+			artist.heardCount = heardCount;
+			artist.geo = artist.geo ?? '';
+
+			updateArtistDataTableRow(artistTable, artistId);
+
+			if (!appmode["fringe"]) {
+				report.menTotal += artist.men;
+				report.notMenTotal += artist.notMen;
+				// console.log("artistId " + artistId);
+				// add up the number of times each artistId appears in favouriteSchedule (as artistId or in artistIds[])
+				report.menInStarredEvents += artist.men * starredCount;
+				report.notMenInStarredEvents += artist.notMen * starredCount;
+
+				report.menHeard += artist.men * heardCount;
+				report.notMenHeard += artist.notMen * heardCount;
+			}
+		}
+		updateGenderReport();
+
+		// highlight followed artist: style schedule-item and artistLink for followed artistId
+		highlightFollowedArtists();
+		console.log("fillArtistTable() complete");
+
+	}, 0);
 }
 
 // This is the left column with the times in 5-minute increments
 function buildTimeColumn(timeHeader, dateObj, endDateObj) {
 	const locationHeader = document.createElement("div");
 	locationHeader.classList.add("location-header", "time-slot");
-	locationHeader.innerHTML = "&nbsp;";
+	locationHeader.textContent = " ";
 	timeHeader.appendChild(locationHeader);
 
+	const endBufferTime = (appmode["fringe"]) ? -120*60*1000 : -30*30*1000;
+
 	// populate time column
-	while ((endDateObj - dateObj) >= -20*30*1000) {
+	while ((endDateObj - dateObj) >= endBufferTime) {
 		const timeSlot = document.createElement("div");
 		timeSlot.classList.add("time-slot");
 
@@ -565,12 +712,12 @@ function buildTimeColumn(timeHeader, dateObj, endDateObj) {
 			timeSlot.classList.add("time-slot-hour");
 			// console.log("hour");
 			if (utils.getHour(dateObj) == "0am") {
-				timeSlot.innerHTML = "12am";
+				timeSlot.textContent = "12am";
 			} else {
-				timeSlot.innerHTML = utils.getHour(dateObj);
+				timeSlot.textContent = utils.getHour(dateObj);
 			}
 		} else {
-			timeSlot.innerHTML = utils.getTime(dateObj);
+			timeSlot.textContent = utils.getTime(dateObj);
 		}
 		
 		timeSlot.dataset.time = time24;
@@ -579,6 +726,7 @@ function buildTimeColumn(timeHeader, dateObj, endDateObj) {
 		// Add five minutes to the Date object
 		dateObj.setMinutes(dateObj.getMinutes() + 5);
 	}
+		
 }
 
 // This is the name of the location (e.g. "Stage 1") and its data-tip
@@ -593,8 +741,12 @@ function buildLocationHeader(locationId, isFavouriteColumn) {
 
 	const location = locationData[locationId];
 	if (location) {
-		locationHeader.dataset.tip = `${location.shortDesc} <br /><img alt='Map of ${location.shortDesc}' src='map${locationId}.jpg' />`;
-		locationHeader.innerHTML = location.name;
+		if (!appmode["fringe"]) {
+			locationHeader.dataset.tip = `${location.shortDesc} <br /><img alt='Map of ${location.shortDesc}' src='map${locationId}.jpg' />`;
+		} else {
+			locationHeader.dataset.tip = `${location.shortDesc} <br>Max capacity: ${location.maxCapacity}`;
+		}
+		locationHeader.textContent = location.name;
 		if (location.altName) {
 			locationHeader.innerHTML += ` <span class="altName">${location.altName}</span>`;
 		}
@@ -623,11 +775,10 @@ function getEventArtistList(event) {
 	return artistList;
 }
 
-function buildEvent(startDate, event) {
-	const favourites = utils.getFavourites();
-	const heardList = utils.getHeardList();
+function buildEvent(startDate, event, favourites, heardList) {
 	const eventStartDateObj = new Date(`${startDate}T${event.startTime}-06:00`);
-	const eventEndDateObj = new Date(`${startDate}T${event.endTime}-06:00`);
+	// const eventStartDateObj = new Date(`${event.startDateTime}-06:00`);
+	const eventEndDateObj = new Date(`${event.endDateTime}-06:00`);
 
 	var slotItem = document.createElement("div");
 	var slotItemHTML = "";
@@ -642,8 +793,8 @@ function buildEvent(startDate, event) {
 	const slotLength = utils.getSlotLength(eventStartDateObj, eventEndDateObj);
 	slotItem.classList.add("slot-length-" + slotLength);
 
-	slotItemHTML = '<div class="time">' + utils.getTime(eventStartDateObj) + ' &ndash; ' + utils.getTime(eventEndDateObj) + '</div>';
 	if (event.type == "Session") {
+		slotItemHTML = '<div class="time">' + utils.getTime(eventStartDateObj) + '–' + utils.getTime(eventEndDateObj) + '</div>';
 		slotItem.classList.add("session");
 		slotItemHTML += '<div class="name">' + event.showName + '</div>';
 		slotItemHTML += `<div class="location">${event.location}</div>`;
@@ -671,23 +822,58 @@ function buildEvent(startDate, event) {
 			slotItemHTML += `<div class="showDesc">&bullet; ${event.showDesc}</div>`;
 		}
 		slotItemHTML += '</div>';
+		slotItemHTML += '<div class="type">' + utils.capitalizeFirstLetter(event.type) + '</div>';
+		slotItem.innerHTML = slotItemHTML;
 	} else {
+		// Time div
+		const timeDiv = document.createElement('div');
+		timeDiv.className = 'time';
+		timeDiv.textContent = utils.getTime(eventStartDateObj) + '–' + utils.getTime(eventEndDateObj);
+		slotItem.appendChild(timeDiv);
+		
 		slotItem.classList.add("concert");
 		// list the artist for a concert
 		const artist = artistsData[Object.keys(event.slugs)[0]];
-			// console.log(artist.name);
-		slotItemHTML += '<div class="name">';
-		if (artist) {
-			slotItemHTML += `<a title="${artist.name}" href="#${artist.slug}" class="artistLink" data-tip=" " data-artistId="${artist.slug}">${artist.name}</a>`;
-			slotItemHTML += '</div>';
-		}
-		slotItemHTML += `<div class="location">${event.location}</div>`;
-		if (artist) {
-			slotItemHTML += '<div class="artistImage"><img src="' + artist.image + '" alt="' + artist.name + '"></div>';
-		}
+		
+		// console.log("[" + timeDiv.textContent + "] " + artist.name);
+
+		// Name div
+		const nameDiv = document.createElement('div');
+		nameDiv.className = 'name';
+
+		const link = document.createElement('a');
+		link.title = artist.name;
+		link.href = `#${artist.slug}`;
+		link.className = 'artistLink';
+		link.setAttribute('data-tip', ' ');
+		link.setAttribute('data-artistId', artist.slug);
+		link.textContent = artist.name;
+
+		nameDiv.appendChild(link);
+		slotItem.appendChild(nameDiv);
+
+		// Location div
+		const locationDiv = document.createElement('div');
+		locationDiv.className = 'location';
+		locationDiv.textContent = event.location;
+		slotItem.appendChild(locationDiv);
+
+		// Artist image div
+		const imageDiv = document.createElement('div');
+		imageDiv.className = 'artistImage';
+
+		const img = document.createElement('img');
+		img.src = artist.image;
+		img.alt = artist.name;
+
+		imageDiv.appendChild(img);
+		slotItem.appendChild(imageDiv);
+
+		const typeDiv = document.createElement('div');
+		typeDiv.className = 'type';
+		typeDiv.textContent = utils.capitalizeFirstLetter(event.type);
+		slotItem.appendChild(typeDiv);
 	}
-	slotItemHTML += '<div class="type">' + utils.capitalizeFirstLetter(event.type) + '</div>';
-	slotItem.innerHTML = slotItemHTML;
 	
 	if (event.type != "other") {
 		const favouriteStar = document.createElement("div");
@@ -716,6 +902,7 @@ function buildEvent(startDate, event) {
 		}
 		slotItem.classList.add("favouriteContainer");
 		slotItem.dataset.favouriteId = favouriteId;
+		slotItem.dataset.slugId = Object.keys(event.slugs)[0];
 
 
 		const heardItContainer = document.createElement("div");
@@ -735,8 +922,17 @@ function buildEvent(startDate, event) {
 	return slotItem;
 }
 
+function getLocationSchedule(favourites, locationId, daySchedule, isFavouriteColumn)
+{
+	return (isFavouriteColumn) ?
+		// this is the list of favourite events happening on this particular day
+		daySchedule.filter(item => favourites.hasOwnProperty(item.showId)) :
+		daySchedule.filter(item => {return (item.locationId == locationId)});
+}
+
 // These are the individual event cards on the schedule. This fills the columns (locations) of the page
 function buildEventsForLocation(locationId, startDate, startTime, daySchedule, isFavouriteColumn) {
+	const heardList = utils.getHeardList();
 	const favourites = utils.getFavourites();
 	const locationCol = document.createElement("div");
 	locationCol.classList.add("location-column");
@@ -744,6 +940,7 @@ function buildEventsForLocation(locationId, startDate, startTime, daySchedule, i
 		locationCol.classList.add("favourites");
 	}
 
+	// console.log("[" + performance.now() + "] build events for location " + locationId);
 	const locationHeader = buildLocationHeader(locationId, isFavouriteColumn);
 	locationCol.appendChild(locationHeader);
 	locationCol.dataset.startDate = startDate;
@@ -754,23 +951,42 @@ function buildEventsForLocation(locationId, startDate, startTime, daySchedule, i
 
 	// end time for this particular location on this particular day
 
-	const locSchedule = (isFavouriteColumn) ?
-							// this is the list of favourite events happening on this particular day
-							daySchedule.filter(item => favourites.hasOwnProperty(item.showId)) :
-							daySchedule.filter(item => {return (item.locationId == locationId)});
-	const locSpecificEndTime = utils.findMaxEndTime(locSchedule);
-	const endDateLocObj = new Date(`${startDate}T${locSpecificEndTime}-06:00`);
-	 
+	// get the list of events happening on this day (or favourites) at this location
+	const locSchedule = getLocationSchedule(favourites, locationId, daySchedule, isFavouriteColumn);
+
+	// const locSpecificEndTime = utils.findMaxEndTime(locSchedule);
+	const endDateLocObj = utils.findMaxEndTime(locSchedule);
+	// console.log(endDateLocObj);
+	// const endDateLocObj = new Date(`${startDate}T${locSpecificEndTime}-06:00`);
+	const locationColFavouritesDiv = locationCol.closest('div.favourites');
+
+	const scheduleByTime = {};
+	locSchedule.forEach(item => {
+		const time = utils.time24format(item.startTimeRounded ?? item.startTime);
+		if (!scheduleByTime[time]) {
+			scheduleByTime[time] = [];
+		}
+		scheduleByTime[time].push(item);
+	});
+
+	const pad = n => n.toString().padStart(2, "0");
+	const getTime24 = d => `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+
 	// go through each time in 5-min increments for this location
 	while (dateObj <= endDateLocObj) {
 		const timeSlot = document.createElement("div");
 		locationCol.appendChild(timeSlot);
 		timeSlot.classList.add("time-slot");
-		const time24 = dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
-		const thisTimeEvents = locSchedule.filter(item => {return (utils.time24format(item.startTime) === time24)});
+		// const time24 = dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
+		const time24 = getTime24(dateObj);
+
+		// get events happening at this time
+		const thisTimeEvents = scheduleByTime[time24] || [];
+
 		// add scheduled events as slotItems
 		thisTimeEvents.forEach(event => {
-			const slotItem = buildEvent(startDate, event);
+
+			const slotItem = buildEvent(startDate, event, favourites, heardList);
 			timeSlot.appendChild(slotItem);
 			
 			// Add event listeners for dynamically added favourites
@@ -787,8 +1003,7 @@ function buildEventsForLocation(locationId, startDate, startTime, daySchedule, i
 				}
 
 			}
-			
-			if (locationCol.closest('div.favourites') === null) {
+			if (locationColFavouritesDiv === null) {
 				const locationElement = slotItem.querySelector(".location");
 				locationElement.classList.add("hide");
 			}
@@ -838,24 +1053,37 @@ function closeAbout(event) {
 
 function closeArtistListing(event) {
 	console.log("artist listing event");
+	const target = event.target;
 	var artistListSection = document.getElementById('artistList-section');
 	var artistList = document.querySelector('#artistTable_wrapper');
 
-	if (artistList && !artistList.contains(event.target)) {
+	if (artistList && !artistList.contains(target)) {
 		// Click occurred outside the artistListSection
 		console.log("close artist listing");
 		artistListSection.classList.toggle('hide');
 		document.removeEventListener('click', closeArtistListing);
 		event.stopImmediatePropagation();
 		highlightFollowedArtists();
+	} else {
+		if (target.classList.contains("scheduleList") || target.closest(".dt-followArtist") ) {
+			
+			// clicking on a star icon on mobile
+			if (target.classList.contains("favouriteStar") || target.classList.contains("scheduleStar")) {
+				toggleStar(target);
+			} else if (target.classList.contains("heardItStar") || target.classList.contains("scheduleHeard")) {
+				toggleHeardIt(target);
+			}
+			return;
+		}
 	}
 }
 
 function showArtistList() {
 	const artistListSection = document.getElementById("artistList-section");
-	fillArtistDataTable();
+	// fillArtistDataTable();
 	artistListSection.classList.toggle('hide');
 	drawArtistDataTable();
+	highlightFollowedArtists();
 	document.addEventListener('click', closeArtistListing);
 }
 
@@ -924,91 +1152,215 @@ function populateHeader(headerSection, dateObj) {
 	headerSection.appendChild(dateHeader);
 }
 
+function exportLocalStorageToLink() {
+    const url = utils.getCompressedShareableURL();
+    navigator.clipboard.writeText(url).then(() => {
+        alert("Copied share URL to clipboard!");
+    });
+}
+
+function showShareDialog() {
+    return new Promise(resolve => {
+        const dialog = document.getElementById("shareDialog");
+
+        dialog.addEventListener("close", function handler() {
+            dialog.removeEventListener("close", handler);
+            resolve(dialog.returnValue || "ignore");
+        });
+
+        dialog.showModal();
+    });
+}
+
+async function checkForSharedData() {
+    const params = new URLSearchParams(window.location.search);
+    const compressed = params.get("share");
+
+    if (!compressed) {
+        return;
+    }
+
+    let sharedData;
+
+    try {
+        const json = LZString.decompressFromEncodedURIComponent(compressed);
+
+        if (json === null) {
+            throw new Error("Unable to decompress shared data.");
+        }
+
+        sharedData = JSON.parse(json);
+
+        if (!utils.isValidLocalStorageData(sharedData)) {
+            throw new Error("Invalid shared data.");
+        }
+    }
+    catch (err) {
+        console.error(err);
+        alert("The shared data is invalid or corrupted.");
+        return;
+    }
+
+    const choice = await showShareDialog();
+
+    switch (choice) {
+
+        case "replace":
+            localStorage.clear();
+            // fall through to merge
+
+        case "merge":
+			Object.keys(sharedData).forEach(key => {
+
+				const incomingValue = utils.sanitizeValue(sharedData[key]);
+
+				try {
+					const incomingObj = JSON.parse(incomingValue);
+
+					let existingObj = {};
+
+					const existingValue = localStorage.getItem(key);
+					if (existingValue) {
+						existingObj = JSON.parse(existingValue);
+					}
+
+					// Merge, keeping all existing and incoming keys.
+					const mergedObj = {
+						...existingObj,
+						...incomingObj
+					};
+
+					localStorage.setItem(key, JSON.stringify(mergedObj));
+
+				} catch {
+					// Not JSON objects; just overwrite.
+					localStorage.setItem(key, incomingValue);
+				}
+			});
+
+            // alert("Shared data imported successfully.");
+			break;
+        case "ignore":
+        default:
+            break;
+    }
+
+    // Remove the share parameter so the dialog doesn't appear again
+    params.delete("share");
+
+    const query = params.toString();
+    history.replaceState(
+        {},
+        "",
+        location.pathname + (query ? "?" + query : "")
+    );
+	if (choice == "replace" || choice == "merge") {
+		location.reload();
+		return;
+	}
+
+}
+
 function exportLocalStorageToFile() {
 	console.log("exportLocalStorageToFile");
-	utils.exportLocalStorageToFile();
+	var filename = "";
+	if (appmode["fringe"]) {
+		filename = 'fringe';
+	} else if (appmode["efmf"]) {
+		filename = 'efmf';
+	} else if (appmode["cfmf"]) {
+		filename = 'cfmf';
+	}
+	
+	utils.exportLocalStorageToFile(filename + (new Date()).getFullYear().toString() + 'schedule.json');
+}
+
+async function populateScheduleDay(startDate, daySchedule, headerSection, scheduleSection, progress) {
+	const buildingStatus = document.getElementById("buildingday");
+	const morningDate = new Date("1970-01-01T04:00:00-06:00");
+	
+	const dayScheduleArray = Object.values(daySchedule.schedule);
+	const startTimes = utils.getSortedUniqueField(dayScheduleArray, "startTime");
+	const endTimes = utils.getSortedUniqueField(dayScheduleArray, "endTime");
+	const startTime = startTimes[0];
+	const endTime = endTimes.slice(-1);
+
+	const dateObj = new Date(`${startDate}T${startTime}-06:00`);
+	const startDateObj = new Date(`${startDate}T${startTime}-06:00`);
+	
+	const status = "[" + (progress) + "%] Loading " + utils.getISODate(startDateObj);
+	console.log(status);
+	buildingStatus.textContent = status;
+	
+	// handle date rollover
+	const endDateTestObj = new Date(`1970-01-01T${endTime}-06:00`);
+	let endDateObj = new Date(`${startDate}T${endTime}-06:00`);
+	if (endDateTestObj < morningDate) {
+		// it's a new day
+		endDateObj.setDate(endDateObj.getDate() + 1);
+	}
+
+	// add a bit to the end of the day
+	endDateObj.setMinutes(endDateObj.getMinutes() + 15);
+
+	// add top header date
+	populateHeader(headerSection, dateObj);
+
+	// create schedule container
+	const schedule = document.createElement("div");
+	schedule.classList.add("schedule", "slide-off-right", "hide");
+	schedule.id = "schedule-" + utils.getISODate(dateObj);
+	const timeHeader = document.createElement("div");
+	timeHeader.classList.add("location-column", "time-header");
+	schedule.appendChild(timeHeader);
+
+	buildTimeColumn(timeHeader, dateObj, endDateObj);
+
+	// populate favourites column
+	const favouritesCol = buildEventsForLocation(-1, startDate, startDateObj.getTime(), dayScheduleArray, true);
+	schedule.appendChild(favouritesCol);
+
+	// populate each location column
+	const showLocations = utils.getSortedUniqueField(dayScheduleArray, "locationId");
+	// Retrieve and sort the keys of the dictionary
+	const sortedLocations = utils.getSortedUniqueFieldFromDict(locationData, 'locationId');
+
+	sortedLocations.forEach(locationId => {
+		const location = locationData[locationId];
+		if (showLocations.includes(locationId)) {
+			const locationCol = buildEventsForLocation(locationId, startDate, startDateObj.getTime(), dayScheduleArray, false);
+			schedule.appendChild(locationCol);
+		}
+	});
+	
+	// schedule.style.minWidth = Math.round(100 * locations.length/3).toString() + "vw";
+	schedule.style.minWidth = `max(80vw, calc(var(--column-max-width) * ( ${showLocations.length} + 2 )))`;
+	schedule.style.maxWidth = `max(80vw, calc(var(--column-max-width) * ( ${showLocations.length} + 2 )))`;
+
+	scheduleSection.appendChild(schedule);
+	//schedule.offsetWidth;	
 }
 
 // Function to dynamically populate the schedule section with the ability to select favourites
 async function populateSchedule() {
+	if (appmode["fringe"]) {
+		availabilityDict = await utils.fetchJsonData("availability.json");
+	}
 	artistsData = await populateArtists(); // Wait until populateArtists() is finished
 	locationData = await populateLocations();
 	scheduleData = await utils.fetchJsonData("schedule.json");
+
 	mergedScheduleArray = mergeSchedules();
     const favourites = utils.getFavourites();
     const aboutSection = document.getElementById("about-section");
     const headerSection = document.getElementById("header");
     const scheduleSection = document.getElementById("schedule-section");
 
-
-
-	/*	
-	const startDates = Object.keys(scheduleData).sort();
-	*/
-
-	// update style ".header div" "width": 100/length(startDates) vh
-	document.documentElement.style.setProperty("--header-div-date-width", Math.round(100 / (Object.keys(scheduleData).length + 2)).toString() + "vw");
-
-	// for each day
-	Object.entries(scheduleData).forEach(([startDate, daySchedule]) => {
-		// just the items for this date
-		const dayScheduleArray = Object.values(daySchedule.schedule);
-		const startTimes = utils.getSortedUniqueField(dayScheduleArray, "startTime");
-		const endTimes = utils.getSortedUniqueField(dayScheduleArray, "endTime");
-		const startTime = startTimes[0];
-		const endTime = endTimes.slice(-1);
-
-		const dateObj = new Date(`${startDate}T${startTime}-06:00`);
-		const startDateObj = new Date(`${startDate}T${startTime}-06:00`);
-		const endDateObj = new Date(`${startDate}T${endTime}-06:00`);
-
-		// add a bit to the end of the day
-		endDateObj.setMinutes(endDateObj.getMinutes() + 15);
-
-		// add top header date
-		populateHeader(headerSection, dateObj);
-
-		// create schedule container
-		const schedule = document.createElement("div");
-		schedule.classList.add("schedule", "slide-off-right", "hide");
-		schedule.id = "schedule-" + utils.getISODate(dateObj);
-		const timeHeader = document.createElement("div");
-		timeHeader.classList.add("location-column", "time-header");
-		schedule.appendChild(timeHeader);
-
-		buildTimeColumn(timeHeader, dateObj, endDateObj);
-
-		// populate favourites column
-		const favouritesCol = buildEventsForLocation(-1, startDate, startDateObj.getTime(), dayScheduleArray, true);
-		schedule.appendChild(favouritesCol);
-
-		// populate each location column
-		const showLocations = utils.getSortedUniqueField(dayScheduleArray, "locationId");
-		// Retrieve and sort the keys of the dictionary
-		const sortedLocations = utils.getSortedUniqueFieldFromDict(locationData, 'locationId');
-
-		sortedLocations.forEach(locationId => {
-			const location = locationData[locationId];
-			if (showLocations.includes(locationId)) {
-				const locationCol = buildEventsForLocation(locationId, startDate, startDateObj.getTime(), dayScheduleArray, false);
-				schedule.appendChild(locationCol);
-			}
-		});
-		
-		// schedule.style.minWidth = Math.round(100 * locations.length/3).toString() + "vw";
-		schedule.style.minWidth = `max(80vw, calc(var(--column-max-width) * ( ${showLocations.length} + 2 )))`;
-		schedule.style.maxWidth = `max(80vw, calc(var(--column-max-width) * ( ${showLocations.length} + 2 )))`;
-
-		scheduleSection.appendChild(schedule);
-		//schedule.offsetWidth;
-	});
-
 	const artistsHeader = document.createElement("div");
-	artistsHeader.innerHTML = `<div id="artistsHeader"><a title="Artists Report" href="" class="artists">Artists</a></div>`;
-	headerSection.appendChild(artistsHeader);
-	const foodHeader = document.createElement("div");
-	foodHeader.innerHTML = `<div id="foodHeader"><a title="Food Menus" href="" class="food">Food Menu</a></div>`;
-	headerSection.appendChild(foodHeader);
+	const headerListName = (appmode["fringe"]) ? "Shows" : "Artists";
+	
+	artistsHeader.innerHTML = `<div id="artistsHeader"><a title="Show List" href="" class="artists">${headerListName}</a></div>`;
+
 	const aboutHeader = document.createElement("div");
 	const aboutHeaderDiv = document.createElement("div");
 	aboutHeaderDiv.id = "aboutHeader";
@@ -1019,30 +1371,113 @@ async function populateSchedule() {
 	aboutLink.textContent = "About";
 	aboutHeaderDiv.appendChild(aboutLink);
 	aboutHeader.appendChild(aboutHeaderDiv);
-	headerSection.appendChild(aboutHeader);
-	
-	
-	const headerDateLinks = document.querySelectorAll('div#header div a');
-	headerDateLinks.forEach((element) => {
-		element.addEventListener('click', handleHeaderClick);
+
+	if (appmode["fringe"]) {
+		headerSection.appendChild(artistsHeader);
+		headerSection.appendChild(aboutHeader);
+	}
+	/*	
+	const startDates = Object.keys(scheduleData).sort();
+	*/
+
+	// update style ".header div" "width": 100/length(startDates) vh
+	document.documentElement.style.setProperty("--header-div-date-width", Math.round(100 / (Object.keys(scheduleData).length + 2)).toString() + "vw");
+
+
+	var day = 0;
+	const entries = Object.entries(scheduleData);
+	// for each day
+	Object.entries(scheduleData).forEach(([startDate, daySchedule], index) => {
+		if (day == 0) {
+			populateScheduleDay(startDate, daySchedule, headerSection, scheduleSection, (100 * index / (entries.length - 1)));
+			const dateHeader = document.querySelector("#header div.date");
+			console.log("going to first day");
+			changeCurrentDay(dateHeader, true);
+			initScrollables();
+			const headerDateLinks = document.querySelectorAll('div#header div a');
+			headerDateLinks.forEach((element) => {
+				element.addEventListener('click', handleHeaderClick);
+			});
+		} else {
+			setTimeout( () => {
+				// requestAnimationFrame(() => {
+					populateScheduleDay(startDate, daySchedule, headerSection, scheduleSection, (100 * index / (entries.length - 1)));
+					const isLast = index === entries.length - 1;
+					if (isLast) { 
+						if (!appmode["fringe"]) {
+							headerSection.appendChild(artistsHeader);
+							const foodHeader = document.createElement("div");
+							foodHeader.innerHTML = `<div id="foodHeader"><a title="Food Menus" href="" class="food">Food Menu</a></div>`;
+							headerSection.appendChild(foodHeader);
+							headerSection.appendChild(aboutHeader);
+						}
+
+						document.getElementById("loadingStatus").classList.add("hide"); 
+
+
+						const headerDateLinks = document.querySelectorAll('div#header div a');
+						headerDateLinks.forEach((element) => {
+							element.addEventListener('click', handleHeaderClick);
+						});
+
+						// jump to last saved day, or current day, or if today isn't one of the days, then jump to first day
+						initializeCurrentDay();
+
+						initScrollables();
+						
+						const allSchedules = document.querySelectorAll('div.schedule');
+						allSchedules.forEach((schedule) => {
+							schedule.addEventListener('animationend', checkOverlap);
+						});
+
+						// Add event listeners for mouseover and mouseout (desktop) and touchstart and touchend (mobile) to all elements with data-tip
+						if (! isMobile()) {
+							const elementsWithTip = document.querySelectorAll('[data-tip]');
+							elementsWithTip.forEach((element) => {
+								element.addEventListener('mouseover', showTip);
+								element.addEventListener('mouseout', hideTip);
+							});
+						} else {
+							// on mobile, don't add tips to links
+							const elementsWithTip = document.querySelectorAll('[data-tip]:not(a)');
+							elementsWithTip.forEach((element) => {
+								element.addEventListener('touchstart', showTip);
+								element.addEventListener('touchend', hideTip);
+							});
+						}
+
+					}
+				// });
+			}, 0*(1000+ (2000 * day)));
+		}
+		day += 1;
 	});
 
-	// jump to last saved day, or current day, or if today isn't one of the days, then jump to first day
-	initializeCurrentDay();
 
-	initScrollables();
-	
-	const allSchedules = document.querySelectorAll('div.schedule');
-	allSchedules.forEach((schedule) => {
-		schedule.addEventListener('animationend', checkOverlap);
-	});
+	setTimeout(() => {
+		initArtistListing();
+		initArtistTips();
+		enableStarClick();
+		// Add event listeners for mouseover and mouseout (desktop) and touchstart and touchend (mobile) to all elements with data-tip
+		if (! isMobile()) {
+			const elementsWithTip = document.querySelectorAll('[data-tip]');
+			elementsWithTip.forEach((element) => {
+				element.addEventListener('mouseover', showTip);
+				element.addEventListener('mouseout', hideTip);
+			});
+		} else {
+			// on mobile, don't add tips to links
+			const elementsWithTip = document.querySelectorAll('[data-tip]:not(a)');
+			elementsWithTip.forEach((element) => {
+				element.addEventListener('touchstart', showTip);
+				element.addEventListener('touchend', hideTip);
+			});
+		}
+	}, 200);
 
-	
-	initArtistListing();
-
-	fillArtistSection(artistsData);
-	initArtistTips();
-	enableStarClick();
+	setTimeout(() => {
+		fillArtistSection(artistsData);
+	}, 400);
 	
 	// About page
 	const aboutContainer = document.createElement("div");
@@ -1051,19 +1486,34 @@ async function populateSchedule() {
 
 	const about = document.createElement("div");
 	about.classList.add("aboutBox");
-	about.innerHTML = '<div class="aboutImg"><img alt="Music Festival Schedule Logo" src="./favicon.png" /></div><h3>Questions & e-transfer donations:</h3><p><a href="mailto:yamyam@yamyam.ca" class="contact">yamyam@yamyam.ca</a></p><p>Not affiliated with any organization. This is not an official app and no assurances are made about the accuracy of the content.</p><p>Official website FAQ: <a class="aboutLink" target="_blank" href="https://calgaryfolkfest.com/folk-fest/faq">https://calgaryfolkfest.com/folk-fest/faq</a></p><p>No data is collected or transmitted by this app (which is why your settings don&rsquo;t transfer between devices). You can manually transfer your schedule using the buttons below.</p>';
-	about.innerHTML += '<div class="export"><p><button id="exportButton">Export schedule</button></p></div>';
-	about.innerHTML += '<div class="import"><p><label for="fileInput" class="file-upload"><span>Import schedule</span><input type="file" id="fileInput" accept=".json"></label></p></div>';
-
+	let aboutHtml = '';
+	aboutHtml += '<div class="aboutImg"><img alt="Music Festival Schedule Logo" src="./favicon.png" /></div><h3>Questions & e-transfer donations:</h3><p><a href="mailto:yamyam@yamyam.ca" class="contact">yamyam@yamyam.ca</a></p><p>Not affiliated with any organization. This is not an official app and no assurances are made about the accuracy of the content.</p><p>Official website';
+	if (appmode["fringe"]) {
+		aboutHtml += ': <a class="aboutLink" target="_blank" href="https://www.fringetheatre.ca/festival/how-to-fringe/">https://www.fringetheatre.ca/festival/how-to-fringe/</a>';
+	} else if (appmode["efmf"]) {
+		aboutHtml += ' FAQ: <a class="aboutLink" target="_blank" href="https://edmontonfolkfest.org/faq/">https://edmontonfolkfest.org/faq/</a>';
+	} else if (appmode["cfmf"]) {
+		aboutHtml += ' FAQ: <a class="aboutLink" target="_blank" href="https://calgaryfolkfest.com/folk-fest/faq">https://calgaryfolkfest.com/folk-fest/faq</a>';
+	}	
+	aboutHtml += '</p><p>No data is collected or transmitted by this app (which is why your settings don&rsquo;t transfer between devices). You can manually transfer your schedule using the buttons below.</p>';
+	aboutHtml += '<div class="export"><p><button id="exportButton">Export schedule</button> <button id="exportLink">(copy link)</button></p></div>';
+	aboutHtml += '<div class="import"><p><label for="fileInput" class="file-upload"><span>Import schedule</span><input type="file" id="fileInput" accept=".json"></label></p></div>';
+	about.innerHTML = aboutHtml;
 	aboutContainer.appendChild(about);
 
 	const exportButton = document.getElementById('exportButton');
+	const exportLink = document.getElementById('exportLink');
 	const fileInput = document.getElementById('fileInput');
 
 	if (exportButton) {
 		exportButton.addEventListener('click', exportLocalStorageToFile);
 	} else {
 		console.error('Export button not found.');
+	}
+	if (exportLink) {
+		exportLink.addEventListener('click', exportLocalStorageToLink);
+	} else {
+		console.error('Export link button not found.');
 	}
 	
 	if (fileInput) {
@@ -1074,58 +1524,144 @@ async function populateSchedule() {
 		console.error('File input not found.');
 	}
 
+}
+/**
+ * Converts one event’s JSON into the structure we want
+ * and merges it into availabilityDict.
+ *
+ * @param {Object} json – the object returned by eventProxy.php
+ */
+function updateAvailabilityDict(json) {
+	console.log(`Returned json ${JSON.stringify(json)}`);
 
-	// Add event listeners for mouseover and mouseout (desktop) and touchstart and touchend (mobile) to all elements with data-tip
-	if (! isMobile()) {
-		const elementsWithTip = document.querySelectorAll('[data-tip]');
-		elementsWithTip.forEach((element) => {
-			element.addEventListener('mouseover', showTip);
-			element.addEventListener('mouseout', hideTip);
-		});
-	} else {
-		// on mobile, don't add tips to links
-		const elementsWithTip = document.querySelectorAll('[data-tip]:not(a)');
-		elementsWithTip.forEach((element) => {
-			element.addEventListener('touchstart', showTip);
-			element.addEventListener('touchend', hideTip);
-		});
+	for (const eventKey in json) {
+		if (!Number.isInteger(Number(eventKey))) continue;
+
+		
+		console.log(`Retrieved ${eventKey}. isCached: ${json.cached}`);
+		// Ensure a slot exists for this event
+		if (!availabilityDict[eventKey]) {
+			availabilityDict[eventKey] = {};
+		}
+
+		availabilityDict[eventKey]["lastUpdate"] = json["lastUpdate"] ?? Math.floor(Date.now() / 1000);
+		const performances = json[eventKey];
+
+		for (const performanceId in performances) {
+			availabilityDict[eventKey][performanceId] = performances[performanceId];
+			console.log(`Updated availability for event ${performanceId}: ${performances[performanceId]}`);
+		}
+
+		// update the datatable row
+		findAndUpdateArtistDataTableRow(eventKey);
+
 	}
 
+    // Debug: see the latest snapshot
+	// console.log(availabilityDict[eventKey]);
+    // console.log('Full availabilityDict is now:', availabilityDict);
+	
 }
+
+/**
+ * Fetches (or refreshes) one event and updates the dictionary.
+ * Re-uses the secure server-side cache in eventProxy.php.
+ *
+ * @param {string|number} eventId – numeric part only, e.g. 6629
+ */
+function loadEvent(eventId) {
+	if (!appmode["fringe"]) return;
+
+	// this was the max for 2026, need to update it
+	if (eventId > 7645) return;
+
+	console.log(`Fetch /event.php?eventId=${eventId}`)
+    $.getJSON(`/event.php?eventId=${eventId}`)
+        .done(updateAvailabilityDict)
+        .fail((jqXHR, textStatus, err) => {
+            console.error(`Failed to load event ${eventId}:`, err);
+			// this was for full manual refresh. dangerous
+			// loadEvent(parseInt(eventId) + 1);
+			});
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 // DISPLAY INTERFACE FUNCTIONS ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
 function highlightFollowedArtists() {
-	for (const artistId in artistsData) {
-		const artist = artistsData[artistId];
-		highlightFollowedArtist(artist);
-	}
+	const following = utils.getFollowing(); // e.g., { "6633": true, "7921": true }
+
+	// Get all artist links once
+	const allArtistLinks = document.querySelectorAll("a.artistLink[data-artistid]");
+
+	// Track which cards have followed artists
+	const cardsWithFollowedArtists = new Set();
+
+	allArtistLinks.forEach(link => {
+		const artistId = link.getAttribute("data-artistid");
+		const isFollowed = !!following[artistId]; // direct lookup
+		const eventCard = link.closest(".schedule-item");
+
+		if (isFollowed) {
+			link.classList.add("glow");
+			if (eventCard) {
+				cardsWithFollowedArtists.add(eventCard);
+			}
+		} else {
+			if (link.classList.contains("glow")) {
+				link.classList.remove("glow");
+			}
+		}
+	});
+
+	// update dataTable
+	document.querySelectorAll("table#artistTable tr td.dt-followArtist").forEach(td => {
+		const tr = td.closest("tr");
+		if (!tr) return;
+
+		const artistId = tr.id.replace(/^artistDataTableRow-/, "");
+
+		if (following[artistId]) {
+			td.classList.add("following");
+		}
+	});
+
+	// Update all cards: add/remove "following" class
+	document.querySelectorAll(".schedule-item").forEach(card => {
+		if (cardsWithFollowedArtists.has(card)) {
+			card.classList.add("following");
+		} else {
+			card.classList.remove("following");
+		}
+	});
 }
 
+// Deprecated inefficient
 function highlightFollowedArtist(artist) {
-	// highlight artist name
+	// run through all the places where an artist is linked (in the event cards) and highlight the artist name,
+	// or remove the highlight if they're no longer being followed
 	const following = utils.getFollowing();
-	const artistLinks = document.querySelectorAll(`a.artistLink[data-artistid='${artist.slug}']`);
+	const isFollowed = utils.isFollowing(following, artist.slug);
+	const selector = `a.artistLink[data-artistid='${artist.slug}']`;
+	const artistLinks = document.querySelectorAll(selector);
+
 	artistLinks.forEach((link) => {
 		const eventCard = link.closest(".schedule-item");
-		if (utils.isFollowing(following, artist.slug)) {
+		if (isFollowed) {
 			link.classList.add("glow");
 			if (eventCard) {
 				eventCard.classList.add("following");
 			}
 		} else if (link.classList.contains("glow")) {
+			// we were following this artist, but aren't any longer, but the link is still glowing
 			link.classList.remove("glow");
 			if (eventCard) {
-				const eventArtistLinks = eventCard.querySelectorAll('a.artistLink');
-				var noFollows = true;
-				eventArtistLinks.forEach((artistLink) => {
-					if (artistLink.classList.contains("following")) {
-						noFollows = false;
-					}
-				});
-				if (noFollows) eventCard.classList.remove("following");
+				// if no artist in this card is being followed anymore, remove the glow
+				const eventArtistLinks = eventCard.querySelector('a.artistLink.glow');
+				// if we're not following anyone else on this card, remove the card class
+				if (!eventArtistLinks) eventCard.classList.remove("following");
 			}
 		}
 	});
@@ -1139,8 +1675,12 @@ function toggleFollowArtist(artist, element) {
 	highlightFollowedArtist(artist);
 }
 
-function toggleHeardIt(event) {
+function toggleHeardItEvent(event) {
 	const starContainer = event.currentTarget.closest(".favouriteContainer");
+	toggleHeardIt(starContainer);
+}
+
+function toggleHeardIt(starContainer) {
 	const heard = ! starContainer.classList.contains('heard');
 
 	if (heard) {
@@ -1211,12 +1751,26 @@ function toggleHeardIt(event) {
 	const scheduleEvent = getScheduleEvent(favouriteId);
 	const artistList = getEventArtistList(scheduleEvent);
 	artistList.forEach((artist) => {
-		artist.heardCount += (heard) ? 1 : -1;
+		let change = (heard) ? 1 : -1;
+		artist.heardCount += change;
+		if (!appmode["fringe"]) {
+			report.menHeard += artist.men * change;
+			report.notMenHeard += artist.notMen * change;
+		}
+		findAndUpdateArtistDataTableRow(artist.slug);
 	});
+
+	// update the datatable row
+	findAndUpdateArtistDataTableRow(starContainer.dataset.slugId);
+	updateGenderReport();
 }
 
-function toggleStar(event) {
+function toggleStarEvent(event) {
 	const starContainer = event.currentTarget.closest(".favouriteContainer");
+	toggleStar(starContainer);
+}
+
+function toggleStar(starContainer) {
 	starContainer.classList.toggle('favouriteOn');
 	starContainer.classList.toggle('favouriteOff');
 
@@ -1248,9 +1802,15 @@ function toggleStar(event) {
 			starContainer.remove();
 		}
 	} else {
+		// we clicked on the artist card or datatable rather than on the big schedule.
+		let eventStar = document.querySelector('div.location-column div.time-slot div.schedule-item[data-favourite-id="' + favouriteId + '"]');
+		toggleStar(eventStar);
+		return;
+/*
 		// redraw everything
 		const schedules = document.querySelectorAll("div.schedule");
 		schedules.forEach((schedule) => {
+			// for each day in the schedule
 			const oldFavouritesCol = schedule.querySelector(".location-column.favourites");
 			const startDate = oldFavouritesCol.dataset.startDate;
 			const filteredSchedule = mergedScheduleArray.filter(item => item.startDate === startDate); 
@@ -1266,13 +1826,24 @@ function toggleStar(event) {
 				eventCard.classList.toggle('favouriteOff');
 			}
 		});
+*/
 	}
 
 	const scheduleEvent = getScheduleEvent(favouriteId);
 	const artistList = getEventArtistList(scheduleEvent);
 	artistList.forEach((artist) => {
-		artist.starredCount += (favourite) ? 1 : -1;
+		let change = (favourite) ? 1 : -1;
+		artist.starredCount += change;
+		if (!appmode["fringe"]) {
+			report.menInStarredEvents += artist.men * change;
+			report.notMenInStarredEvents += artist.notMen * change;
+		}
+		findAndUpdateArtistDataTableRow(artist.slug);
 	});
+
+	// update the datatable row
+	findAndUpdateArtistDataTableRow(starContainer.dataset.slugId);
+	updateGenderReport();
 }
 
 
@@ -1299,7 +1870,8 @@ function enableStarClick() {
 
 // Call the functions to populate the UI on page load
 window.addEventListener("load", () => {
-    populateSchedule();
+    setTimeout(() => { populateSchedule(); }, 10);
+	setTimeout(() => { checkForSharedData(); }, 100);
 });
 
 // Register the service worker for offline capabilities
@@ -1723,10 +2295,20 @@ export function jumpToCurrentTime() {
 	// switch to current day
 	const todayStr = utils.getISODate(now);
 	const dateHeader = document.getElementById(todayStr);
+
 	if (! dateHeader) {
-		// out of date range, do nothing
+		// out of date range
 		console.log("current date outside of range");
-		return -1;
+		const firstDateDiv = document.querySelector('div.date');
+		const allDateDivs = document.querySelectorAll('div.date');
+		const lastDateDiv = allDateDivs[allDateDivs.length - 1]; // or .at(-1) in modern browsers
+
+		if (new Date(todayStr) < new Date(firstDateDiv.id)) {
+			changeCurrentDay(firstDateDiv);
+		} else {
+			changeCurrentDay(lastDateDiv);
+		}
+		return;
 	}
 
 	changeCurrentDay(dateHeader);
@@ -1803,15 +2385,15 @@ export function handleStarMouseUp(event) {
 	// console.log(distance);
 	if (distance <= 25) {
 		if (event.currentTarget.classList.contains("favouriteStar") || event.currentTarget.classList.contains("scheduleStar")) {
-			toggleStar(event);
+			toggleStarEvent(event);
 		} else if (event.currentTarget.classList.contains("heardItStar") || event.currentTarget.classList.contains("scheduleHeard")) {
-			toggleHeardIt(event);
+			toggleHeardItEvent(event);
 		}
 	}
 }
 
 // Switch schedules to a different day, and handle saving viewed date to storage
-export function changeCurrentDay(currDate) {
+export function changeCurrentDay(currDate, noSave = false) {
 	// Handle changing dates
 	const prevDate = document.querySelector('.header div.current');
 	const dateStr = currDate.id;
@@ -1850,11 +2432,13 @@ export function changeCurrentDay(currDate) {
 	}
 	currDate.classList.add("current");
 
-	// update stored view settings
-    const lastView = JSON.parse(localStorage.getItem("lastView")) || {};
-	lastView.date = currDate.id;
-	console.log("storing date view " + lastView.date);
-	localStorage.setItem("lastView", JSON.stringify(lastView));
+	if (! noSave) {
+		// update stored view settings
+		const lastView = JSON.parse(localStorage.getItem("lastView")) || {};
+		lastView.date = currDate.id;
+		console.log("storing date view " + lastView.date);
+		localStorage.setItem("lastView", JSON.stringify(lastView));
+	}
 
 	// resize overlapping events (they need to be in view before their sizes can be properly calculated)
 	checkOverlap();
@@ -1870,6 +2454,12 @@ export function showTip(event) {
 	
     if (tip) {
 		if (isMobile()) {
+			if (appmode["fringe"]) {
+				// FRINGE: trigger update tickets
+				if ( artistId ) {
+					openArtistRow(artistsData[artistId]);
+				}
+			}
 			// tap anywhere to hide tip
 			document.addEventListener('click', hideTip);
 		}
@@ -1938,9 +2528,15 @@ export function showTip(event) {
 // Function to hide the tip popup
 export function hideTip(event) {
 	console.log("hideTip");
-	if (event.target.classList.contains("scheduleList") || event.target.closest(".dt-followArtist") ) {
-		// clicking on a star icon on mobile
+	const target = event.target;
+	if (target.classList.contains("scheduleList") || target.closest(".dt-followArtist") ) {
 		
+		// clicking on a star icon on mobile
+		if (target.classList.contains("favouriteStar") || target.classList.contains("scheduleStar")) {
+			toggleStar(target);
+		} else if (target.classList.contains("heardItStar") || target.classList.contains("scheduleHeard")) {
+			toggleHeardIt(target);
+		}
 		return;
 	}
 	const displayedTips = document.querySelectorAll('.popupDisplay');
@@ -1958,15 +2554,20 @@ function jumpToArtist(event) {
 	const link = event.target;
 	if (link.classList.contains('artistLink')) {
 		event.preventDefault();
+		// console.log(new Date());
 		showArtistList();
+		// console.log(new Date());
 		const artistTable = document.getElementById('artistTable');
 		const artistDataTable = $('#artistTable').DataTable();
 		// get the artist
 		const artistId = link.dataset.artistid;
 		const artist = artistsData[artistId];
 		// jump to artist in artist listing
-		artistDataTable.search(artist.name).draw();
+		const searchString = (appmode["fringe"] ? artist.slug : artist.name);
+		artistDataTable.search(searchString).draw();
+		// console.log(new Date());
 		artistTable.querySelector('td.dt-control').click();
+		// console.log(new Date());
 	}
 	
 }
