@@ -1,4 +1,4 @@
-const cacheName = "music-festival-schedule-v1-cfmf2025";
+const cacheName = "music-festival-schedule-v1-cfmf2026";
 const filesToCache = [
     "./", // Add other URLs that need to be cached here
 "./app.js",
