@@ -1181,7 +1181,7 @@ async function copyUrlToClipboard(url) {
         console.warn("Clipboard API failed:", err);
 
         // Fallback for mobile browsers
-        const myText = document.createElement("myText");
+        const myText = document.createElement("textarea");
         myText.value = url;
         myText.style.position = "fixed";
         myText.style.left = "-9999px";
@@ -1253,7 +1253,7 @@ function showShareDialog() {
 }
 
 function hasLocalStorageData() {
-    return localStorage.length > 0;
+    return localStorage.length > 2;
 }
 
 async function checkForSharedToken() {
@@ -1384,7 +1384,13 @@ async function checkForSharedData() {
         return;
     }
 
-    const choice = await showShareDialog();
+	let choice;
+
+	if (hasLocalStorageData()) {
+		choice = await showShareDialog();
+	} else {
+		choice = "merge";
+	}
 
     switch (choice) {
 
@@ -1432,11 +1438,15 @@ async function checkForSharedData() {
     params.delete("share");
 
     const query = params.toString();
-    history.replaceState(
-        {},
-        "",
-        location.pathname + (query ? "?" + query : "")
-    );
+
+	history.replaceState(
+		{},
+		"",
+		location.pathname +
+		(params.toString() ? "?" + params.toString() : "") +
+		location.hash
+	);
+
 	if (choice == "replace" || choice == "merge") {
 		location.reload();
 		return;
@@ -2077,8 +2087,11 @@ function enableStarClick() {
 // Call the functions to populate the UI on page load
 window.addEventListener("load", () => {
     setTimeout(() => { populateSchedule(); }, 10);
-	// setTimeout(() => { checkForSharedData(); }, 700);
-	setTimeout(() => { checkForSharedToken(); }, 700);
+	if (appmode["fringe"]) {
+		setTimeout(() => { checkForSharedToken(); }, 700);
+	} else {
+		setTimeout(() => { checkForSharedData(); }, 700);
+	}
 });
 
 // Register the service worker for offline capabilities

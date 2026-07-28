@@ -209,6 +209,42 @@ export function getCompressedShareableURL() {
 	const data = JSON.stringify(simpleData);
     const compressed = LZString.compressToEncodedURIComponent(data); // Safe for URLs
     const url = `${location.origin}${location.pathname}?share=${compressed}`;
+	
+
+    // Validate compressed data can be restored
+    try {
+        const decompressed = LZString.decompressFromEncodedURIComponent(compressed);
+
+        if (!decompressed) {
+            throw new Error("Decompression returned empty data.");
+        }
+
+        const parsed = JSON.parse(decompressed);
+
+        if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
+            throw new Error("Decoded data is not a valid object.");
+        }
+
+        // verify the data matches what was compressed
+        if (JSON.stringify(parsed) !== data) {
+            throw new Error("Decoded data does not match original data.");
+        }
+
+    } catch (err) {
+        throw new Error(
+            `Unable to validate share data: ${err.message}`
+        );
+    }	
+
+    const maxLength = 8000;
+
+    if (url.length > maxLength) {
+        throw new Error(
+            `Share URL is too long (${url.length.toLocaleString()} characters). ` +
+            `The maximum recommended length is about ${maxLength.toLocaleString()} characters.`
+        );
+    }
+	
     return url;
 }
 
