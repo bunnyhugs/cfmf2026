@@ -474,6 +474,9 @@ function initArtistListing() {
 
 	const dataTable = new DataTable( '#artistTable', { 
 		paging: false,
+		language: {
+			info: "Showing page _PAGE_ of _PAGES_<br/><button class='shareButton'>Copy share link</button>"
+		},
 		scrollX: true,
 		scrollY: "min(60vh, 600px)",
 		stateSave: true, 
@@ -1170,8 +1173,7 @@ function showToast(message, duration = 2000) {
     }, duration);
 }
 
-async function exportLocalStorageToLink() {
-    const url = utils.getCompressedShareableURL();
+async function copyUrlToClipboard(url) {
     try {
         await navigator.clipboard.writeText(url);
         showToast("Share URL copied.");
@@ -1199,6 +1201,44 @@ async function exportLocalStorageToLink() {
 	}
 }
 
+async function copyShortShareURL() {
+    const data = JSON.stringify(localStorage);
+
+    try {
+        const response = await fetch("share.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: data
+        });
+
+        if (!response.ok) {
+            throw new Error("Server error");
+        }
+
+        const result = await response.json();
+
+        if (!result.token) {
+            throw new Error("Invalid server response");
+        }
+
+        const url = `${location.origin}${location.pathname}?share=${encodeURIComponent(result.token)}#shows`;
+
+		copyUrlToClipboard(url);
+
+    } catch (err) {
+        console.error(err);
+        showToast("Unable to create share link.");
+    }
+}
+
+async function exportLocalStorageToLink() {
+    const url = utils.getCompressedShareableURL();
+	
+	copyUrlToClipboard(url);
+}
+
 function showShareDialog() {
     return new Promise(resolve => {
         const dialog = document.getElementById("shareDialog");
@@ -1210,6 +1250,109 @@ function showShareDialog() {
 
         dialog.showModal();
     });
+}
+
+function hasLocalStorageData() {
+    return localStorage.length > 0;
+}
+
+async function checkForSharedToken() {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("share");
+	let sharedData;
+
+    if (!token) {
+        return;
+    }
+
+    const response = await fetch(
+        "load-share.php?share=" + encodeURIComponent(token)
+    );
+
+	try {
+		if (!response.ok) {
+			throw new Error("Share not found");
+		}
+
+		sharedData = await response.json();
+
+		if (!utils.isValidLocalStorageData(sharedData)) {
+			throw new Error("Invalid shared data.");
+		}
+	}
+    catch (err) {
+        console.error(err);
+        showToast("The shared data is invalid or corrupted.");
+        return;
+    }
+
+	let choice;
+
+	if (hasLocalStorageData()) {
+		choice = await showShareDialog();
+	} else {
+		choice = "merge";
+	}
+
+    switch (choice) {
+
+        case "replace":
+            localStorage.clear();
+            // fall through to merge
+
+        case "merge":
+			Object.keys(sharedData).forEach(key => {
+
+				const incomingValue = utils.sanitizeValue(sharedData[key]);
+
+				try {
+					const incomingObj = JSON.parse(incomingValue);
+
+					let existingObj = {};
+
+					const existingValue = localStorage.getItem(key);
+					if (existingValue) {
+						existingObj = JSON.parse(existingValue);
+					}
+
+					// Merge, keeping all existing and incoming keys.
+					const mergedObj = {
+						...existingObj,
+						...incomingObj
+					};
+
+					localStorage.setItem(key, JSON.stringify(mergedObj));
+
+				} catch {
+					// Not JSON objects; just overwrite.
+					localStorage.setItem(key, incomingValue);
+				}
+			});
+
+            // alert("Shared data imported successfully.");
+			break;
+        case "ignore":
+        default:
+            break;
+    }
+
+    // Remove the share parameter so the dialog doesn't appear again
+    params.delete("share");
+
+    const query = params.toString();
+
+	history.replaceState(
+		{},
+		"",
+		location.pathname +
+		(params.toString() ? "?" + params.toString() : "") +
+		location.hash
+	);
+
+	if (choice == "replace" || choice == "merge") {
+		location.reload();
+		return;
+	}
 }
 
 async function checkForSharedData() {
@@ -1298,7 +1441,6 @@ async function checkForSharedData() {
 		location.reload();
 		return;
 	}
-
 }
 
 function exportLocalStorageToFile() {
@@ -1551,7 +1693,8 @@ async function populateSchedule() {
 		console.error('Export button not found.');
 	}
 	if (exportLink) {
-		exportLink.addEventListener('click', exportLocalStorageToLink);
+		// exportLink.addEventListener('click', exportLocalStorageToLink);
+		exportLink.addEventListener('click', copyShortShareURL);
 	} else {
 		console.error('Export link button not found.');
 	}
@@ -1564,11 +1707,19 @@ async function populateSchedule() {
 		console.error('File input not found.');
 	}
 
+	const artistList = document.getElementById('artistList-section');
+	artistList.addEventListener("click", function (event) {
+		const button = event.target.closest(".shareButton");
+		if (button) {
+			copyShortShareURL();
+		}
+	});
+	
 	setTimeout(() => {
 		if (window.location.hash === "#shows") {
 			document.querySelector("#artistsHeader > a").click();
 		}
-	}, 500);
+	}, 1000);
 }
 
 /**
@@ -1917,7 +2068,8 @@ function enableStarClick() {
 // Call the functions to populate the UI on page load
 window.addEventListener("load", () => {
     setTimeout(() => { populateSchedule(); }, 10);
-	setTimeout(() => { checkForSharedData(); }, 700);
+	// setTimeout(() => { checkForSharedData(); }, 700);
+	setTimeout(() => { checkForSharedToken(); }, 700);
 });
 
 // Register the service worker for offline capabilities
