@@ -1693,8 +1693,12 @@ async function populateSchedule() {
 		console.error('Export button not found.');
 	}
 	if (exportLink) {
-		// exportLink.addEventListener('click', exportLocalStorageToLink);
-		exportLink.addEventListener('click', copyShortShareURL);
+		if (appmode["fringe"]) {
+			exportLink.addEventListener('click', copyShortShareURL);
+		} else {
+			// running on github so no DB or PHP
+			exportLink.addEventListener('click', exportLocalStorageToLink);
+		}
 	} else {
 		console.error('Export link button not found.');
 	}
@@ -1711,7 +1715,12 @@ async function populateSchedule() {
 	artistList.addEventListener("click", function (event) {
 		const button = event.target.closest(".shareButton");
 		if (button) {
-			copyShortShareURL();
+			if (appmode["fringe"]) {
+				copyShortShareURL();
+			} else {
+				// running on github so no DB or PHP
+				exportLocalStorageToLink();
+			}
 		}
 	});
 	
