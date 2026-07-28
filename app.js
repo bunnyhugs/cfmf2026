@@ -475,7 +475,7 @@ function initArtistListing() {
 	const dataTable = new DataTable( '#artistTable', { 
 		paging: false,
 		language: {
-			info: "Showing page _PAGE_ of _PAGES_<br/><button class='shareButton'>Copy share link</button>"
+			info: "Showing _TOTAL_ of _MAX_<br/><button class='shareButton'>Copy share link</button>"
 		},
 		scrollX: true,
 		scrollY: "min(60vh, 600px)",
